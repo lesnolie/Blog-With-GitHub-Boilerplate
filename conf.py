@@ -28,13 +28,6 @@ author_homepage = "https://blog.leslie.cn"
 description = "但故事的最后你好像还是说了拜"
 key_words = ['Maverick', 'LESLIE', 'YOUNG FATHER', 'blog']
 language = 'zh-CN'
-external_links = [
-    
-]
-nav = [
-   
-]
-
 social_links = [
     {
         "name": "GitHub",
