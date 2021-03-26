@@ -19,59 +19,40 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "我的个人博客"
+site_name = "我喜欢猫，和你"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
-author = "熊猫小A"
-email = "hi@imalan.cn"
-author_homepage = "https://www.imalan.cn"
-description = "只坚持一种正义。我的正义。"
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+author = "LESLIE"
+email = "lesliezhang08@gmail.com"
+author_homepage = "https://blog.leslie.cn"
+description = "但故事的最后你好像还是说了拜"
+key_words = ['Maverick', 'LESLIE', 'YOUNG FATHER', 'blog']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
+        "name": "",
+        "url": "",
+        "brief": ""
     },
     {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "",
+        "url": "",
+        "brief": ""
     }
 ]
 nav = [
-    {
-        "name": "首页",
-        "url": "${site_prefix}",
-        "target": "_self"
-    },
-    {
-        "name": "归档",
-        "url": "${site_prefix}archives/",
-        "target": "_self"
-    },
-    {
-        "name": "关于",
-        "url": "${site_prefix}about/",
-        "target": "_self"
-    }
+   
 ]
 
 social_links = [
     {
-        "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
-        "icon": "gi gi-twitter"
-    },
-    {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/lesnolie",
         "icon": "gi gi-github"
     },
     {
         "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
+        "url": "https://weibo.com/2185506670/",
         "icon": "gi gi-weibo"
     }
 ]
