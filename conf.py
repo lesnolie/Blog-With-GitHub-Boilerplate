@@ -14,8 +14,8 @@ template = {
     "path": "../Galileo"
 }
 enable_jsdelivr = {
-    "enabled": False,
-    "repo": ""
+    "enabled": true,
+    "repo": "lesnolie/Blog-With-GitHub-Boilerplate@gh-pages"
 }
 
 # 站点设置
@@ -29,16 +29,7 @@ description = "但故事的最后你好像还是说了拜"
 key_words = ['Maverick', 'LESLIE', 'YOUNG FATHER', 'blog']
 language = 'zh-CN'
 external_links = [
-    {
-        "name": "",
-        "url": "",
-        "brief": ""
-    },
-    {
-        "name": "",
-        "url": "",
-        "brief": ""
-    }
+    
 ]
 nav = [
    
