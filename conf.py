@@ -37,7 +37,7 @@ external_links = [
     },
     {
         "name": "dirve",
-        "url": "drive.lesliemm.xyz",
+        "url": "https://drive.lesliemm.xyz",
         "brief": "LIFE Storage"
     }
 ]
