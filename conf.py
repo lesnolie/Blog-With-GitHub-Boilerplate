@@ -7,7 +7,7 @@ site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
-archives_page_size = 20
+archives_page_size = 30
 template = {
     "name": "Kepler",
     "type": "git",
@@ -20,15 +20,39 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "我喜欢猫，和你"
+site_name = "LESLIE's WIKI"
 site_logo = "${static_prefix}logo.png"
 site_build_date = "2021-03-29T16:51+08:00"
 author = "LESLIE"
 email = "lesliezhang08@gmail.com"
 author_homepage = "https://blog.leslie.cn"
-description = "但故事的最后你好像还是说了拜"
+description = "我喜欢猫，和你"
 key_words = ['Maverick', 'LESLIE', 'YOUNG FATHER', 'blog']
 language = 'zh-CN'
+external_links = [
+    {
+        "name": "BLOG",
+        "url": "https://lesnolie.github.io",
+        "brief": "🏄‍ Go My Own Way."
+    },
+    {
+        "name": "dirve",
+        "url": "drive.lesliemm.xyz",
+        "brief": "LIFE Storage"
+    }
+]
+nav = [
+    {
+        "name": "Home",
+        "url": "${site_prefix}",
+        "target": "_self"
+    },
+    {
+        "name": "Archives",
+        "url": "${site_prefix}archives/",
+        "target": "_self"
+    },
+   ]
 social_links = [
     {
         "name": "GitHub",
