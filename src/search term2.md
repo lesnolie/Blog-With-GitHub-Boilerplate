@@ -2,7 +2,7 @@
 layout: post
 title: 亚马逊标题与关键词小结1
 slug: search term2
-date: 2021/04/01 09:26:00
+date: 2021/04/01 09:26
 status: publish
 author: LESLIE
 categories: 
