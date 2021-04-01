@@ -6,7 +6,7 @@ date: 2021/04/01 09:26:00
 status: publish
 author: LESLIE
 categories: 
-  - amazon
+  - AMAZON
   - 
 tags: 
   - amazon
