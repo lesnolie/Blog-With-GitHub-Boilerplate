@@ -1,6 +1,6 @@
 ---
 layout: post
-title： Quantumultx 的一些操作
+title: Quantumultx 的一些操作
 slug: Quanx
 date: 2021-05-22 10:00
 status: publish
