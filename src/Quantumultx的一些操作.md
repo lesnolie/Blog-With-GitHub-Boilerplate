@@ -6,8 +6,12 @@ date: 2021-05-22 10:00
 status: publish
 author: leslie
 categories: 
-  - IOS
-tags: IOS, iPhone, Quantumult x
+	- IOS
+tags: 
+	-IOS
+	-iPhone
+	-Quantumult x
+excerpt:Quantumult X从零到1
 ---
 
 [notice]接触Quantumult X已有3日，从0到1慢慢摸索出一些经验[/notice]
