@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LESLIE's WIKI</title><link>/</link><description>我喜欢猫，和你</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/logo.png</url><title>LESLIE's WIKI</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 22 May 2021 02:01:14 +0806</lastBuildDate><pubDate>Sat, 22 May 2021 02:01:14 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LESLIE's WIKI</title><link>/</link><description>我喜欢猫，和你</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/logo.png</url><title>LESLIE's WIKI</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 22 May 2021 02:47:05 +0806</lastBuildDate><pubDate>Sat, 22 May 2021 02:47:05 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -163,4 +163,41 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/亚马逊标题与关键词小结1/</guid><pubDate>Thu, 01 Apr 2021 09:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/亚马逊标题与关键词小结1/</guid><pubDate>Thu, 01 Apr 2021 09:00:00 +0806</pubDate></item><item><title>Quantumultx 的一些操作</title><link>/archives/Quanx/</link><description>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
+&lt;h2&gt;界面操作&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;主要按钮，右下角小风车。&lt;/li&gt;
+&lt;li&gt;PROXY：节点&lt;/li&gt;
+&lt;li&gt;自定义策略：分流，国内走国内，国外走国外，app走app，可自己设置。&lt;/li&gt;
+&lt;li&gt;重写：rewrite，放脚本的地方。&lt;/li&gt;
+&lt;li&gt;工具分析：定时任务&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;操作&lt;/h2&gt;
+&lt;p&gt;懒人直接倒入配置即可，即点开小风车，在配置文件处选择下载，倒入配置文件链接。&lt;/p&gt;
+&lt;p&gt;也可将配置文件导入手机，直接点击即可。&lt;/p&gt;
+&lt;h2&gt;配置文件&lt;/h2&gt;
+&lt;p&gt;配置文件可以编辑，只要编辑配置文件，就是编辑整个软件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;general 分流策略&lt;/li&gt;
+&lt;li&gt;Dns dns&lt;/li&gt;
+&lt;li&gt;Policy 策略，分流策略&lt;/li&gt;
+&lt;li&gt;server_remote 节点&lt;/li&gt;
+&lt;li&gt;filter_remote  远程策略，规则，分流，去广告&lt;/li&gt;
+&lt;li&gt;rewrite_remote 远程脚本&lt;/li&gt;
+&lt;li&gt;server_local 本地脚本&lt;/li&gt;
+&lt;li&gt;Filter_local 本地策略&lt;/li&gt;
+&lt;li&gt;rewrite_local 本地脚本&lt;/li&gt;
+&lt;li&gt;task_local 定时任务&lt;/li&gt;
+&lt;li&gt;mitm 证书和一些host&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;翻墙&lt;/h2&gt;
+&lt;p&gt;导入节点即可&lt;/p&gt;
+&lt;h2&gt;脚本&lt;/h2&gt;
+&lt;p&gt;远程和本地导入脚本即可，野可以直接修改相关配置。&lt;/p&gt;
+&lt;h2&gt;定时任务&lt;/h2&gt;
+&lt;p&gt;能用docker就用docker，不然太费手机。&lt;/p&gt;
+&lt;p&gt;目前主要是京东相关。&lt;/p&gt;
+&lt;p&gt;以及天气等。&lt;/p&gt;
+&lt;h2&gt;boxjs&lt;/h2&gt;
+&lt;p&gt;远程管理，将定时任务的相关配置导入后即可远程出发定时任务。&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (leslie)</author><guid isPermaLink="true">/archives/Quanx/</guid><pubDate>Sat, 22 May 2021 10:00:00 +0806</pubDate></item></channel></rss>
