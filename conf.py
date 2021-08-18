@@ -9,9 +9,9 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 30
 template = {
-    "name": "Kepler",
+    "name": "Simple",
     "type": "git",
-    "url": "https://github.com/AlanDecode/Maverick-Theme-Kepler.git",
+    "url": "https://github.com/lesnolie/Maverick-Theme-simple.git",
     "branch": "latest"
 }
 enable_jsdelivr = {
