@@ -12,7 +12,7 @@ template = {
     "name": "Simple",
     "type": "git",
     "url": "https://github.com/lesnolie/Maverick-Theme-simple.git",
-    "branch": "latest"
+    "branch": "deploy"
 }
 enable_jsdelivr = {
     "enabled": True,
