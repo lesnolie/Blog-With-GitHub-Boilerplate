@@ -10,9 +10,8 @@ index_page_size = 10
 archives_page_size = 30
 template = {
     "name": "Simple",
-    "type": "git",
-    "url": "https://github.com/lesnolie/Maverick-Theme-simple.git",
-    "branch": "deploy"
+    "type": "local",
+    "path": "../Templates/simple"
 }
 enable_jsdelivr = {
     "enabled": True,
