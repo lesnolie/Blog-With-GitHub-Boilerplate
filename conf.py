@@ -8,11 +8,7 @@ source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 30
-template = {
-    "name": "Prism",
-    "type": "local",
-    "path": "../Templates/Prism"
-}
+template = "Prism"
 enable_jsdelivr = {
     "enabled": True,
     "repo": "lesnolie/Marverick@gh-pages"
