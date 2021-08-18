@@ -7,5 +7,5 @@
 	branch = latest
 [submodule "Templates/Prism"]
 	path = Templates/Prism
-	url = https://github.com/Reedo0910/Maverick-Theme-Prism.git
+	url = https://github.com/lesnolie/Maverick-Theme-Prism.git
 	branch = deploy
