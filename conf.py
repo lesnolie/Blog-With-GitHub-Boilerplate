@@ -2,7 +2,7 @@
 """博客构建配置文件
 """
 
-# For Maverick
+# For Maverick1
 site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
