@@ -9,9 +9,9 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 30
 template = {
-    "name": "Simple",
+    "name": "Prism",
     "type": "local",
-    "path": "../Templates/simple"
+    "path": "../Templates/Prism"
 }
 enable_jsdelivr = {
     "enabled": True,
