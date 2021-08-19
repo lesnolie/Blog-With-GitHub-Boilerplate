@@ -10,9 +10,8 @@ index_page_size = 10
 archives_page_size = 30
 template = {
     "name": "Prism",
-    "type": "git",
-    "url": "https://github.com/lesnolie/Maverick-Theme-Prism.git",
-    "branch": "simple"
+    "type": "local",
+    "path": "path-to-your-themes/Prism"
 }
 enable_jsdelivr = {
     "enabled": True,
