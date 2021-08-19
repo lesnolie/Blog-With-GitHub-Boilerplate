@@ -9,9 +9,10 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 30
 template = {
-    "name": "Prism",
-    "type": "local",
-    "path": "../Templates/Prism"
+    "name": "simple",
+    "type": "git",
+    "url": "https://github.com/lesnolie/Maverick-Theme-simple.git",
+    "branch": "main"
 }
 enable_jsdelivr = {
     "enabled": True,

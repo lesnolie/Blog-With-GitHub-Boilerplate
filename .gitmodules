@@ -8,4 +8,4 @@
 [submodule "Templates/Prism"]
 	path = Templates/Prism
 	url = https://github.com/lesnolie/Maverick-Theme-Prism.git
-	branch = deploy
+	branch = simple
