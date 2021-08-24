@@ -32,7 +32,6 @@
         <header class="Simple-header" id="Simple__header">
             <h1 class="text-uppercase brand"><a class="no-link" href="{{ fp(config.site_prefix) }}" target="_self">{{ fp(config.site_name) }}</a></h1>
             <p>{{ fp(config.description) }}</p>
-            <nav class="Simple-nav">{{ build_navs(config.nav, active_page) }}</nav>
         </header>
         <div class="Simple-wrapper" id="Simple__wrapper">
             {% block main %}{% endblock %}
