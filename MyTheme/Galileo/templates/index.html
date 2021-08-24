@@ -9,13 +9,13 @@
 
 {% block more_section %}
 
-<section id="Simple__post-list" class="Simple-section row">
+<section id="ga-post_list" class="ga-section" data-title="Posts">
     {% for content in content_list %}
     <article class="yue">
         <h1 align="center">{{ content.meta['title'] }}</h1>
         <div class="Simple-post-time">
             <a class="no-link" href="{{ Router.gen_permalink_by_content(content) }}" target="_self">
-                <time class="text-uppercase">
+                <time class="text-uppercase" align="center">
                     {{ content.meta['date'].format("MMMM DD YYYY") }}
                 </time>
             </a>
