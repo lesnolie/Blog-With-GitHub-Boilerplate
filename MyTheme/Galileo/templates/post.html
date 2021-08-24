@@ -1,0 +1,28 @@
+{% extends "includes/skeleton_content.html" %}
+
+{% set active_page = Router.gen_permalink_by_content(content) %}
+
+{% block more_section %}
+<section id="Simple__pagination" class="Simple-pagination">
+        {% if not content_next is none %}
+        <div class="next-post">
+            <div class="next"">上一篇</div>            
+            <a class="sim-highlight" href="{{ Router.gen_permalink_by_content(content_next) }}" >{{ content_next.get_meta('title') }}</a>
+        </div>
+        {% else %}
+        <div class="next"" hidden>上一篇 </div> 
+        </div>
+        {% endif %}
+          {% if not content_prev is none %}
+        <div class="prev">
+            <div class="prev"">下一篇</div> 
+            <a class="sim-highlight" href="{{ Router.gen_permalink_by_content(content_prev) }}"> target="_self" title="{{ content_prev.get_meta('title') }}"</a>
+        </div>
+        {% else %}
+        <div class="prev"" hidden>下一篇 </div>
+       
+        {% endif %}
+      
+
+{%- endblock more_content %}
+
