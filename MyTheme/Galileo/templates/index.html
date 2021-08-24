@@ -9,7 +9,7 @@
 
 {% block more_section %}
 
-<section id="ga-post_list" class="ga-section" data-title="Posts">
+<section id="ga-post_list" class="ga-section">
     {% for content in content_list %}
     <article class="yue">
         <h1 align="center">{{ content.meta['title'] }}</h1>
@@ -20,7 +20,6 @@
                 </time>
             </a>
         </div>
-        <div class="Simple-content">{{ content.parsed }}</div> 
     </article>
     {% endfor %}
 </section>
