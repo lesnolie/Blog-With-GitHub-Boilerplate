@@ -9,9 +9,9 @@ build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 30
 template = {
-    "name": "Prism",
+    "name": "Galileo",
     "type": "local",
-    "path": "/path-to-your-themes/Prism/"
+    "path": "/path-to-your-themes/Galileo/"
 }
 enable_jsdelivr = {
     "enabled": True,
