@@ -7,14 +7,15 @@
 {% block og_url %}{{ Router.gen_permalink('index', '', current_page) }}{% endblock %}
 {% block twitter_title %}{{ seo_title() }}{% endblock %}
 
+{% set active_page = Router.gen_permalink('index', '', current_page) %}
+
 {% block more_section %}
 
-<section id="ga-post_list" class="ga-section row">
+<section id="Simple-post_list" class="simple-section row">
     {% for content in content_list %}
     <article class="yue">
         <h1 class="prism-post-title" align="center"><a class="no-link" href="{{ Router.gen_permalink_by_content(content) }}" target="_self">{{ content.meta['title'] }}</a></h1>
         <div class="ga-post-time" align="center">
-            <a class="no-link" href="{{ Router.gen_permalink_by_content(content) }}" target="_self">
                 <time class="text-uppercase">
                     {{ content.meta['date'].format("MMMM DD YYYY") }}
                 </time>
