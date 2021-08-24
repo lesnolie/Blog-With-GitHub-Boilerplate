@@ -11,7 +11,7 @@ archives_page_size = 30
 template = {
     "name": "Galileo",
     "type": "local",
-    "path": "/MyTheme/Galileo/" # could also use relatetive path to Maverick
+    "path": "/Marverick/MyTheme/Galileo/" # could also use relatetive path to Maverick
 }
 
 enable_jsdelivr = {
