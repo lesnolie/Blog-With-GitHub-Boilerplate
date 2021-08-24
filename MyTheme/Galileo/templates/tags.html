@@ -7,43 +7,29 @@
 {% block og_url %}{{ Router.gen_permalink('tag', tag_name, current_page) }}{% endblock %}
 {% block twitter_title %}{{ seo_title() }}{% endblock %}
 
-{% set active_page = Router.gen_permalink('tag', tag_name, current_page) %}
-
 {% block more_section %}
 
-<section class="Simple-section col-md-8 offset-md-2 yue">
-    <h1 class="Simple-post-title section-title">{{tr('Tag')}}: <span class="text-normal">{{- tag_name -}}</span></h1>
-    <ul class="Simple-list">
+<section id="ga-archive_list" class="ga-section" data-title="#{{- tag_name -}}">
+    <ul>
         {% for content in content_list %}
-        <li class="Simple-list-item">
-            <h3 class="Simple-list-item-text">
-                <time>
-                    {{ content.meta['date'].format("YYYY MM DD") }}
-                </time>
-                <a class="no-link item-title" href="{{ Router.gen_permalink_by_content(content) }}" target="_self">{{ content.meta['title'] }}</a></h3>
+        <li>
+            <h1><a target="_self" class="ga-highlight" href="{{ Router.gen_permalink_by_content(content) }}">{{ content.meta['title'] }}</a></h1>
+            <time class="ga-mono" datetime="{{ content.meta['date'] }}">
+                {{ content.meta['date'].format("YYYY-MM-DD") }}
+            </time>
         </li>
         {% endfor %}
     </ul>
 </section>
 
-<section id="Simple__page__pagination" class="Simple-pagination" class="col-md-8 offset-md-2">
-            {% if current_page > 1 %}
-            <div class="next-post">
-            <div class="next"">上一篇</div>            
-            <a class="sim-highlight" href="{{ Router.gen_permalink_by_content(content_next) }}" >{{ content_next.get_meta('title') }}</a>
-        </div>
-        {% else %}
-        <div class="next"" hidden>上一篇 </div> 
-        </div>
-        {% endif %}
-            {% if current_page < max_pages %}
-             <div class="prev">
-            <div class="prev"">下一篇</div> 
-            <a class="sim-highlight" href="{{ Router.gen_permalink_by_content(content_prev) }}"> target="_self" title="{{ content_prev.get_meta('title') }}"</a>
-        </div>
-        {% else %}
-        <div class="prev"" hidden>下一篇 </div>      
-        {% endif %}
-    </section>
+<section class="ga-section ga-mono" id="ga-pager">
+    {% if current_page > 1 %}
+        <a prev class="ga-highlight" href="{{ Router.gen_permalink('tag', tag_name, current_page-1) }}">Prev</a>
+    {% endif %}
+    <span>Page {{ current_page }} of {{ max_pages }}</span>
+    {% if current_page < max_pages %}
+        <a next class="ga-highlight" href="{{ Router.gen_permalink('tag', tag_name, current_page+1) }}">Next</a>
+    {% endif %}
+</section>
 
 {% endblock more_section %}
