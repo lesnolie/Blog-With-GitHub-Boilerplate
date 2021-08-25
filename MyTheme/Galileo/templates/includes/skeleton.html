@@ -28,9 +28,12 @@
     </head>
     
    <body>
+        {% if config.background_img != "" %}
+            <div id="bg" style="background-image: url({{ fp(config.background_img) }})"></div>
+        {% endif %}
     <div class="container Simple-container">
         <header class="Simple-header" id="Simple__header">
-            <h1 class="text-uppercase brand"><a class="no-link" href="{{ fp(config.site_prefix) }}" target="_self">{{ fp(config.site_name) }}</a></h1>
+            <h1 col-md-8 offset-md-2 class="text-uppercase brand"><a class="no-link" href="{{ fp(config.site_prefix) }}" target="_self">{{ fp(config.site_name) }}</a></h1>
             <p>{{ fp(config.description) }}</p>
         </header>
         <div class="Simple-wrapper" id="Simple__wrapper">
