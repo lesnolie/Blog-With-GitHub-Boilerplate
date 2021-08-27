@@ -8,11 +8,7 @@ source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
 archives_page_size = 30
-template = {
-    "name": "Galileo",
-    "type": "local",
-    "path": "../MyTheme/Galileo/" # could also use relatetive path to Maverick
-}
+template ="Galileo"
 
 enable_jsdelivr = {
     "enabled": True,
