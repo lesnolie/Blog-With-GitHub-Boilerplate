@@ -23,15 +23,26 @@
 
 {% block main %}
 <main>    
-        <section class="Simple-section row" id="Simple__content">
-        <article class="yue col-md-8 offset-md-2">
-            <h1 class="Simple-post-title">{{ content.get_meta('title') }}</h1>
-            <div class="Simple-post-time">
-                <time class="text-uppercase">
-                    {{ content.meta['date'].format("MMMM DD YYYY") }}
+    <section class="ga-section ga-content">
+        <article class="yue">
+            <h1 class="ga-post_title">{{ content.get_meta('title') }}</h1>
+            <span class="ga-post_meta ga-mono">
+                <span>{{ content.get_meta('author') }}</span>
+                <time>
+                    {{ content.get_meta('date').format("YYYY-MM-DD") }}
                 </time>
-            </div>
-            <div class="Simple-content-body">
+                {% if len(content.get_meta('categories')) > 0 %}
+                in <a no-style class="category" href="{{ Router.gen_permalink('category', content.get_meta('categories')[-1], 1) }}">
+                    {{ content.get_meta('categories')[-1] }}
+                </a>
+                {% endif %}
+                {% if config.valine['enable'] and config.valine.get('visitor', False) and content.get_meta('comment') %}
+                <span class="leancloud_visitors" 
+                    id="{{ get_path(Router.gen_permalink_by_content(content)) }}" 
+                    data-flag-title="{{ content.meta['title'] }}"> · <i class="leancloud-visitors-count"></i> Views</span>
+                {% endif %}
+            </span>
+            <div class="ga-content_body">
                 {{ content.parsed }}
             </div>
         </article>
