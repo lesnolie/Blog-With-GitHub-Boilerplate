@@ -10,14 +10,3 @@
     </a>
 </div>
 {% endblock more_section %}
-
-{% block more_content -%}
-<div id="ga-tags">
-    {% for tag in content.get_meta('tags') %}
-    <span class="ga-tag">
-        <a class="ga-highlight" href="{{ Router.gen_permalink('tag', tag, 1) }}">#{{- tag -}}</a>
-    </span>
-    {% endfor %}
-</div>
-
-{%- endblock more_content %}
