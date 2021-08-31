@@ -10,16 +10,16 @@
 {% block more_section %}
 
 <div class="post-container">
-<article class="post">
+  <article class="post">
             {% for content in content_list %}
             <a href="{{ Router.gen_permalink_by_content(content) }}">
-              <h2 class="post-title"></h2>
+              <h2 class="post-title">{{ content.meta['title'] }}</h2>
             </a>
             <div class="post-info">
               <span> {{ content.meta['date'].format("YYYY-MM-DD") }} </span>
             </div>
             {% endfor %}
-</article>
+    </article>
 </div>
         
 <div class="pagination-container">

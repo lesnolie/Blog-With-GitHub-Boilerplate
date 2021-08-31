@@ -8,21 +8,21 @@
 {% block twitter_title %}{{ seo_title() }}{% endblock %}
 
 {% block more_section %}
-
-<article class="post">
+<div class="archives-container" data-title="Archives">
+  <article class="post">
             {% for content in content_list %}
             <a href="{{ Router.gen_permalink_by_content(content) }}">
-              <h2 class="post-title"></h2>
+              <h2 class="post-title">{{ content.meta['title'] }}</h2>
             </a>
             <div class="post-info">
               <span> {{ content.meta['date'].format("YYYY-MM-DD") }} </span>
             </div>
             {% endfor %}
-</article>
+ </article>
         
 <div class="pagination-container">
           {% if current_page > 1 %}
-          <a
+           <a
             class="prev-page"
             href="{{ Router.gen_permalink('index', '', current_page-1) }}"
             >上一页</a

@@ -8,8 +8,8 @@
 {% block twitter_title %}{{ seo_title() }}{% endblock %}
 
 {% block more_section %}
-
-<article class="post">
+<div class="post-container" data-title="#{{- tag_name -}}">
+  <article class="post">
             {% for content in content_list %}
             <a href="{{ Router.gen_permalink_by_content(content) }}">
               <h2 class="post-title"></h2>
@@ -18,7 +18,7 @@
               <span> {{ content.meta['date'].format("YYYY-MM-DD") }} </span>
             </div>
             {% endfor %}
-</article>
+  </article>
         
 <div class="pagination-container">
           {% if current_page > 1 %}
