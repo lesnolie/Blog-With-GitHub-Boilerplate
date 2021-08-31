@@ -10,45 +10,30 @@
 {% block more_section %}
 
 <article class="post">
-        {% for content in content_list %}
-        <li>
-            <article class="yue">
-                <h1>{{ content.meta['title'] }}</h1>
-                {% if content.meta['showfull'] %}
-                    <div class="ga-content">{{ content.parsed }}</div>
-                {% else %}
-                    <blockquote>{{ content.excerpt }}</blockquote>
-                {% endif %}
-                <footer>
-                    <span class="ga-read_more"><a class="ga-highlight" href="{{ Router.gen_permalink_by_content(content) }}">{{ tr('Read More') }}</a></span>
-                    <time class="ga-mono">
-                        {{ content.meta['date'].format("YYYY-MM-DD") }}
-                    </time>
-                </footer>
-            </article>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<section class="ga-section ga-mono" id="ga-pager">
-    {% if current_page > 1 %}
-        <a prev class="ga-highlight" href="{{ Router.gen_permalink('index', '', current_page-1) }}">Prev</a>
-    {% endif %}
-    <span>Page {{ current_page }} of {{ max_pages }}</span>
-    {% if current_page < max_pages %}
-        <a next class="ga-highlight" href="{{ Router.gen_permalink('index', '', current_page+1) }}">Next</a>
-    {% endif %}
-</section>
-
-<section id="ga-external_links" class="ga-section" data-title="Links">
-    <ul>
-        {% for item in config.external_links %}
-        <li>
-            <a class="ga-highlight" target="_blank" href="{{ fp(item['url']) }}">{{ fp(item['name']) }}</a>：{{ fp(item['brief']) }}
-        </li>
-        {% endfor %}
-    </ul>
-</section>
+            {% for content in content_list %}
+            <a href="{{ Router.gen_permalink_by_content(content) }}">
+              <h2 class="post-title"></h2>
+            </a>
+            <div class="post-info">
+              <span> {{ content.meta['date'].format("YYYY-MM-DD") }} </span>
+            </div>
+            {% endfor %}
+</article>
+        
+<div class="pagination-container">
+          {% if current_page > 1 %}
+          <a
+            class="prev-page"
+            href="{{ Router.gen_permalink('index', '', current_page-1) }}"
+            >上一页</a
+          >
+          {% endif %} {% if current_page < max_pages %}
+          <a
+            class="next-page"
+            href="{{ Router.gen_permalink('index', '', current_page+1) }}"
+            >下一页</a
+          >
+          {% endif %}
+ </div>
 
 {% endblock more_section %}
