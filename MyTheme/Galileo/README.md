@@ -17,7 +17,7 @@ template = {
 }
 ```
 
-or just set:
+or just set
 
 ```python
 template = "Galileo"
