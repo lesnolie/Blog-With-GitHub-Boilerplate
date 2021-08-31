@@ -9,27 +9,31 @@
 
 {% block more_section %}
 
-<section id="ga-archive_list" class="ga-section" data-title="Archives">
-    <ul>
-        {% for content in content_list %}
-        <li>
-            <h1><a target="_self" class="ga-highlight" href="{{ Router.gen_permalink_by_content(content) }}">{{ content.meta['title'] }}</a></h1>
-            <time class="ga-mono">
-                {{ content.meta['date'].format("YYYY-MM-DD") }}
-            </time>
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-
-<section class="ga-section ga-mono" id="ga-pager">
-    {% if current_page > 1 %}
-        <a prev class="ga-highlight" href="{{ Router.gen_permalink('archives', '', current_page-1) }}">Prev</a>
-    {% endif %}
-    <span>Page {{ current_page }} of {{ max_pages }}</span>
-    {% if current_page < max_pages %}
-        <a next class="ga-highlight" href="{{ Router.gen_permalink('archives', '', current_page+1) }}">Next</a>
-    {% endif %}
-</section>
+<article class="post">
+            {% for content in content_list %}
+            <a href="{{ Router.gen_permalink_by_content(content) }}">
+              <h2 class="post-title"></h2>
+            </a>
+            <div class="post-info">
+              <span> {{ content.meta['date'].format("YYYY-MM-DD") }} </span>
+            </div>
+            {% endfor %}
+</article>
+        
+<div class="pagination-container">
+          {% if current_page > 1 %}
+          <a
+            class="prev-page"
+            href="{{ Router.gen_permalink('index', '', current_page-1) }}"
+            >上一页</a
+          >
+          {% endif %} {% if current_page < max_pages %}
+          <a
+            class="next-page"
+            href="{{ Router.gen_permalink('index', '', current_page+1) }}"
+            >下一页</a
+          >
+          {% endif %}
+ </div>
 
 {% endblock more_section %}
