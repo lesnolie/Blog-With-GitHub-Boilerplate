@@ -9,6 +9,7 @@
 
 {% block more_section %}
 
+<div class="post-container">
 <article class="post">
             {% for content in content_list %}
             <a href="{{ Router.gen_permalink_by_content(content) }}">
@@ -19,6 +20,7 @@
             </div>
             {% endfor %}
 </article>
+</div>
         
 <div class="pagination-container">
           {% if current_page > 1 %}
