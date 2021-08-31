@@ -1,30 +1,14 @@
 {% extends "includes/skeleton_content.html" %}
 
 {% block more_section %}
-<section id="ga-content_pager">
-{% if not content_next is none %}
-    <div class="next">
-        <a class="ga-highlight" href="{{ Router.gen_permalink_by_content(content_next) }}">{{ content_next.get_meta('title') }}</a>
-        <p class="yue">{{ content_next.excerpt }}</p>
-    </div>
-{% else %}
-    <div class="next">
-        <h3>{{ tr('No More') }}</h3>
-        <p class="yue">{{ tr('This is the latest one.') }}</p>
-    </div>
-{% endif %}
-{% if not content_prev is none %}
-    <div class="prev">
-        <a class="ga-highlight" href="{{ Router.gen_permalink_by_content(content_prev) }}">{{ content_prev.get_meta('title') }}</a>
-        <p class="yue">{{ content_prev.excerpt }}</p>
-    </div>
-{% else %}
-    <div class="prev">
-        <h3>{{ tr('No More') }}</h3>
-        <p class="yue">{{ tr('This is the oldest one.') }}</p>
-    </div>
-{% endif %}
-</section>
+<div class="next-post">
+    <div class="next"">下一篇</div>
+    <a href="{{ Router.gen_permalink_by_content(content_next) }}">
+        <h3 class="post-title">
+            {{ content_next.get_meta('title') }}
+        </h3>
+    </a>
+</div>
 {% endblock more_section %}
 
 {% block more_content -%}

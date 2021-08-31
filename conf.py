@@ -30,38 +30,38 @@ key_words = ['Maverick', 'LESLIE', 'YOUNG FATHER', 'blog']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "BLOG",
-        "url": "https://lesnolie.github.io",
-        "brief": "🏄‍ Go My Own Way."
+        "name": "",
+        "url": "",
+        "brief": ""
     },
     {
-        "name": "dirve",
-        "url": "https://drive.lesliemm.xyz",
-        "brief": "LIFE Storage"
+        "name": "",
+        "url": "",
+        "brief": ""
     }
 ]
 nav = [
     {
-        "name": "Home",
+        "name": "",
         "url": "${site_prefix}",
         "target": "_self"
     },
     {
-        "name": "Archives",
+        "name": "",
         "url": "${site_prefix}archives/",
         "target": "_self"
     },
    ]
 social_links = [
     {
-        "name": "GitHub",
-        "url": "https://github.com/lesnolie",
-        "icon": "gi gi-github"
+        "name": "",
+        "url": "",
+        "icon": ""
     },
     {
-        "name": "Weibo",
-        "url": "https://weibo.com/2185506670/",
-        "icon": "gi gi-weibo"
+        "name": "",
+        "url": "",
+        "icon": ""
     }
 ]
 

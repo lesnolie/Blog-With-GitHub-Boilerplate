@@ -12,85 +12,147 @@
     <link rel="alternate" type="application/rss+xml" title="{{ fp(config.site_name) }} &raquo; RSS 2.0" href="{{ fp(config.site_prefix) }}feed/index.xml" />
     <link rel="alternate" type="application/atom+xml" title="{{ fp(config.site_name) }} &raquo; ATOM 1.0" href="{{ fp(config.site_prefix) }}feed/atom/index.xml" />
     <link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/galileo-8d8763e752.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600;900&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/ExSearch/ExSearch-182e5a8868.css">
     <link rel="stylesheet" href="{{ Router.gen_static_file_prefix() }}assets/katex.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fira+Code&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700&display=swap">
     <script>
         var ExSearchConfig = {
             root: "",
             api: "{{ Router.gen_static_file_prefix() + search_cache_hash }}.json"
         }
     </script>
+   
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <link rel="dns-prefetch" href="//static.lesliemm.xyz" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
     {% block head %}{% endblock %}
 
     {{ fp(config.head_addon) }}
     </head>
     
     <body>
-        {% if config.background_img != "" %}
-            <div id="bg" style="background-image: url({{ fp(config.background_img) }})"></div>
-        {% endif %}
-        <div class="container">
-            <header id="ga-header">
-                <div first>
-                    <aside id="ga-brand">
-                        <h1 class="brand"><a class="no-style" href="{{ fp(config.site_prefix) }}">{{ fp(config.site_name) }}</a></h1>
-                        <p>{{ fp(config.description) }}</p>
-                    </aside>
-                </div>
-                <div second id="ga-nav">
-                    <nav class="navs">
-                        {{ build_navs(config.nav) }}
-                    </nav>
-                </div>
-            </header>
-            <div class="wrapper">
-                {% block main %}{% endblock %}
-                <footer class="ga-mono" id="ga-footer">
-                    <section>
-                        <span id="ga-uptime"></span>
-                        <span class="brand">{{ fp(config.site_name) }}</span>
-                    </section>
-                    <section>
-                        <p class="copyright">
-                            <span>Copyright © {{ moment.now().format('%Y') }} {{ fp(config.author) }}</span>
-                            <span>Powered by <a no-style href="https://github.com/AlanDecode/Maverick" target="_blank">Maverick & Galileo</a></span>
-                        </p>
-                        <div class="copyright">
-                            <span class="footer-addon">
-                                {{ fp(config.footer_addon) }}
-                            </span>
-                            <nav class="social-links">
-                                {{ build_links(config.social_links) }}
-                            </nav>
-                        </div>
-                    </section>
-                    <script>
-                        var site_build_date = "{{ fp(config.site_build_date) }}"
-                    </script>
-                    <script src="{{ Router.gen_static_file_prefix() }}assets/galileo-7c8cea54ab.js"></script>
-                </footer>
-            </div>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+          <a href="{{ fp(config.site_prefix) }}">
+            <img class="avatar" src="{{ fp(config.site_logo)" }} alt="" />
+          </a>
+          <div class="site-title">
+            <a href="{{ fp(config.site_prefix) }}"
+              >{{ fp(config.site_name) }}</a
+            >
+          </div>
+          <p class="site-description">{{ fp(config.description) }}</p>
+          <div class="social-container">
+            <a title="Twitter" href="" target="_blank"
+              ><i class="ri-twitter-line"></i></a
+            ><a
+              title="Weibo"
+              href="https://weibo.com/2185506670/"
+              target="_blank"
+              ><i class="ri-weibo-line"></i></a
+            ><a title="Telegram" href="https://t.me/le55lie" target="_blank"
+              ><i class="ri-telegram-line"></i></a
+            ><a
+              title="GitHub"
+              href="https://github.com/AlanDecode"
+              target="_blank"
+              ><i class="ri-github-line"></i
+            ></a>
+            <a href="#" target="_self" class="search-form-input ga-highlight"
+              ><i class="ri-search-line"></i
+            ></a>
+          </div>
         </div>
+             <div second id="ga-nav">
+                <nav class="navs">
+                        {{ build_navs(config.nav) }}
+                </nav>
+             </div>
+            
+            <div class="post-container">
+          <article class="post">
+            {{% for content in content_list %}}
+            <a href="{{ Router.gen_permalink_by_content(content) }}">
+              <h2 class="post-title"></h2>
+            </a>
+            <div class="post-info">
+              <span> {{ content.meta['date'].format("YYYY-MM-DD") }} </span>
+            </div>
+            {% endfor %}
+          </article>
+        </div>
+
+        <div class="pagination-container">
+          {% if current_page > 1 %}
+          <a
+            class="prev-page"
+            href="{{ Router.gen_permalink('index', '', current_page-1) }}"
+            >上一页</a
+          >
+          {% endif %} {% if current_page < max_pages %}
+          <a
+            class="next-page"
+            href="{{ Router.gen_permalink('index', '', current_page+1) }}"
+            >下一页</a
+          >
+          {% endif %}
+        </div>
+        
+        <div class="site-footer">
+          · <a href="https://github.com/AlanDecode/Maverick">Maverick</a> ·
+          Mincho ·
+        </div>
+      </div>
     </div>
 
-    <!--katex-->
-    <script defer src="{{ Router.gen_static_file_prefix() }}assets/katex.min.js"></script>
-    <script>
-    mathOpts = {
-        delimiters: [
-            {left: "$$", right: "$$", display: true},
-            {left: "\\[", right: "\\]", display: true},
-            {left: "$", right: "$", display: false},
-            {left: "\\(", right: "\\)", display: false}
-        ]
-    };
-    </script>
-    <script defer src="{{ Router.gen_static_file_prefix() }}assets/auto-render.min.js" onload="renderMathInElement(document.body, mathOpts);"></script>
+{% block script %}{% endblock script %}
 
-    <script src="{{ Router.gen_static_file_prefix() }}assets/ExSearch/jquery.min.js"></script>
-    <script src="{{ Router.gen_static_file_prefix() }}assets/ExSearch/ExSearch-493cb9cd89.js"></script>
+    <!--katex-->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/assets/katex.min.js"
+    ></script>
+    <script>
+      mathOpts = {
+        delimiters: [
+          { left: "$$", right: "$$", display: true },
+          { left: "\\[", right: "\\]", display: true },
+          { left: "$", right: "$", display: false },
+          { left: "\\(", right: "\\)", display: false },
+        ],
+      };
+    </script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/assets/auto-render.min.js"
+      onload="renderMathInElement(document.body, mathOpts);"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/assets/ExSearch/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/assets/ExSearch/ExSearch-493cb9cd89.js"></script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      (function () {
+        var domain = document.domain;
+        var els = document.getElementsByTagName('a');
+        for (var index = 0; index < els.length; index++) {
+          var element = els[index];
+          var target = element.getAttribute('target');
+          if (typeof target === 'undefined' || (target != '' && target != '_self')) {
+            if (element.hostname != domain) {
+              element.setAttribute('target', '_blank');
+            }
+          }
+        }
+      })();
+    });
+  </script>
 
     {{ fp(config.body_addon) }}
     </body>
