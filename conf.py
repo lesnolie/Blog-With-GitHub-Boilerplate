@@ -14,7 +14,7 @@ template ={
     "path": "../MyTheme/Galileo/" # could also use relatetive path to Maverick
 }
 enable_jsdelivr = {
-    "enabled": faulse,
+    "enabled": False,
     "repo": "lesnolie/Marverick@gh-pages"
 }
 
