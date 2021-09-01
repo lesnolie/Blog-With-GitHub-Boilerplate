@@ -14,13 +14,13 @@ template ={
     "path": "../MyTheme/Galileo/" # could also use relatetive path to Maverick
 }
 enable_jsdelivr = {
-    "enabled": True,
+    "enabled": faulse,
     "repo": "lesnolie/Marverick@gh-pages"
 }
 
 # 站点设置
 site_name = "LESLIE's WIKI"
-site_logo = "${static_prefix}logo.png"
+site_logo = "${site_prefix}logo.png"
 site_build_date = "2021-03-29T16:51+08:00"
 author = "LESLIE"
 email = "lesliezhang08@gmail.com"
