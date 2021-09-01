@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LESLIE's WIKI</title><link>/</link><description>我喜欢猫，和你</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/logo.png</url><title>LESLIE's WIKI</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 29 Aug 2021 23:22:15 +0806</lastBuildDate><pubDate>Sun, 29 Aug 2021 23:22:15 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>LESLIE's WIKI</title><link>/</link><description>我喜欢猫，和你</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/lesnolie/Marverick@gh-pages/logo.png</url><title>LESLIE's WIKI</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 01 Sep 2021 00:33:15 +0806</lastBuildDate><pubDate>Wed, 01 Sep 2021 00:33:15 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -163,7 +163,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/亚马逊标题与关键词小结1/</guid><pubDate>Thu, 01 Apr 2021 09:00:00 +0806</pubDate></item><item><title>Quantumultx 的一些操作</title><link>/archives/Quanx/</link><description>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
+</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/亚马逊标题与关键词小结1/</guid><pubDate>Thu, 01 Apr 2021 09:00:00 +0806</pubDate></item><item><title>Quantumultx的一些操作</title><link>/archives/Quantumultx的一些操作/</link><description>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
 &lt;h2&gt;界面操作&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;主要按钮，右下角小风车。&lt;/li&gt;
@@ -200,4 +200,4 @@
 &lt;p&gt;以及天气等。&lt;/p&gt;
 &lt;h2&gt;boxjs&lt;/h2&gt;
 &lt;p&gt;远程管理，将定时任务的相关配置导入后即可远程出发定时任务。&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (leslie)</author><guid isPermaLink="true">/archives/Quanx/</guid><pubDate>Sat, 22 May 2021 10:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (leslie)</author><guid isPermaLink="true">/archives/Quantumultx的一些操作/</guid><pubDate>Sat, 22 May 2021 10:00:00 +0806</pubDate></item></channel></rss>
