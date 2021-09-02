@@ -20,11 +20,11 @@ enable_jsdelivr = {
 
 # 站点设置
 site_name = "LESLIE's WIKI"
-site_logo = "${site_prefix}logo.png"
+site_logo = "${static_prefix}logo.png"
 site_build_date = "2021-03-29T16:51+08:00"
 author = "LESLIE"
 email = "lesliezhang08@gmail.com"
-author_homepage = "https://blog.leslie.cn"
+author_homepage = "https://blog.lesliemm.xyz"
 description = "我喜欢猫，和你"
 key_words = ['Maverick', 'LESLIE', 'YOUNG FATHER', 'blog']
 language = 'zh-CN'
