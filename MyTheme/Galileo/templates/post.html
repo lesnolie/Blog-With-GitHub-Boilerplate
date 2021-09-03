@@ -3,8 +3,8 @@
 {% block more_section %}
 <div class="next-post">
 {% if not content_prev is none %}
-    <div class="next">下一篇</div>
-    <a href="{{ Router.gen_permalink_by_content(content_next) }}">
+    <div class="prev">下一篇</div>
+    <a href="{{ Router.gen_permalink_by_content(content_prev) }}">
 
         <h3 class="post-title">
             {{ content_next.get_meta('title') }}
