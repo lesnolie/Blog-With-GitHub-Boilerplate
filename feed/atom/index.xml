@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>心语镇</title><updated>2021-09-04T23:17:37.453517+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫，和LXY</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2021-09-04T23:17:37.453906+00:00</updated><author><name>AlanDecode</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>心语镇</title><updated>2021-09-04T23:23:17.688037+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫，和LXY</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2021-09-04T23:23:17.688415+00:00</updated><author><name>AlanDecode</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -78,7 +78,7 @@
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/亚马逊seo种search term的两种策略和写法/</id><title>亚马逊seo种search term的两种策略和写法</title><updated>2021-09-04T23:17:37.453872+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;如何填写search term才是正确的？&lt;/h2&gt;
+&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/亚马逊seo种search term的两种策略和写法/</id><title>亚马逊seo种search term的两种策略和写法</title><updated>2021-09-04T23:23:17.688382+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;如何填写search term才是正确的？&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;错误写法&lt;/strong&gt; ：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;分号，或者中文逗号等其他标点符号，都不会被a9正确读取。从而被认为是乱码.&lt;/li&gt;
@@ -97,7 +97,7 @@
 &lt;li&gt;模糊匹配 ： chrome metal black earrings for man 权重最低&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;因此，在5个search term中每行只填写如一个单词或者词组，容易在搜索中形成完全匹配从而获得较高权重排名和流量，尤其在竞争激烈时，能够抓住精准流量。&lt;/p&gt;
-</content><link href="/archives/亚马逊seo种search term的两种策略和写法/" rel="alternate"/><published>2021-03-30T09:00:00+08:06</published></entry><entry><id>/archives/亚马逊标题与关键词小结1/</id><title>亚马逊标题与关键词小结1</title><updated>2021-09-04T23:17:37.453840+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;标题可以怎么写&lt;/h2&gt;
+</content><link href="/archives/亚马逊seo种search term的两种策略和写法/" rel="alternate"/><published>2021-03-30T09:00:00+08:06</published></entry><entry><id>/archives/亚马逊标题与关键词小结1/</id><title>亚马逊标题与关键词小结1</title><updated>2021-09-04T23:23:17.688350+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;标题可以怎么写&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;遵循两个原则&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;可搜索性&lt;/li&gt;
@@ -163,7 +163,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><link href="/archives/亚马逊标题与关键词小结1/" rel="alternate"/><published>2021-04-01T09:00:00+08:06</published></entry><entry><id>/archives/解锁网易云音乐灰色歌单/</id><title>解锁网易云音乐灰色歌单</title><updated>2021-09-04T23:17:37.453806+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h1&gt;建立服务器&lt;/h1&gt;
+</content><link href="/archives/亚马逊标题与关键词小结1/" rel="alternate"/><published>2021-04-01T09:00:00+08:06</published></entry><entry><id>/archives/解锁网易云音乐灰色歌单/</id><title>解锁网易云音乐灰色歌单</title><updated>2021-09-04T23:23:17.688317+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h1&gt;建立服务器&lt;/h1&gt;
 &lt;p&gt;本来使用的是yesplaymusic，因为其可以全网解锁音乐，但是最近unblockneteasemusic出错了，不能听灰色歌曲。
 github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unlock-netease-cloud-music"&gt;meng-chuan/Unlock-netease-cloud-music&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1.提前把项目源码下载到服务器上，然后解压&lt;/strong&gt;&lt;/p&gt;
@@ -205,7 +205,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;选择手动，输入服务器和端口号&lt;/p&gt;
 &lt;p&gt;mac终端还不知道如何解决，安卓端有一个app可以解决，也可以通过代理解决，但是没有安卓手机，朋友听我指挥没成功，在这里就不分享了。&lt;/p&gt;
 &lt;p&gt;以上就是现阶段网易云全解锁的方法。&lt;/p&gt;
-</content><link href="/archives/解锁网易云音乐灰色歌单/" rel="alternate"/><published>2021-05-11T09:00:00+08:06</published></entry><entry><id>/archives/Quantumultx的一些操作/</id><title>Quantumultx的一些操作</title><updated>2021-09-04T23:17:37.453773+00:00</updated><author><name>leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
+</content><link href="/archives/解锁网易云音乐灰色歌单/" rel="alternate"/><published>2021-05-11T09:00:00+08:06</published></entry><entry><id>/archives/Quantumultx的一些操作/</id><title>Quantumultx的一些操作</title><updated>2021-09-04T23:23:17.688283+00:00</updated><author><name>leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
 &lt;h2&gt;界面操作&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;主要按钮，右下角小风车。&lt;/li&gt;
@@ -242,7 +242,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;以及天气等。&lt;/p&gt;
 &lt;h2&gt;boxjs&lt;/h2&gt;
 &lt;p&gt;远程管理，将定时任务的相关配置导入后即可远程出发定时任务。&lt;/p&gt;
-</content><link href="/archives/Quantumultx的一些操作/" rel="alternate"/><published>2021-05-22T10:00:00+08:06</published></entry><entry><id>/archives/那些年我使用过的猫砂/</id><title>那些年我使用过的猫砂</title><updated>2021-09-04T23:17:37.453738+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;今天就写自己用过的猫砂吧。
+</content><link href="/archives/Quantumultx的一些操作/" rel="alternate"/><published>2021-05-22T10:00:00+08:06</published></entry><entry><id>/archives/那些年我使用过的猫砂/</id><title>那些年我使用过的猫砂</title><updated>2021-09-04T23:23:17.688250+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;今天就写自己用过的猫砂吧。
 
 纯粹经验所得，没有那么些数据对比。所以不专业，但是贵在真实。&lt;/div&gt;&lt;h1&gt;个人猫砂更换习惯&lt;/h1&gt;
 &lt;p&gt;我是属于比较懒的人，所以是每天一铲（基本），一个月一换。&lt;/p&gt;
@@ -342,7 +342,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;嗯，在我不想用膨润土的everclean以后，就买了天净，也不想有n1了，就换了毛球殿下。&lt;/p&gt;
 &lt;p&gt;还没有用，用了来这里补充结果。&lt;/p&gt;
 &lt;p&gt;以上，就是我的猫砂经验。&lt;/p&gt;
-</content><link href="/archives/那些年我使用过的猫砂/" rel="alternate"/><published>2021-05-25T09:00:00+08:06</published></entry><entry><id>/archives/我的媒体播放库 libdrive/</id><title>我的媒体播放库 libdrive</title><updated>2021-09-04T23:17:37.453701+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+</content><link href="/archives/那些年我使用过的猫砂/" rel="alternate"/><published>2021-05-25T09:00:00+08:06</published></entry><entry><id>/archives/我的媒体播放库 libdrive/</id><title>我的媒体播放库 libdrive</title><updated>2021-09-04T23:23:17.688215+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Look at this beautiful website!&lt;/p&gt;
 &lt;p&gt;It's my &lt;a href="http://35.221.246.119:8000"&gt;media library&lt;/a&gt;!&lt;/p&gt;
 &lt;h1&gt;什么是Libdrive&lt;/h1&gt;
@@ -488,7 +488,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;/ul&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;Down! Have fun!&lt;/p&gt;
-</content><link href="/archives/我的媒体播放库 libdrive/" rel="alternate"/><published>2021-06-24T09:00:00+08:06</published></entry><entry><id>/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/</id><title>读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法</title><updated>2021-09-04T23:17:37.453661+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;前言&lt;/h2&gt;
+</content><link href="/archives/我的媒体播放库 libdrive/" rel="alternate"/><published>2021-06-24T09:00:00+08:06</published></entry><entry><id>/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/</id><title>读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法</title><updated>2021-09-04T23:23:17.688176+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;我有虚假的洁癖和强迫症：&lt;/p&gt;
 &lt;p&gt;脑海中羡慕着电影《人潮汹涌》中刘德华家里的整洁，但实际上家里却是肖央家里那样的狗窝。&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -589,7 +589,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;总之，你就是在感悟你的人生。&lt;/p&gt;
 &lt;p&gt;陷入对过去的执着，或者逃避对未来的不安，都会使你停下脚步犹豫不前。&lt;/p&gt;
 &lt;p&gt;人生从整理后开始改变！&lt;/p&gt;
-</content><link href="/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/" rel="alternate"/><published>2021-07-07T09:00:00+08:06</published></entry><entry><id>/archives/谷歌设置root密码及开启ssh权限/</id><title>谷歌设置root密码及开启ssh权限</title><updated>2021-09-04T23:17:37.453587+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;设置root密码&lt;/h2&gt;
+</content><link href="/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/" rel="alternate"/><published>2021-07-07T09:00:00+08:06</published></entry><entry><id>/archives/谷歌设置root密码及开启ssh权限/</id><title>谷歌设置root密码及开启ssh权限</title><updated>2021-09-04T23:23:17.688104+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;设置root密码&lt;/h2&gt;
 &lt;h3&gt;1.先选择从浏览器打开ssh连接服务器&lt;/h3&gt;
 &lt;p&gt;&lt;figure style="flex: 188.63636363636363" &gt;&lt;img loading="lazy" width="830" height="220" src="/archives/assets/70dc924fc2f69da5bbd1bae66f87b23b.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3&gt;2.切换到root账号，输入代码&lt;/h3&gt;
