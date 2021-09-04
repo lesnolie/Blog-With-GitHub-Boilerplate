@@ -2,7 +2,7 @@
 layout: post
 title: 谷歌设置root密码及开启ssh权限
 slug: 谷歌设置root密码及开启ssh权限
-date: 2021-08-1709:00
+date: 2021-08-17 09:00
 status: publish
 author: LESLIE
 categories: 
