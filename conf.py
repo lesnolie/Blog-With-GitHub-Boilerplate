@@ -26,7 +26,7 @@ author = "LESLIE"
 email = "lesliezhang08@gmail.com"
 author_homepage = "https://blog.lesliemm.xyz"
 description = "我喜欢猫，和LXY"
-key_words = ['Maverick', 'LESLIE', 'YOUNG FATHER', 'blog']
+key_words = ['心语镇', 'LESLIE']
 language = 'zh-CN'
 external_links = [
     {
