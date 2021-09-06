@@ -22,7 +22,7 @@ Look at this beautiful website!
 
 It's my [media library](http://35.221.246.119:8000)!
 
-# 什么是Libdrive
+## 什么是Libdrive
 
 ***一个可以从[TMDb](https://www.themoviedb.org)自动识别电影、电视剧、漫画，并且产生海报、简单介绍的谷歌硬盘文件可视管理器***
 
@@ -30,7 +30,7 @@ You can build the catalog like the Movies or TV-Shows & Animes, Whatever you lik
 
 I get this amazing tool from [libdrive](https://github.com/libDrive/libDrive).Thanks for the author **Elias Benbourenane**.
 
-# 我是如何创建自己的Libdrive的
+## 我是如何创建自己的Libdrive的
 
 就像每一段代码旅程一样，我在创建自己的Libdrive时也遇到了不少麻烦。
 
