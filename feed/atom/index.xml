@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>心语镇</title><updated>2021-09-06T03:24:52.322384+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫，和LXY</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2021-09-06T03:24:52.322813+00:00</updated><author><name>AlanDecode</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>心语镇</title><updated>2021-09-06T03:35:11.640467+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫，和LXY</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2021-09-06T03:35:11.640892+00:00</updated><author><name>AlanDecode</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -78,7 +78,7 @@
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/亚马逊seo种search term的两种策略和写法/</id><title>亚马逊seo种search term的两种策略和写法</title><updated>2021-09-06T03:24:52.322778+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;如何填写search term才是正确的？&lt;/h2&gt;
+&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/亚马逊seo种search term的两种策略和写法/</id><title>亚马逊seo种search term的两种策略和写法</title><updated>2021-09-06T03:35:11.640858+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;如何填写search term才是正确的？&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;错误写法&lt;/strong&gt; ：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;分号，或者中文逗号等其他标点符号，都不会被a9正确读取。从而被认为是乱码.&lt;/li&gt;
@@ -97,7 +97,7 @@
 &lt;li&gt;模糊匹配 ： chrome metal black earrings for man 权重最低&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;因此，在5个search term中每行只填写如一个单词或者词组，容易在搜索中形成完全匹配从而获得较高权重排名和流量，尤其在竞争激烈时，能够抓住精准流量。&lt;/p&gt;
-</content><link href="/archives/亚马逊seo种search term的两种策略和写法/" rel="alternate"/><published>2021-03-30T09:00:00+08:06</published></entry><entry><id>/archives/亚马逊标题与关键词小结1/</id><title>亚马逊标题与关键词小结1</title><updated>2021-09-06T03:24:52.322744+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;标题可以怎么写&lt;/h2&gt;
+</content><link href="/archives/亚马逊seo种search term的两种策略和写法/" rel="alternate"/><published>2021-03-30T09:00:00+08:06</published></entry><entry><id>/archives/亚马逊标题与关键词小结1/</id><title>亚马逊标题与关键词小结1</title><updated>2021-09-06T03:35:11.640825+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;标题可以怎么写&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;遵循两个原则&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;可搜索性&lt;/li&gt;
@@ -163,7 +163,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</content><link href="/archives/亚马逊标题与关键词小结1/" rel="alternate"/><published>2021-04-01T09:00:00+08:06</published></entry><entry><id>/archives/解锁网易云音乐灰色歌单/</id><title>解锁网易云音乐灰色歌单</title><updated>2021-09-06T03:24:52.322709+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h1&gt;建立服务器&lt;/h1&gt;
+</content><link href="/archives/亚马逊标题与关键词小结1/" rel="alternate"/><published>2021-04-01T09:00:00+08:06</published></entry><entry><id>/archives/解锁网易云音乐灰色歌单/</id><title>解锁网易云音乐灰色歌单</title><updated>2021-09-06T03:35:11.640792+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;建立服务器&lt;/h2&gt;
 &lt;p&gt;本来使用的是yesplaymusic，因为其可以全网解锁音乐，但是最近unblockneteasemusic出错了，不能听灰色歌曲。
 github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unlock-netease-cloud-music"&gt;meng-chuan/Unlock-netease-cloud-music&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1.提前把项目源码下载到服务器上，然后解压&lt;/strong&gt;&lt;/p&gt;
@@ -182,7 +182,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;li&gt;开放端口：&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://imgtu.com/i/g8qiqI"&gt;&lt;figure style="flex: 273.0544747081712" &gt;&lt;img loading="lazy" width="2807" height="514" src="https://camo.githubusercontent.com/d59165a16621d9888a690782496fdcc9cd4d44f9fc3e36f899a00cbe29ba9d53/68747470733a2f2f7a332e617831782e636f6d2f323032312f30352f30382f6738716971492e706e67" /&gt;&lt;figcaption&gt;g8qiqI.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;win客户端设置&lt;/h1&gt;
+&lt;h2&gt;win客户端设置&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://camo.githubusercontent.com/f0b7b85bce7817497521fce736a10e39e654806b70e118eca71755d8001be648/68747470733a2f2f7a332e617831782e636f6d2f323032312f30352f30382f6738354a6a782e706e67"&gt;&lt;figure style="flex: 76.26865671641791" &gt;&lt;img loading="lazy" width="2044" height="1340" src="https://camo.githubusercontent.com/f0b7b85bce7817497521fce736a10e39e654806b70e118eca71755d8001be648/68747470733a2f2f7a332e617831782e636f6d2f323032312f30352f30382f6738354a6a782e706e67" /&gt;&lt;figcaption&gt;04GPKA.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;打开自己电脑上的网易云音乐客户端，进入设置页面，设置自定义代理：&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -190,7 +190,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;li&gt;代理服务器地址：填你自己的服务器ip或者绑定服务器的域名&lt;/li&gt;
 &lt;li&gt;代理服务器端口：52000&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;ios端设置&lt;/h1&gt;
+&lt;h2&gt;ios端设置&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;安装证书&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
@@ -205,7 +205,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;选择手动，输入服务器和端口号&lt;/p&gt;
 &lt;p&gt;mac终端还不知道如何解决，安卓端有一个app可以解决，也可以通过代理解决，但是没有安卓手机，朋友听我指挥没成功，在这里就不分享了。&lt;/p&gt;
 &lt;p&gt;以上就是现阶段网易云全解锁的方法。&lt;/p&gt;
-</content><link href="/archives/解锁网易云音乐灰色歌单/" rel="alternate"/><published>2021-05-11T09:00:00+08:06</published></entry><entry><id>/archives/Quantumultx的一些操作/</id><title>Quantumultx的一些操作</title><updated>2021-09-06T03:24:52.322674+00:00</updated><author><name>leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
+</content><link href="/archives/解锁网易云音乐灰色歌单/" rel="alternate"/><published>2021-05-11T09:00:00+08:06</published></entry><entry><id>/archives/Quantumultx的一些操作/</id><title>Quantumultx的一些操作</title><updated>2021-09-06T03:35:11.640757+00:00</updated><author><name>leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
 &lt;h2&gt;界面操作&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;主要按钮，右下角小风车。&lt;/li&gt;
@@ -242,12 +242,12 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;以及天气等。&lt;/p&gt;
 &lt;h2&gt;boxjs&lt;/h2&gt;
 &lt;p&gt;远程管理，将定时任务的相关配置导入后即可远程出发定时任务。&lt;/p&gt;
-</content><link href="/archives/Quantumultx的一些操作/" rel="alternate"/><published>2021-05-22T10:00:00+08:06</published></entry><entry><id>/archives/那些年我使用过的猫砂/</id><title>那些年我使用过的猫砂</title><updated>2021-09-06T03:24:52.322639+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;今天就写自己用过的猫砂吧。
+</content><link href="/archives/Quantumultx的一些操作/" rel="alternate"/><published>2021-05-22T10:00:00+08:06</published></entry><entry><id>/archives/那些年我使用过的猫砂/</id><title>那些年我使用过的猫砂</title><updated>2021-09-06T03:35:11.640723+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;今天就写自己用过的猫砂吧。
 
-纯粹经验所得，没有那么些数据对比。所以不专业，但是贵在真实。&lt;/div&gt;&lt;h1&gt;个人猫砂更换习惯&lt;/h1&gt;
+纯粹经验所得，没有那么些数据对比。所以不专业，但是贵在真实。&lt;/div&gt;&lt;h2&gt;个人猫砂更换习惯&lt;/h2&gt;
 &lt;p&gt;我是属于比较懒的人，所以是每天一铲（基本），一个月一换。&lt;/p&gt;
 &lt;p&gt;并且我有强迫症，不到一个月一定不换猫 m- -。&lt;/p&gt;
-&lt;h1&gt;使用猫砂品牌情况&lt;/h1&gt;
+&lt;h2&gt;使用猫砂品牌情况&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;蓝钻+n1 （现用）&lt;/li&gt;
 &lt;li&gt;天净加菲猫+毛球殿下（刚买还没用）&lt;/li&gt;
@@ -257,7 +257,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;/li&gt;
 &lt;li&gt;纯n1&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;膨润土&lt;/h2&gt;
+&lt;h3&gt;膨润土&lt;/h3&gt;
 &lt;p&gt;大家都说膨润土猫砂是猫咪最喜欢的猫砂，也是最适合猫咪拉屎的猫砂。&lt;/p&gt;
 &lt;p&gt;话都被你们说了，那我只能赞同。&lt;/p&gt;
 &lt;p&gt;但就我个人经验而言，&lt;strong&gt;膨润土猫砂是最不适合铲屎官的&lt;/strong&gt;。&lt;/p&gt;
@@ -289,7 +289,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;一个星期不到直接扔了。&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;综上，如果让我再单独用膨润土，我是不会用了。&lt;/p&gt;
-&lt;h2&gt;豆腐猫砂&lt;/h2&gt;
+&lt;h3&gt;豆腐猫砂&lt;/h3&gt;
 &lt;p&gt;豆腐猫砂大名鼎鼎的应该就是N1了吧。&lt;/p&gt;
 &lt;p&gt;我也一直在用，并且寻找了很多便宜的N1店。&lt;/p&gt;
 &lt;p&gt;但是能，n1其他还好，就是有两个大毛病。&lt;/p&gt;
@@ -306,7 +306,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;哦对了，他有点不是溶于水吗？这成了我的噩梦。&lt;/p&gt;
 &lt;p&gt;因为带出，所以阳台上有很多n1，然后呢，洗完澡出来阳台是会有水的，或者从洗手池溅射出来的水，或者阳台漏水的水，总之阳台上到处都是融化了的n1！！！&lt;/p&gt;
 &lt;p&gt;好恶心！！！&lt;/p&gt;
-&lt;h2&gt;混合猫砂&lt;/h2&gt;
+&lt;h3&gt;混合猫砂&lt;/h3&gt;
 &lt;p&gt;混合猫砂就是蓝钻+n1混合。&lt;/p&gt;
 &lt;p&gt;他们用皮蛋&lt;/p&gt;
 &lt;p&gt;我用过一次皮蛋，依稀记得效果不错，香且没有粉尘。&lt;/p&gt;
@@ -327,12 +327,12 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;li&gt;膨润土和豆腐的缺点他都有&lt;/li&gt;
 &lt;li&gt;不怎么耐用&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;其他猫砂&lt;/h2&gt;
+&lt;h3&gt;其他猫砂&lt;/h3&gt;
 &lt;p&gt;我用过其他猫砂，用过不知道是不是水晶猫砂，好香！！！！！香的我头疼！！！！确实不丑了，但那感觉就好像你&lt;strong&gt;&lt;em&gt;打完篮球衣服湿透了汗臭味很浓，结果你用六神花路水想让自己没那么臭一样！！！&lt;/em&gt;&lt;/strong&gt;你懂吗！！！&lt;/p&gt;
 &lt;p&gt;为什么这么多感叹号，就是表达没事儿不呀买其他猫砂，什么水晶木屑这些。&lt;/p&gt;
 &lt;p&gt;还有那些10几块的猫砂，或者说想捡便宜的猫砂。&lt;/p&gt;
 &lt;p&gt;为了你自己我觉得还是不要买，但是如果真没钱买好的的话，8块的petshy或者13的Petshy还是可以等等。&lt;/p&gt;
-&lt;h2&gt;618刚购猫砂&lt;/h2&gt;
+&lt;h3&gt;618刚购猫砂&lt;/h3&gt;
 &lt;p&gt;这次我看豆瓣一个人说了以下两款猫砂&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;天净 加菲猫猫砂（美国进口玉米）&lt;/li&gt;
@@ -342,14 +342,14 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;嗯，在我不想用膨润土的everclean以后，就买了天净，也不想有n1了，就换了毛球殿下。&lt;/p&gt;
 &lt;p&gt;还没有用，用了来这里补充结果。&lt;/p&gt;
 &lt;p&gt;以上，就是我的猫砂经验。&lt;/p&gt;
-</content><link href="/archives/那些年我使用过的猫砂/" rel="alternate"/><published>2021-05-25T09:00:00+08:06</published></entry><entry><id>/archives/我的媒体播放库 libdrive/</id><title>我的媒体播放库 libdrive</title><updated>2021-09-06T03:24:52.322605+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+</content><link href="/archives/那些年我使用过的猫砂/" rel="alternate"/><published>2021-05-25T09:00:00+08:06</published></entry><entry><id>/archives/我的媒体播放库 libdrive/</id><title>我的媒体播放库 libdrive</title><updated>2021-09-06T03:35:11.640687+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Look at this beautiful website!&lt;/p&gt;
 &lt;p&gt;It's my &lt;a href="http://35.221.246.119:8000"&gt;media library&lt;/a&gt;!&lt;/p&gt;
-&lt;h1&gt;什么是Libdrive&lt;/h1&gt;
+&lt;h2&gt;什么是Libdrive&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;一个可以从&lt;a href="https://www.themoviedb.org"&gt;TMDb&lt;/a&gt;自动识别电影、电视剧、漫画，并且产生海报、简单介绍的谷歌硬盘文件可视管理器&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;You can build the catalog like the Movies or TV-Shows &amp;amp; Animes, Whatever you like.&lt;/p&gt;
 &lt;p&gt;I get this amazing tool from &lt;a href="https://github.com/libDrive/libDrive"&gt;libdrive&lt;/a&gt;.Thanks for the author &lt;strong&gt;Elias Benbourenane&lt;/strong&gt;.&lt;/p&gt;
-&lt;h1&gt;我是如何创建自己的Libdrive的&lt;/h1&gt;
+&lt;h2&gt;我是如何创建自己的Libdrive的&lt;/h2&gt;
 &lt;p&gt;就像每一段代码旅程一样，我在创建自己的Libdrive时也遇到了不少麻烦。&lt;/p&gt;
 &lt;p&gt;You can find &lt;a href="https://github.com/libDrive/libDrive/wiki/Setup"&gt;setup&lt;/a&gt; here by author.&lt;/p&gt;
 &lt;p&gt;And you can follow me too.&lt;/p&gt;
@@ -488,7 +488,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;/ul&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;Down! Have fun!&lt;/p&gt;
-</content><link href="/archives/我的媒体播放库 libdrive/" rel="alternate"/><published>2021-06-24T09:00:00+08:06</published></entry><entry><id>/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/</id><title>读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法</title><updated>2021-09-06T03:24:52.322568+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;前言&lt;/h2&gt;
+</content><link href="/archives/我的媒体播放库 libdrive/" rel="alternate"/><published>2021-06-24T09:00:00+08:06</published></entry><entry><id>/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/</id><title>读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法</title><updated>2021-09-06T03:35:11.640651+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;我有虚假的洁癖和强迫症：&lt;/p&gt;
 &lt;p&gt;脑海中羡慕着电影《人潮汹涌》中刘德华家里的整洁，但实际上家里却是肖央家里那样的狗窝。&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -589,7 +589,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;总之，你就是在感悟你的人生。&lt;/p&gt;
 &lt;p&gt;陷入对过去的执着，或者逃避对未来的不安，都会使你停下脚步犹豫不前。&lt;/p&gt;
 &lt;p&gt;人生从整理后开始改变！&lt;/p&gt;
-</content><link href="/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/" rel="alternate"/><published>2021-07-07T09:00:00+08:06</published></entry><entry><id>/archives/谷歌设置root密码及开启ssh权限/</id><title>谷歌设置root密码及开启ssh权限</title><updated>2021-09-06T03:24:52.322527+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;设置root密码&lt;/h2&gt;
+</content><link href="/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/" rel="alternate"/><published>2021-07-07T09:00:00+08:06</published></entry><entry><id>/archives/谷歌设置root密码及开启ssh权限/</id><title>谷歌设置root密码及开启ssh权限</title><updated>2021-09-06T03:35:11.640611+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;设置root密码&lt;/h2&gt;
 &lt;h3&gt;1.先选择从浏览器打开ssh连接服务器&lt;/h3&gt;
 &lt;p&gt;&lt;figure style="flex: 188.63636363636363" &gt;&lt;img loading="lazy" width="830" height="220" src="/archives/assets/70dc924fc2f69da5bbd1bae66f87b23b.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;h3&gt;2.切换到root账号，输入代码&lt;/h3&gt;
@@ -612,7 +612,7 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_
 &lt;p&gt;重启服务器&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;reboot&lt;/code&gt;&lt;/pre&gt;
-</content><link href="/archives/谷歌设置root密码及开启ssh权限/" rel="alternate"/><published>2021-08-17T09:00:00+08:06</published></entry><entry><id>/archives/青岛行/</id><title>青岛行</title><updated>2021-09-06T03:24:52.322451+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;2021-9-31，这是我第一次去青岛的日子。去青岛的原因也很简单，因为喜欢的人在青岛。&lt;/p&gt;
+</content><link href="/archives/谷歌设置root密码及开启ssh权限/" rel="alternate"/><published>2021-08-17T09:00:00+08:06</published></entry><entry><id>/archives/青岛行/</id><title>青岛行</title><updated>2021-09-06T03:35:11.640538+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;2021-9-31，这是我第一次去青岛的日子。去青岛的原因也很简单，因为喜欢的人在青岛。&lt;/p&gt;
 &lt;p&gt;说来也是挺可笑的，一个快30岁的男生，为了一个网恋的女孩，说走就走的奔向了青岛见面。听起来幼稚，不可理喻。&lt;/p&gt;
 &lt;p&gt;但是我知道，这一切都是值得的。&lt;/p&gt;
 &lt;h2&gt;在路上&lt;/h2&gt;
@@ -650,7 +650,7 @@ sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_
 &lt;p&gt;潜台词就是，无论青岛有什么风景，都不及你的一丝美丽。&lt;/p&gt;
 &lt;p&gt;更潜台词是，别计划了，到时候我们肯定会白天睡觉点外卖，晚上吃饭的。&lt;/p&gt;
 &lt;p&gt;所以，此次青岛之行，唯一领略的风景就是海边。&lt;/p&gt;
-&lt;p&gt;嗯，我一个深圳人，家买在离还半小时的地方，不远万里飞到青岛看海。乍一听是不是脑袋进水了。所以当lyx问我，我们去海边吧去海边吧，我第一反应就是，不能去啊，去了就是脑袋进水，我不能承认我脑袋进水了。&lt;/p&gt;
+&lt;p&gt;嗯，我一个深圳人，家买在离海半小时的地方，不远万里飞到青岛看海。乍一听是不是脑袋进水了。所以当lyx问我，我们去海边吧去海边吧，我第一反应就是，不能去啊，去了就是脑袋进水，我不能承认我脑袋进水了。&lt;/p&gt;
 &lt;p&gt;回往过去，不去海边的一个原因是，无人陪伴，要么自己去，要么和家人去。和家人去呢，免不了磕磕碰碰的不开心，自己去呢，算了去一次太麻烦了。&lt;/p&gt;
 &lt;p&gt;也正因如此，此次在海边，是真真切切的第一次和喜欢的人牵手漫步在海滩。&lt;/p&gt;
 &lt;p&gt;青岛的沙滩和惠州的沙滩不一样，后来我和lxy总结出来的结果是，退潮了！&lt;/p&gt;
