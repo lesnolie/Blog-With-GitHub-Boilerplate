@@ -1,59 +1,101 @@
 ---
 layout: post
-title: 谷歌设置root密码及开启ssh权限
-slug: 谷歌设置root密码及开启ssh权限
-date: 2021-08-17 09:00
+title: 我的第一个公益
+slug: wodediyigegongyi
+date: 2021-11-05 11:45
 status: publish
 author: LESLIE
 categories: 
-   - wiki
+   - 技术
 tags:
-   - gap
-   - ssh
+   - drive
+   - share
+   - 资源
 excerpt: 
 ---
 
-##  设置root密码
+许久没有更新了，连lxy都吐槽我了。
 
-### 1.先选择从浏览器打开ssh连接服务器
+最近看抖音，学人家弄了个什么青少年模式。
 
-![](./images/v2rayssr.com163247.png)
+得，lxy现在成为我监护人了。
 
-### 2.切换到root账号，输入代码
+现如今干个什么都得经国她同意，包括出去吃饭扫码附款。
 
-```
-sudo -i
-```
 
-### 3.设置root密码
 
-```
-passwd
-```
+<img src="/Users/yu/Library/Application Support/typora-user-images/image-20211105115038746.png" alt="image-20211105115038746" style="zoom:33%;" />
 
-然后会要求输入新密码，然后再重复一次密码，输入密码的时候不会显示出来，所以直接输入密码，然后回车，再然后重复输入密码回车
 
-![](./images/v2rayssr.com163251.png)
 
-## 开启SSH权限
+给逐渐无聊的生活又添加了几分趣味。
 
-CentOS和Debian通用，输入以下两条命令
 
-```
-sed -i 's/PermitRootLogin no/PermitRootLogin yes/g' /etc/ssh/sshd_config
-sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-```
 
-Ubuntu系统，输入以下两条命令
+嗯，生活就是从新鲜感→刺激→趋于平静→无聊。
 
-```
-sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/g' /etc/ssh/sshd_config
-sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-```
+但其实就好像坐火车。坐火车是一件很无聊的事情，可是车上的人，路边的风景，隔壁喧闹的孩童，突然要生产的孕妇。
 
-重启服务器
+这些都是你无法预料却又颇为有趣的插曲。
 
-```
-reboot
-```
+坐火车的乐趣就是这样，不急不躁，等待着事情的发声。
 
+
+
+现如今，我有两个宝宝，远方是辛苦拼命的的lxy，近处是小侄女。
+
+可爱是女孩的通性。
+
+和她们在一起时，心底发自内心的不愿意去破坏每一分可爱。
+
+
+
+最近日本东京大学的入学致辞出名了，大致意思是
+
+你能考到东京大学，是因为你努力的结果。
+
+恭喜你，从今以后，你就要迈入努力也有可能没有收获的世界了。
+
+
+
+所以我想跟lxy说：
+
+亲爱的
+
+你得努力我看在眼里
+
+努力一定会有收获
+
+只是可能达不到我们的期望
+
+不过世事不都是这样
+
+未来是我们永远无法左右的
+
+他是好是坏，永远都站在那里
+
+所以我们无需担心
+
+但是现如今的每一分每一秒
+
+只要我们满足，充实，幸福，快乐
+
+努力
+
+那么未来是什么结果，又有何妨
+
+再糟糕的结果，也无非是解决他
+
+到时候再说和走一步看一步，是迈向未来的关键一步
+
+---
+
+最近做了些什么事情呢：
+
+- 一个个人wiki，真切感受到学得越快忘得越快，必须将所有看过的东西存起来供之后翻找
+- 一个个人发布站，分享我感兴趣的所有资源，有些内容是给女朋友准备的，她现在忙的厉害，等她不忙了让她有时间补课
+- 一个网盘的目录索引，sharelist确实挺好用，alist也不错。
+
+---
+
+愿未来越来也好，我也坚信着
