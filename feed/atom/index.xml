@@ -1,84 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>心语镇</title><updated>2022-02-07T13:36:05.624834+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫，和LXY</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2022-02-07T13:36:05.625271+00:00</updated><author><name>AlanDecode</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
-&lt;h3&gt;L3 Heading&lt;/h3&gt;
-&lt;h4&gt;L4 Heading&lt;/h4&gt;
-&lt;h5&gt;L5 Heading&lt;/h5&gt;
-&lt;h6&gt;L6 Heading&lt;/h6&gt;
-&lt;h2&gt;Paragraph&lt;/h2&gt;
-&lt;p&gt;We are creating a world that all may enter without privilege or prejudice accorded by race, economic power, military force, or station of birth.&lt;/p&gt;
-&lt;p&gt;We are creating a world where anyone, anywhere may express his or her beliefs, no matter how singular, without fear of being coerced into silence or conformity.&lt;/p&gt;
-&lt;h2&gt;Inline elements&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Bold&lt;/strong&gt;, &lt;ruby&gt;Ruby&lt;rp&gt;(&lt;/rp&gt;&lt;rt&gt;ルビ&lt;/rt&gt;&lt;rp&gt;)&lt;/rp&gt;&lt;/ruby&gt;, &lt;em&gt;Italic&lt;/em&gt;, &lt;del&gt;Strikethrough&lt;/del&gt;, &lt;a href="https://www.imalan.cn"&gt;Link&lt;/a&gt;&lt;sup id="fn_ref_1"&gt;&lt;a href="#fn_1"&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
-&lt;h2&gt;Blockquote and nested blockquote&lt;/h2&gt;
-&lt;blockquote&gt;&lt;p&gt;安得广厦千万间，大庇天下寒士俱欢颜！风雨不动安如山。&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;呜呼！何时眼前突兀见此屋，吾庐独破受冻死亦足！&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/blockquote&gt;
-&lt;h2&gt;Code&lt;/h2&gt;
-&lt;p&gt;Inline code: &lt;code&gt;int a=1;&lt;/code&gt;. Code block:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;argc&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kt"&gt;char&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="n"&gt;argv&lt;/span&gt;&lt;span class="p"&gt;){&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="n"&gt;std&lt;/span&gt;&lt;span class="o"&gt;::&lt;/span&gt;&lt;span class="n"&gt;cout&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s"&gt;&amp;quot;Hello World!&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;span class="w"&gt;    &lt;/span&gt;&lt;span class="k"&gt;return&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;List&lt;/h2&gt;
-&lt;h3&gt;Unordered List&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;iPhone&lt;ul&gt;
-&lt;li&gt;iPhone X&lt;/li&gt;
-&lt;li&gt;iPhone 11&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;iPad&lt;/li&gt;
-&lt;li&gt;MacBook&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Ordered List&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;打开冰箱&lt;ol&gt;
-&lt;li&gt;右手放在冰箱门拉手上&lt;/li&gt;
-&lt;li&gt;左手扶住冰箱主体&lt;/li&gt;
-&lt;li&gt;右手向后用力&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;把大象放进冰箱&lt;/li&gt;
-&lt;li&gt;关上冰箱&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;Horizontal rule&lt;/h2&gt;
-&lt;hr&gt;
-&lt;h2&gt;Math&lt;/h2&gt;
-&lt;p&gt;Inline Math: $m\times n$, math block:&lt;/p&gt;
-&lt;p&gt;$$C_{m\times k}=A_{m\times n}\cdot B_{n\times k}$$&lt;/p&gt;
-&lt;h2&gt;Figures&lt;/h2&gt;
-&lt;h3&gt;Single figure&lt;/h3&gt;
-&lt;p&gt;&lt;figure style="flex: 92.88888888888889" &gt;&lt;img loading="lazy" width="836" height="450" src="/archives/assets/e0affbc80ccb2d596c87b520e37e7071.jpg" /&gt;&lt;figcaption&gt;Princess Mononoke&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h3&gt;Photoset&lt;/h3&gt;
-&lt;div class="photos"&gt;
-&lt;figure style="flex: 75.0" &gt;&lt;img loading="lazy" width="4032" height="2688" src="/archives/assets/4956a144888cdbbb6c2df1d1d15384b0.jpeg" /&gt;&lt;/figure&gt;
-&lt;figure style="flex: 50.03720238095238" &gt;&lt;img loading="lazy" width="2690" height="2688" src="/archives/assets/4c66f0da616b08325b3aaa4c8b3f68e1.jpg" /&gt;&lt;/figure&gt;
-&lt;figure style="flex: 75.0" &gt;&lt;img loading="lazy" width="4032" height="2688" src="/archives/assets/8b4d2334469ffa39b59e6fdb37c8c601.jpeg" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;div class="photos"&gt;
-&lt;figure style="flex: 75.0" &gt;&lt;img loading="lazy" width="4032" height="2688" src="/archives/assets/0f5023d542a33e7c9d270f3cd6a99562.jpeg" /&gt;&lt;/figure&gt;
-&lt;figure style="flex: 75.0" &gt;&lt;img loading="lazy" width="4032" height="2688" src="/archives/assets/20ec69d2a0276336f95e11f42866d17f.jpeg" /&gt;&lt;/figure&gt;
-&lt;figure style="flex: 75.0" &gt;&lt;img loading="lazy" width="4032" height="2688" src="/archives/assets/2b8af25285e5a193729a350593113bad.jpeg" /&gt;&lt;/figure&gt;&lt;/div&gt;&lt;h2&gt;Table&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;&lt;tr&gt;
-&lt;th&gt;header&lt;/th&gt;
-&lt;th&gt;header&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;cell 1&lt;/td&gt;
-&lt;td&gt;cell 2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;cell 3&lt;/td&gt;
-&lt;td&gt;cell 4&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2&gt;Link Card&lt;/h2&gt;
-&lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/解锁网易云音乐灰色歌单/</id><title>解锁网易云音乐灰色歌单</title><updated>2022-02-07T13:36:05.625241+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;建立服务器&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>心语镇</title><updated>2022-02-10T17:21:09.611968+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫，和LXY</subtitle><entry><id>/archives/解锁网易云音乐灰色歌单/</id><title>解锁网易云音乐灰色歌单</title><updated>2022-02-10T17:21:09.612330+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;建立服务器&lt;/h2&gt;
 &lt;p&gt;本来使用的是yesplaymusic，因为其可以全网解锁音乐，但是最近unblockneteasemusic出错了，不能听灰色歌曲。
 github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unlock-netease-cloud-music"&gt;meng-chuan/Unlock-netease-cloud-music&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1.提前把项目源码下载到服务器上，然后解压&lt;/strong&gt;&lt;/p&gt;
@@ -120,7 +41,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;选择手动，输入服务器和端口号&lt;/p&gt;
 &lt;p&gt;mac终端还不知道如何解决，安卓端有一个app可以解决，也可以通过代理解决，但是没有安卓手机，朋友听我指挥没成功，在这里就不分享了。&lt;/p&gt;
 &lt;p&gt;以上就是现阶段网易云全解锁的方法。&lt;/p&gt;
-</content><link href="/archives/解锁网易云音乐灰色歌单/" rel="alternate"/><published>2021-05-11T09:00:00+08:06</published></entry><entry><id>/archives/Quantumultx的一些操作/</id><title>Quantumultx的一些操作</title><updated>2022-02-07T13:36:05.625210+00:00</updated><author><name>leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
+</content><link href="/archives/解锁网易云音乐灰色歌单/" rel="alternate"/><published>2021-05-11T09:00:00+08:06</published></entry><entry><id>/archives/Quantumultx的一些操作/</id><title>Quantumultx的一些操作</title><updated>2022-02-10T17:21:09.612304+00:00</updated><author><name>leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
 &lt;h2&gt;界面操作&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;主要按钮，右下角小风车。&lt;/li&gt;
@@ -157,7 +78,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;以及天气等。&lt;/p&gt;
 &lt;h2&gt;boxjs&lt;/h2&gt;
 &lt;p&gt;远程管理，将定时任务的相关配置导入后即可远程出发定时任务。&lt;/p&gt;
-</content><link href="/archives/Quantumultx的一些操作/" rel="alternate"/><published>2021-05-22T10:00:00+08:06</published></entry><entry><id>/archives/那些年我使用过的猫砂/</id><title>那些年我使用过的猫砂</title><updated>2022-02-07T13:36:05.625179+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;今天就写自己用过的猫砂吧。
+</content><link href="/archives/Quantumultx的一些操作/" rel="alternate"/><published>2021-05-22T10:00:00+08:06</published></entry><entry><id>/archives/那些年我使用过的猫砂/</id><title>那些年我使用过的猫砂</title><updated>2022-02-10T17:21:09.612277+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;今天就写自己用过的猫砂吧。
 
 纯粹经验所得，没有那么些数据对比。所以不专业，但是贵在真实。&lt;/div&gt;&lt;h2&gt;个人猫砂更换习惯&lt;/h2&gt;
 &lt;p&gt;我是属于比较懒的人，所以是每天一铲（基本），一个月一换。&lt;/p&gt;
@@ -257,7 +178,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;嗯，在我不想用膨润土的everclean以后，就买了天净，也不想有n1了，就换了毛球殿下。&lt;/p&gt;
 &lt;p&gt;还没有用，用了来这里补充结果。&lt;/p&gt;
 &lt;p&gt;以上，就是我的猫砂经验。&lt;/p&gt;
-</content><link href="/archives/那些年我使用过的猫砂/" rel="alternate"/><published>2021-05-25T09:00:00+08:06</published></entry><entry><id>/archives/我的媒体播放库 libdrive/</id><title>我的媒体播放库 libdrive</title><updated>2022-02-07T13:36:05.625148+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+</content><link href="/archives/那些年我使用过的猫砂/" rel="alternate"/><published>2021-05-25T09:00:00+08:06</published></entry><entry><id>/archives/我的媒体播放库 libdrive/</id><title>我的媒体播放库 libdrive</title><updated>2022-02-10T17:21:09.612249+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Look at this beautiful website!&lt;/p&gt;
 &lt;p&gt;It's my &lt;a href="http://35.221.246.119:8000"&gt;media library&lt;/a&gt;!&lt;/p&gt;
 &lt;h2&gt;什么是Libdrive&lt;/h2&gt;
@@ -403,7 +324,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;/ul&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 &lt;p&gt;Down! Have fun!&lt;/p&gt;
-</content><link href="/archives/我的媒体播放库 libdrive/" rel="alternate"/><published>2021-06-24T09:00:00+08:06</published></entry><entry><id>/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/</id><title>读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法</title><updated>2022-02-07T13:36:05.625116+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;前言&lt;/h2&gt;
+</content><link href="/archives/我的媒体播放库 libdrive/" rel="alternate"/><published>2021-06-24T09:00:00+08:06</published></entry><entry><id>/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/</id><title>读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法</title><updated>2022-02-10T17:21:09.612220+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;前言&lt;/h2&gt;
 &lt;p&gt;我有虚假的洁癖和强迫症：&lt;/p&gt;
 &lt;p&gt;脑海中羡慕着电影《人潮汹涌》中刘德华家里的整洁，但实际上家里却是肖央家里那样的狗窝。&lt;/p&gt;
 &lt;p&gt;&lt;br/&gt;&lt;/p&gt;
@@ -504,7 +425,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;总之，你就是在感悟你的人生。&lt;/p&gt;
 &lt;p&gt;陷入对过去的执着，或者逃避对未来的不安，都会使你停下脚步犹豫不前。&lt;/p&gt;
 &lt;p&gt;人生从整理后开始改变！&lt;/p&gt;
-</content><link href="/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/" rel="alternate"/><published>2021-07-07T09:00:00+08:06</published></entry><entry><id>/archives/青岛行/</id><title>青岛行</title><updated>2022-02-07T13:36:05.625084+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;2021-08-31，这是我第一次去青岛的日子。去青岛的原因也很简单，因为喜欢的人在青岛。&lt;/p&gt;
+</content><link href="/archives/读近藤麻理惠《令人心动的人生整理魔法》总结出的收纳方法/" rel="alternate"/><published>2021-07-07T09:00:00+08:06</published></entry><entry><id>/archives/青岛行/</id><title>青岛行</title><updated>2022-02-10T17:21:09.612192+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;2021-08-31，这是我第一次去青岛的日子。去青岛的原因也很简单，因为喜欢的人在青岛。&lt;/p&gt;
 &lt;p&gt;说来也是挺可笑的，一个快30岁的男生，为了一个网恋的女孩，说走就走的奔向了青岛见面。听起来幼稚，不可理喻。&lt;/p&gt;
 &lt;p&gt;但是我知道，这一切都是值得的。&lt;/p&gt;
 &lt;h2&gt;在路上&lt;/h2&gt;
@@ -602,7 +523,7 @@ github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unloc
 &lt;p&gt;我与其他人相比，没什么优势，也是个平凡的人，不要天天想着自己一赚钱就能赚很多钱。&lt;/p&gt;
 &lt;p&gt;赚钱以后就可以解决日照到深圳的烦恼，就可以让lxy过上好日子，就可以让他们家人也过上好日子。&lt;/p&gt;
 &lt;p&gt;简单的就说这么多，该如何工作以及做什么，还需要耐心思考。&lt;/p&gt;
-</content><link href="/archives/青岛行/" rel="alternate"/><published>2021-09-06T11:20:00+08:06</published></entry><entry><id>/archives/如何让时间变长/</id><title>如何让时间变长</title><updated>2022-02-07T13:36:05.625047+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;基于最近每日早晨的运动，今日一时间脑海里蹦出了这个论题，顿时文泉汹涌，滔滔不绝，迫不及待的赶紧回家书写一番&lt;/div&gt;&lt;p&gt;有时我们经常会感叹时间过得飞快，特别是对于我来说，3年时间，或者讲的细一点，10年时间一晃即过。&lt;/p&gt;
+</content><link href="/archives/青岛行/" rel="alternate"/><published>2021-09-06T11:20:00+08:06</published></entry><entry><id>/archives/如何让时间变长/</id><title>如何让时间变长</title><updated>2022-02-10T17:21:09.612164+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;div class="notice"&gt;基于最近每日早晨的运动，今日一时间脑海里蹦出了这个论题，顿时文泉汹涌，滔滔不绝，迫不及待的赶紧回家书写一番&lt;/div&gt;&lt;p&gt;有时我们经常会感叹时间过得飞快，特别是对于我来说，3年时间，或者讲的细一点，10年时间一晃即过。&lt;/p&gt;
 &lt;p&gt;这10年来，无论是身体还是学识，都没有得到一丝进步，甚至比起之前有极大的退步。10年时间一瞬即逝，但这可是10年啊，这不是一个月，这不是一年，这是十年，为何十年一晃即过，匆匆流去，却没有留下一丁点痕迹呢？&lt;/p&gt;
 &lt;p&gt;为何时间会变快？最近流行的一个词就能够完美的解释这一现象。
 $$**沉浸**$$
@@ -626,7 +547,7 @@ $$**沉浸**$$
 &lt;/ul&gt;
 &lt;p&gt;等等等等，这些并不是笔记内容，也不是WIKI内容，这些是我的感悟。这些是我生活的点点滴滴，当我哪天回过头看时，我可以看自己是否做到了自己曾经说过的话，我可以看自己曾经学到的东西是否可以传输给他人。&lt;/p&gt;
 &lt;p&gt;最重要的是，我可以把LXY写在我的每一页里。&lt;/p&gt;
-</content><link href="/archives/如何让时间变长/" rel="alternate"/><published>2021-09-10T00:00:00+08:06</published></entry><entry><id>/archives/wodediyigegongyi/</id><title>不以物喜，不以己悲</title><updated>2022-02-07T13:36:05.624974+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;许久没有更新了，连lxy都吐槽我了。&lt;/p&gt;
+</content><link href="/archives/如何让时间变长/" rel="alternate"/><published>2021-09-10T00:00:00+08:06</published></entry><entry><id>/archives/wodediyigegongyi/</id><title>不以物喜，不以己悲</title><updated>2022-02-10T17:21:09.612134+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;许久没有更新了，连lxy都吐槽我了。&lt;/p&gt;
 &lt;p&gt;最近看抖音，学人家弄了个什么青少年模式。&lt;/p&gt;
 &lt;p&gt;得，lxy现在成为我监护人了。&lt;/p&gt;
 &lt;p&gt;现如今干个什么都得经国她同意，包括出去吃饭扫码附款。&lt;/p&gt;
@@ -666,7 +587,7 @@ $$**沉浸**$$
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;p&gt;愿未来越来也好，我也坚信着&lt;/p&gt;
-</content><link href="/archives/wodediyigegongyi/" rel="alternate"/><published>2021-11-05T11:45:00+08:06</published></entry><entry><id>/archives/2022happy/</id><title>2022开春大吉</title><updated>2022-02-07T13:36:05.624905+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;今天初七，2022年到了。
+</content><link href="/archives/wodediyigegongyi/" rel="alternate"/><published>2021-11-05T11:45:00+08:06</published></entry><entry><id>/archives/2022happy/</id><title>2022开春大吉</title><updated>2022-02-10T17:21:09.612101+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;今天初七，2022年到了。
 这里有一份迟来的2021年总结。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;2021总结 ✔&lt;/h2&gt;
@@ -840,4 +761,34 @@ $$**沉浸**$$
 &lt;li&gt;打造自己的跑步主页&lt;/li&gt;
 &lt;li&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content><link href="/archives/2022happy/" rel="alternate"/><published>2022-02-07T11:20:00+08:06</published></entry></feed>
+</content><link href="/archives/2022happy/" rel="alternate"/><published>2022-02-07T11:20:00+08:06</published></entry><entry><id>/archives/人会死两次/</id><title>人会死两次</title><updated>2022-02-10T17:21:09.612038+00:00</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;blockquote&gt;&lt;p&gt;人会死两次，一次是肉体死亡，另一次是被人忘记&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;开年第一天上班的路上，看了一篇文章。
+文章来源于yihong0618的GITHUB。&lt;a href="https://laike9m.com/blog/people-die-but-long-live-github,122/"&gt;People Die,But long live GITHUB&lt;/a&gt;
+文章大致意思是，GITHUB的核心是内容及历史，而其他任何产品都是为了基于流量。&lt;/p&gt;
+&lt;p&gt;如果100年以后，我想让世界上还存在我的痕迹，我应该把他们留在哪里？
+我的微博？我的公众号？
+我的谷歌网盘？
+我的notion笔记？
+我的TWITTER?我的FACEBOOK？
+仿佛以上所有公司都无法活那么久。现如今人们为什么那么喜欢NAS，是因为数据的安全性，除了隐私性意外，更是遗失性。&lt;/p&gt;
+&lt;p&gt;我之前一直不清楚，自己拾掇博客，wiki，域名都是为了什么。现在清晰了，原来都是为了记录。我想留下一些什么，无论是现如今的展示，还是对未来说，这就是我活过的痕迹。&lt;/p&gt;
+&lt;p&gt;抑郁症时期，思前想后所有都是四个字，死了算了。
+大不了一死竟然成了那时我活下去的唯一理由。
+既然活过来了，那么不如让我们一直活下去吧。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;RUNNING_PAGE&lt;/h2&gt;
+&lt;p&gt;感谢yihong0618的&lt;a href="[yihong0618/running_page: Make your own running home page (github.com"&gt;running_page&lt;/a&gt;](&lt;a href="https://github.com/yihong0618/running_page)).我也建立了自己的第一个跑步系统。或许这是我坚持跑步的起点，正如NRC所说，你已经开始跑步了不是吗？"&gt;https://github.com/yihong0618/running_page)).我也建立了自己的第一个跑步系统。或许这是我坚持跑步的起点，正如NRC所说，你已经开始跑步了不是吗？&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;MAVERICK&lt;/h2&gt;
+&lt;p&gt;我的博客是基于GITHUB ACTION自动部署的MAVERICK，当我看见&lt;a href="[如何用一个仓库记录自己的一年 · Issue #209 · yihong0618/gitblog (github.com"&gt;yihong0618的GITBLOG&lt;/a&gt;](&lt;a href="https://github.com/yihong0618/gitblog/issues/209))时，我想将两者结合，MAVERICK作为前端，GITBLOG作为后端。"&gt;https://github.com/yihong0618/gitblog/issues/209))时，我想将两者结合，MAVERICK作为前端，GITBLOG作为后端。&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;我的数字&lt;/h2&gt;
+&lt;p&gt;GITBLOG还有一项功能，是他能够基于IOS的捷径功能，自动更新GITHUB的REDME。自动帮助我们记录每天重要的学习及生活。&lt;/p&gt;
+&lt;p&gt;这也是我接下来要做的事情。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;最后&lt;/h2&gt;
+&lt;p&gt;人有两次死亡，一次是肉体死亡，一次是被人们遗忘。
+幸好互联网有记忆。&lt;/p&gt;
+</content><link href="/archives/人会死两次/" rel="alternate"/><published>2022-02-10T11:20:00+08:06</published></entry></feed>
