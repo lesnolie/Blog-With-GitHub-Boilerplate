@@ -2,7 +2,7 @@
 layout: post
 title:+new
 slug:
-date:+<module 'time' (built-in)>
+date:+2022-02-11
 status: publish
 author: Leslie
 categories:
@@ -38,3 +38,4 @@ def repo
 编辑
 再试
 放弃label
+时间没有引用
