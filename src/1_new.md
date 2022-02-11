@@ -2,7 +2,7 @@
 layout: post
 title: new
 slug:
-date: 2022-02-11
+date: <module 'time' (built-in)>
 status: publish
 author: Leslie
 categories:
@@ -42,3 +42,4 @@ def repo
 end
 为何会有+号
 为什么添加精确不到分钟
+再试试

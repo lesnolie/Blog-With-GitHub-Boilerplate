@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-02-11T11:11:32.740031+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>new</title><updated>2022-02-11T11:11:33.168204+00:00</updated><content type="html"><![CDATA[<p>-更改
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-02-11T11:52:08.065671+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>new</title><updated>2022-02-11T11:52:08.360487+00:00</updated><content type="html"><![CDATA[<p>-更改
 -消除空格
 -消除括号
 -增加大括号
@@ -25,5 +25,6 @@ def repo
 时间没有引用
 end
 为何会有+号
-为什么添加精确不到分钟</p>
+为什么添加精确不到分钟
+再试试</p>
 ]]></content><link href="https://github.com/lesnolie/Marverick/issues/1" rel="alternate"/><published>2022-02-11T03:58:02+00:00</published></entry></feed>
