@@ -4,7 +4,6 @@ import os
 import re
 import time
 
-from datetime import datetime
 from marko.ext.gfm import gfm as marko
 from github import Github
 from feedgen.feed import FeedGenerator
@@ -280,18 +279,17 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
     md_name = os.path.join(
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
-    timenow = datetime.now().strftime('%Y-%m-%d')
     with open(md_name, "w") as f:
         f.write(
         "---"+"\n"+
         "layout: post"+"\n"+
-        "title:" + f"[{issue.title}]"+"\n"+
+        "title:" + f"{issue.title}"+"\n"+
         "slug: "+"\n"+
-        "date: "+ timenow +"\n"+
+        "date: "+ {time} +"\n"+
         "status: publish"+"\n"+
         "author: Leslie"+"\n"+
         "categories: "+"\n"+
-          "-"+ label.name +"\n"+
+          "-"+ {label.name} +"\n"+
         "tags:"+"\n"+
         "  - "+"\n"+
         "  - "+"\n"+
