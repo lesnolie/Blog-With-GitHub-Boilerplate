@@ -276,6 +276,7 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     
     
 def save_issue(issue, me, dir_name=BACKUP_DIR):
+    labels = get_repo_labels(repo)
     md_name = os.path.join(
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
