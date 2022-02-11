@@ -276,12 +276,12 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     
     
 def save_issue(issue, me, dir_name=BACKUP_DIR):
-    time = format_time(issue.created_at)
+    time = format_time(issue.created_at.strftime("%Y-%m-%dT%H"))
     md_name = os.path.join(
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
     with open(md_name, "w") as f:
-        f.write(f"---\nlayout: post\ntitle:+{issue.title}\nslug:\ndate:+{time}\nstatus: publish\nauthor: Leslie\ncategories:\n-\ntags:\n-\n-\nexcerpt:\n---\n\n")
+        f.write(f"---\nlayout: post\ntitle:{issue.title}\nslug:\ndate:{time}\nstatus: publish\nauthor: Leslie\ncategories:\n-\ntags:\n-\n-\nexcerpt:\n---\n\n")
        
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
         f.write(issue.body)
