@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/blog</id><title>RSS feed of lesnolie's blog</title><updated>2022-02-11T03:44:48.380393+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/blog"/><link href="https://raw.githubusercontent.com/lesnolie/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/blog/issues/3</id><title>test</title><updated>2022-02-11T03:44:48.651348+00:00</updated><content type="html"><![CDATA[<p>test</p>
+]]></content><link href="https://github.com/lesnolie/blog/issues/3" rel="alternate"/><category term="开发笔记"/><published>2022-02-11T03:42:24+00:00</published></entry><entry><id>https://github.com/lesnolie/blog/issues/2</id><title>test</title><updated>2022-02-11T03:44:48.799700+00:00</updated><content type="html"><![CDATA[<p>test</p>
+]]></content><link href="https://github.com/lesnolie/blog/issues/2" rel="alternate"/><published>2022-02-10T02:37:54+00:00</published></entry><entry><id>https://github.com/lesnolie/blog/issues/1</id><title>利用GITBLOG和MAVERICK制作博客</title><updated>2022-02-11T03:44:48.930828+00:00</updated><content type="html"><![CDATA[<ul>
+<li>文件夹出错，第一次修改</li>
+<li>content.py出错。哪里出问题了呢</li>
+<li>学会了链接repo，但是如何链接最新呢</li>
+<li>最后一次测试，不行直接睡觉</li>
+<li>我要睡觉！</li>
+<li>早，第一次测试，小问题，come on</li>
+</ul>
+]]></content><link href="https://github.com/lesnolie/blog/issues/1" rel="alternate"/><published>2022-02-10T02:33:59+00:00</published></entry></feed>
