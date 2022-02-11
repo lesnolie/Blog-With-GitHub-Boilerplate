@@ -11,7 +11,8 @@ from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
 MD_HEAD = """## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
+My personal blog using issues & GitHub Actions and Maverick .
+![my site](https://blog.ilxyz.cn/logo.jpg)
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
@@ -285,13 +286,13 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         f.write(
         "---"+"\n"+
         "layout: post"+"\n"+
-        "title: [{issue.title}]"+"\n"+
+        "title:" [{issue.title}]+"\n"+
         "slug: "+"\n"+
-        "date: [{timenow}]"+"\n"+
+        "date: "[{timenow}]+"\n"+
         "status: publish"+"\n"+
         "author: Leslie"+"\n"+
         "categories: "+"\n"+
-        "  - (label.name)"+"\n"+
+          - (label.name)+"\n"+
         "tags:"+"\n"+
         "  - "+"\n"+
         "  - "+"\n"+
