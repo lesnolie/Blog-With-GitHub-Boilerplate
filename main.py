@@ -286,13 +286,13 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         f.write(
         "---"+"\n"+
         "layout: post"+"\n"+
-        "title:" [{issue.title}]+"\n"+
+        "title:" issue.title+"\n"+
         "slug: "+"\n"+
-        "date: "[{timenow}]+"\n"+
+        "date: "timenow+"\n"+
         "status: publish"+"\n"+
         "author: Leslie"+"\n"+
         "categories: "+"\n"+
-          - (label.name)+"\n"+
+          - label.name+"\n"+
         "tags:"+"\n"+
         "  - "+"\n"+
         "  - "+"\n"+
