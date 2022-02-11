@@ -275,13 +275,12 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
     for issue in to_generate_issues:
         save_issue(issue, me, dir_name)
     
-    timenow = datetime.now().strftime('%Y-%m-%d')
-
-
+    
 def save_issue(issue, me, dir_name=BACKUP_DIR):
     md_name = os.path.join(
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
+    timenow = datetime.now().strftime('%Y-%m-%d')
     with open(md_name, "w") as f:
         f.write(
         "---"+"\n"+
