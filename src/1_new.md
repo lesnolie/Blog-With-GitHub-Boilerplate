@@ -1,18 +1,40 @@
 ---
 layout: post
-title: [{issue.title}]
-slug: 
-date: [{timenow}]
+title:+new
+slug:
+date:+<module 'time' (built-in)>
 status: publish
 author: Leslie
-categories: 
-  - (label.name)
+categories:
+-
 tags:
-  - 
-  - 
-excerpt: 
+-
+-
+excerpt:
 ---
 
 # [new](https://github.com/lesnolie/Marverick/issues/1)
 
-test
+-更改
+-消除空格
+-消除括号
+-增加大括号
+-f
+-修改错误
+-时间
+-没有定义
+str not set
+删除
+删除f
+增加双引号
+换行符
+去掉最后一个换行符号
+去掉空格
+最后一个换行加引号
+end
+label
+def repo
+调换位置
+编辑
+再试
+放弃label

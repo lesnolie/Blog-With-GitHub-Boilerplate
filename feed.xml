@@ -1,3 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-02-11T04:00:40.938569+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>new</title><updated>2022-02-11T04:00:41.209429+00:00</updated><content type="html"><![CDATA[<p>test</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-02-11T10:39:08.259960+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>new</title><updated>2022-02-11T10:39:08.559486+00:00</updated><content type="html"><![CDATA[<p>-更改
+-消除空格
+-消除括号
+-增加大括号
+-f
+-修改错误
+-时间
+-没有定义
+str not set
+删除
+删除f
+增加双引号
+换行符
+去掉最后一个换行符号
+去掉空格
+最后一个换行加引号
+end
+label
+def repo
+调换位置
+编辑
+再试
+放弃label</p>
 ]]></content><link href="https://github.com/lesnolie/Marverick/issues/1" rel="alternate"/><published>2022-02-11T03:58:02+00:00</published></entry></feed>
