@@ -286,7 +286,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         f.write(
         "---"+"\n"+
         "layout: post"+"\n"+
-        "title:" {issue.title}+"\n"+
+        "title:" f"[{issue.title}]+"\n"+
         "slug: "+"\n"+
         "date: "timenow+"\n"+
         "status: publish"+"\n"+
