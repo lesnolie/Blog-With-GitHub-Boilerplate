@@ -1,5 +1,6 @@
 ## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
+My personal blog using issues & GitHub Actions and Maverick .
+![my site](https://blog.ilxyz.cn/logo.jpg)
 [RSS Feed](https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml)
 ## 友情链接
 | Name | Link | Desc | 
