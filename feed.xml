@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-02-12T01:42:46.127672+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>new</title><updated>2022-02-12T01:42:46.254461+00:00</updated><content type="html"><![CDATA[<p>-更改
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-02-12T02:02:02.493225+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>new</title><updated>2022-02-12T02:02:02.626201+00:00</updated><content type="html"><![CDATA[<p>-更改
 -消除空格
 -消除括号
 -增加大括号
@@ -33,5 +33,6 @@ end？
 必须要slug
 不要catalog了
 build问题，不知道是哪里有问题
-slug后面出现空格</p>
+slug后面出现空格
+没有可以不写，写了一定要有</p>
 ]]></content><link href="https://github.com/lesnolie/Marverick/issues/1" rel="alternate"/><published>2022-02-11T03:58:02+00:00</published></entry></feed>

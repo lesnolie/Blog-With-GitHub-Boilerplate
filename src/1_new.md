@@ -6,10 +6,10 @@ date: 2022-02-11 08:00
 status: publish
 author: Leslie
 categories: 
-  - 
+  - stand 
 tags:
-  - 
-  - 
+  - stand 
+  - stand 
 excerpt: 
 ---
 
@@ -50,3 +50,4 @@ end？
 不要catalog了
 build问题，不知道是哪里有问题
 slug后面出现空格
+没有可以不写，写了一定要有
