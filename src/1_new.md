@@ -1,16 +1,16 @@
 ---
 layout: post
 title: new
-slug:
+slug: 
 date: 2022-02-11 08:00
 status: publish
 author: Leslie
 categories:
--
+  -
 tags:
--
--
-excerpt:
+  - 
+  - 
+excerpt: 
 ---
 
 # [new](https://github.com/lesnolie/Marverick/issues/1)
@@ -45,3 +45,4 @@ end
 再试试
 跑步去
 end？
+添加空格，调整格式
