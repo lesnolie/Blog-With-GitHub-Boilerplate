@@ -13,8 +13,6 @@ tags:
 excerpt: 
 ---
 
-# [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)
-
 天呐，我又开始折腾博客了。
 自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。
 这解决了我两个问题：
@@ -42,3 +40,5 @@ end，愉快的工作了。
 接下来把其他记录添加上来，虽然我已经30岁了，但我不服老。
 我对自己的人生总结，最难的时光挺过去没死，之后都是大好时光。
 我爱lxy哟！
+
+[我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)
