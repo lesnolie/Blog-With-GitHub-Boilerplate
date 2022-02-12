@@ -1,47 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 10 Feb 2022 17:21:09 +0806</lastBuildDate><pubDate>Thu, 10 Feb 2022 17:21:09 +0806</pubDate><item><title>解锁网易云音乐灰色歌单</title><link>/archives/解锁网易云音乐灰色歌单/</link><description>&lt;h2&gt;建立服务器&lt;/h2&gt;
-&lt;p&gt;本来使用的是yesplaymusic，因为其可以全网解锁音乐，但是最近unblockneteasemusic出错了，不能听灰色歌曲。
-github人性化的给我推荐了&lt;a href="https://github.com/meng-chuan/Unlock-netease-cloud-music"&gt;meng-chuan/Unlock-netease-cloud-music&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1.提前把项目源码下载到服务器上，然后解压&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;项目源码下载地址：&lt;a href="https://lesskiss.lanzoui.com/b00oj1s2f"&gt;https://lesskiss.lanzoui.com/b00oj1s2f&lt;/a&gt; 密码:6666&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;2.服务器上安装宝塔软件：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;bt宝塔页面，软件管理处搜索pm2，安装。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;点击node版本，安装。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;添加项目&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://imgtu.com/i/g8H2tO"&gt;&lt;figure style="flex: 77.78958554729012" &gt;&lt;img loading="lazy" width="1464" height="941" src="https://camo.githubusercontent.com/71d7212568470a775ed7916821031c690c186eefbd344a6f279eb6abd89ce6a4/68747470733a2f2f7a332e617831782e636f6d2f323032312f30352f30382f67384832744f2e706e67" /&gt;&lt;figcaption&gt;g8H2tO.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;开放端口：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://imgtu.com/i/g8qiqI"&gt;&lt;figure style="flex: 273.0544747081712" &gt;&lt;img loading="lazy" width="2807" height="514" src="https://camo.githubusercontent.com/d59165a16621d9888a690782496fdcc9cd4d44f9fc3e36f899a00cbe29ba9d53/68747470733a2f2f7a332e617831782e636f6d2f323032312f30352f30382f6738716971492e706e67" /&gt;&lt;figcaption&gt;g8qiqI.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;win客户端设置&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://camo.githubusercontent.com/f0b7b85bce7817497521fce736a10e39e654806b70e118eca71755d8001be648/68747470733a2f2f7a332e617831782e636f6d2f323032312f30352f30382f6738354a6a782e706e67"&gt;&lt;figure style="flex: 76.26865671641791" &gt;&lt;img loading="lazy" width="2044" height="1340" src="https://camo.githubusercontent.com/f0b7b85bce7817497521fce736a10e39e654806b70e118eca71755d8001be648/68747470733a2f2f7a332e617831782e636f6d2f323032312f30352f30382f6738354a6a782e706e67" /&gt;&lt;figcaption&gt;04GPKA.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;打开自己电脑上的网易云音乐客户端，进入设置页面，设置自定义代理：&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;自定义代理 ：填写服务器地址和端口号&lt;/li&gt;
-&lt;li&gt;代理服务器地址：填你自己的服务器ip或者绑定服务器的域名&lt;/li&gt;
-&lt;li&gt;代理服务器端口：52000&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;ios端设置&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;安装证书&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;点击链接：&lt;a href="https://raw.githubusercontent.com/nondanee/UnblockNeteaseMusic/master/ca.crt"&gt;https://raw.githubusercontent.com/nondanee/UnblockNeteaseMusic/master/ca.crt&lt;/a&gt; 添加证书&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;手动打开证书&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;设置 &amp;gt; 通用 &amp;gt; 关于本机 &amp;gt; 证书信任设置&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;配置代理&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;选择手动，输入服务器和端口号&lt;/p&gt;
-&lt;p&gt;mac终端还不知道如何解决，安卓端有一个app可以解决，也可以通过代理解决，但是没有安卓手机，朋友听我指挥没成功，在这里就不分享了。&lt;/p&gt;
-&lt;p&gt;以上就是现阶段网易云全解锁的方法。&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/解锁网易云音乐灰色歌单/</guid><pubDate>Tue, 11 May 2021 09:00:00 +0806</pubDate></item><item><title>Quantumultx的一些操作</title><link>/archives/Quantumultx的一些操作/</link><description>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 12 Feb 2022 02:02:30 +0806</lastBuildDate><pubDate>Sat, 12 Feb 2022 02:02:30 +0806</pubDate><item><title>Quantumultx的一些操作</title><link>/archives/Quantumultx的一些操作/</link><description>&lt;div class="notice"&gt;接触Quantumult X已有3日，从0到1慢慢摸索出一些经验&lt;/div&gt;&lt;h1&gt;Quantumult X&lt;/h1&gt;
 &lt;h2&gt;界面操作&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;主要按钮，右下角小风车。&lt;/li&gt;
@@ -791,4 +749,41 @@ $$**沉浸**$$
 &lt;h2&gt;最后&lt;/h2&gt;
 &lt;p&gt;人有两次死亡，一次是肉体死亡，一次是被人们遗忘。
 幸好互联网有记忆。&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/人会死两次/</guid><pubDate>Thu, 10 Feb 2022 11:20:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/人会死两次/</guid><pubDate>Thu, 10 Feb 2022 11:20:00 +0806</pubDate></item><item><title>new</title><link>/archives/new/</link><description>&lt;h1&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/1"&gt;new&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;-更改
+-消除空格
+-消除括号
+-增加大括号
+-f
+-修改错误
+-时间
+-没有定义
+str not set
+删除
+删除f
+增加双引号
+换行符
+去掉最后一个换行符号
+去掉空格
+最后一个换行加引号
+end
+label
+def repo
+调换位置
+编辑
+再试
+放弃label
+时间没有引用
+end
+为何会有+号
+为什么添加精确不到分钟
+再试试
+跑步去
+end？
+添加空格，调整格式
+必须要slug
+不要catalog了
+build问题，不知道是哪里有问题
+slug后面出现空格
+没有可以不写，写了一定要有&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/new/</guid><pubDate>Fri, 11 Feb 2022 08:00:00 +0806</pubDate></item></channel></rss>
