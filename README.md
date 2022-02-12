@@ -6,4 +6,4 @@ My personal blog using issues & GitHub Actions and Maverick .
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
-- [new](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
+- [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
