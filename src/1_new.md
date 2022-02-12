@@ -1,7 +1,7 @@
 ---
 layout: post
 title: new
-slug: new 
+slug: new
 date: 2022-02-11 08:00
 status: publish
 author: Leslie
@@ -49,3 +49,4 @@ end？
 必须要slug
 不要catalog了
 build问题，不知道是哪里有问题
+slug后面出现空格
