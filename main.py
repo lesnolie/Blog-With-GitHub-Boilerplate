@@ -280,7 +280,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
         dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
     )
     with open(md_name, "w") as f:
-        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {issue.title} \ndate: {time} 08:00\nstatus: publish\nauthor: Leslie\ncategories:\n  - \ntags:\n  - \n  - \nexcerpt: \n---\n\n")
+        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {issue.title} \ndate: {time} 08:00\nstatus: publish\nauthor: Leslie\ncategories: \n  - \ntags:\n  - \n  - \nexcerpt: \n---\n\n")
        
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
         f.write(issue.body)
