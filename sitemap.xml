@@ -19,6 +19,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/我终于弄好了gitblog/</loc>
+    <lastmod>2022-02-11</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/人会死两次/</loc>
     <lastmod>2022-02-10</lastmod>
     <changefreq>always</changefreq>
