@@ -1,12 +1,12 @@
 ---
 layout: post
 title: new
-slug: 
+slug: new 
 date: 2022-02-11 08:00
 status: publish
 author: Leslie
 categories:
-  -
+  - 
 tags:
   - 
   - 
@@ -46,3 +46,5 @@ end
 跑步去
 end？
 添加空格，调整格式
+必须要slug
+不要catalog了
