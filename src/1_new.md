@@ -5,7 +5,7 @@ slug: new
 date: 2022-02-11 08:00
 status: publish
 author: Leslie
-categories:
+categories: 
   - 
 tags:
   - 
@@ -48,3 +48,4 @@ end？
 添加空格，调整格式
 必须要slug
 不要catalog了
+build问题，不知道是哪里有问题
