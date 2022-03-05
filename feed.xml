@@ -1,11 +1,44 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-02-18T17:31:05.498951+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-02-18T17:31:05.790600+00:00</updated><content type="html"><![CDATA[<ul>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-03-05T17:12:36.564700+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/3</id><title>事与愿违</title><updated>2022-03-05T17:12:36.789319+00:00</updated><content type="html"><![CDATA[<p>事与愿违，这是去年我记得最清楚的一句话。</p>
+<p>与之相同的是日本某大学校长新生入学的演讲:恭喜你们，你们要进入努力也不一定有回报的成人世界了。</p>
+<p><img src="https://user-images.githubusercontent.com/81410185/156892302-9e2acee6-6910-40ce-8d1b-bc8151058b07.jpeg" alt="image" /></p>
+<p>士兵突击的班长曾说，生活就是一件事接着一件事，处理好了这件事，就要准备处理下件事。我对这句话体会特别深刻:
+1月份的物流，莫名其妙的多了仓储费，内点费，还多了莫名其妙的税金。并且物流公司也太不专业了，任何前提都不提醒。</p>
+<p>最终，导致货物因为缺货权重下降严重，在最需要货的时候没有货了。</p>
+<p>还要多付8000莫名其妙的钱。</p>
+<p>人到中年，我早已不怨天尤人，早就学会了事情的发生肯定是因为自己学艺不精</p>
+<ul>
+<li>我不懂税金，不懂发票填写</li>
+<li>我没有更好的物流渠道</li>
+</ul>
+<p>与其抱怨对方，不如自己加把油，吃一堑长一智，要么换个物流，一个能耐心教会我发票如何填写的物流，要么自己搞明白。</p>
+<p>总而言之，我不是天选之子，没有逆天的运气。</p>
+<hr />
+<p>老婆没有考上省考，心情很down。
+其实我也很down，替她down。
+我常对她说，事情的结果不重要，只要我们努力过。
+可是，当我们是当事人时，又可以放过自己吗？
+yihong0618在播客里面，主持人问他，如果有一天，我没去跑步，没坚持下来，该怎么办，应该内疚很久吗？
+yihong0618说，为什么要内疚，要学会原谅自己。</p>
+<p>我们来到世界上，应当努力地享受生活，而不是为了一个目标蹉跎的活着。
+一眼望到头的生活，麻木不仁。</p>
+<p>谷爱凌只是在享受滑雪的乐趣，她还享受音乐，学习，数学，吃等等等等。</p>
+<p>此时此刻，我想做这件事，于是我就去做了。
+此时此刻，我想跑步，于是我就跑了。
+毕竟，我已经开始跑步了不是吗？</p>
+<p>所以，如果我在她身边，我只会跟她抱抱，然后告诉她，总会事与愿违。
+但是我对你不会。</p>
+<hr />
+<p>所以，物流上的迷茫，促销上的失误，货卖不出去的烦恼，以及15万的压力。
+没关系，如果是排比句，我和谷爱凌的排比句长度也差不多。</p>
+<p>毕竟，事与愿违是常态，一帆风顺是愿景。</p>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/3" rel="alternate"/><published>2022-03-05T17:10:05+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-03-05T17:12:36.920798+00:00</updated><content type="html"><![CDATA[<ul>
 <li>跑步，争取打卡80%以上。</li>
 <li>瘦，及格线150，良好140，满分135.</li>
 <li>每月一本书，要求不高。</li>
 <li>挣钱，10万</li>
 </ul>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-02-18T17:31:05.937080+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><category term="生活琐事"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-03-05T17:12:37.034728+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。
 自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。
 这解决了我两个问题：</p>
 <ol>

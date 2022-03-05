@@ -6,5 +6,8 @@ My personal blog using issues & GitHub Actions and Maverick .
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [事与愿违](https://github.com/lesnolie/Marverick/issues/3)--2022-03-05
 - [2022的二三事（OKR）](https://github.com/lesnolie/Marverick/issues/2)--2022-02-12
 - [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
+## 生活琐事
+- [2022的二三事（OKR）](https://github.com/lesnolie/Marverick/issues/2)--2022-02-12
