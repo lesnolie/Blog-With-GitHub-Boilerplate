@@ -13,8 +13,8 @@ tags:
 excerpt: 
 ---
 
-天呐，我又开始折腾博客了。
-自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。
+天呐，我又开始折腾博客了。  
+自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。  
 这解决了我两个问题：
 1. 不用每次git clone我的项目然后再Push了，极大的缩短了捷径，以后我写文章直接来github写就可以了。
 2. 本来想用notion做一个类似的系统，但是不会，没办法，我没学过代码，全靠摸索。
@@ -29,16 +29,17 @@ excerpt:
 ---
 ## you will die but github long live.
 
-这两天其实我一直在想一个问题，使用github最大的因素是因为github活得久吗？后来我思前想后，觉得不是的。
+这两天其实我一直在想一个问题，使用github最大的因素是因为github活得久吗？后来我思前想后，觉得不是的。  
 **使用github最大的因素是因为他简单。**
-我突然理解为什么程序员都是直男了，因为我们都是以结果为导向的，结果驱动过程。什么hexo，jyll，notion-blog，vercel，花里胡哨的。有那闲工夫，我就使用github不久好了吗？？？
+我突然理解为什么程序员都是直男了，因为我们都是以结果为导向的，结果驱动过程。什么hexo，jyll，notion-blog，vercel，花里胡哨的。有那闲工夫，我就使用github不久好了吗？？？  
 也可以很美呀。
 
 ---
 
-end，愉快的工作了。
-接下来把其他记录添加上来，虽然我已经30岁了，但我不服老。
-我对自己的人生总结，最难的时光挺过去没死，之后都是大好时光。
-我爱lxy哟！
+end，愉快的工作了。  
+接下来把其他记录添加上来，虽然我已经30岁了，但我不服老。  
+我对自己的人生总结，最难的时光挺过去没死，之后都是大好时光。  
+我爱lxy哟！  
 
 [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)
+

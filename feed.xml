@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-03-05T17:12:36.564700+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/3</id><title>事与愿违</title><updated>2022-03-05T17:12:36.789319+00:00</updated><content type="html"><![CDATA[<p>事与愿违，这是去年我记得最清楚的一句话。</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-03-11T08:25:48.478433+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/3</id><title>事与愿违</title><updated>2022-03-11T08:25:48.820511+00:00</updated><content type="html"><![CDATA[<p>事与愿违，这是去年我记得最清楚的一句话。</p>
 <p>与之相同的是日本某大学校长新生入学的演讲:恭喜你们，你们要进入努力也不一定有回报的成人世界了。</p>
 <p><img src="https://user-images.githubusercontent.com/81410185/156892302-9e2acee6-6910-40ce-8d1b-bc8151058b07.jpeg" alt="image" /></p>
 <p>士兵突击的班长曾说，生活就是一件事接着一件事，处理好了这件事，就要准备处理下件事。我对这句话体会特别深刻:
@@ -32,14 +32,14 @@ yihong0618说，为什么要内疚，要学会原谅自己。</p>
 <p>所以，物流上的迷茫，促销上的失误，货卖不出去的烦恼，以及15万的压力。
 没关系，如果是排比句，我和谷爱凌的排比句长度也差不多。</p>
 <p>毕竟，事与愿违是常态，一帆风顺是愿景。</p>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/3" rel="alternate"/><published>2022-03-05T17:10:05+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-03-05T17:12:36.920798+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/3" rel="alternate"/><category term="生活琐事"/><published>2022-03-05T17:10:05+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-03-11T08:25:49.005359+00:00</updated><content type="html"><![CDATA[<ul>
 <li>跑步，争取打卡80%以上。</li>
 <li>瘦，及格线150，良好140，满分135.</li>
 <li>每月一本书，要求不高。</li>
 <li>挣钱，10万</li>
 </ul>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><category term="生活琐事"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-03-05T17:12:37.034728+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。
-自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><category term="生活琐事"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-03-11T08:25:49.185465+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。<br />
+自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。<br />
 这解决了我两个问题：</p>
 <ol>
 <li>不用每次git clone我的项目然后再Push了，极大的缩短了捷径，以后我写文章直接来github写就可以了。</li>
@@ -53,13 +53,13 @@ yihong0618说，为什么要内疚，要学会原谅自己。</p>
 </ul>
 <hr />
 <h2>you will die but github long live.</h2>
-<p>这两天其实我一直在想一个问题，使用github最大的因素是因为github活得久吗？后来我思前想后，觉得不是的。
+<p>这两天其实我一直在想一个问题，使用github最大的因素是因为github活得久吗？后来我思前想后，觉得不是的。<br />
 <strong>使用github最大的因素是因为他简单。</strong>
-我突然理解为什么程序员都是直男了，因为我们都是以结果为导向的，结果驱动过程。什么hexo，jyll，notion-blog，vercel，花里胡哨的。有那闲工夫，我就使用github不久好了吗？？？
+我突然理解为什么程序员都是直男了，因为我们都是以结果为导向的，结果驱动过程。什么hexo，jyll，notion-blog，vercel，花里胡哨的。有那闲工夫，我就使用github不久好了吗？？？<br />
 也可以很美呀。</p>
 <hr />
-<p>end，愉快的工作了。
-接下来把其他记录添加上来，虽然我已经30岁了，但我不服老。
-我对自己的人生总结，最难的时光挺过去没死，之后都是大好时光。
-我爱lxy哟！</p>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/1" rel="alternate"/><published>2022-02-11T03:58:02+00:00</published></entry></feed>
+<p>end，愉快的工作了。<br />
+接下来把其他记录添加上来，虽然我已经30岁了，但我不服老。<br />
+我对自己的人生总结，最难的时光挺过去没死，之后都是大好时光。<br />
+我爱lxy哟！  </p>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/1" rel="alternate"/><category term="开发笔记"/><published>2022-02-11T03:58:02+00:00</published></entry></feed>
