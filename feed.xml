@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-03-11T08:25:48.478433+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/3</id><title>事与愿违</title><updated>2022-03-11T08:25:48.820511+00:00</updated><content type="html"><![CDATA[<p>事与愿违，这是去年我记得最清楚的一句话。</p>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-03-11T09:04:17.423112+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/3</id><title>事与愿违</title><updated>2022-03-11T09:04:17.763151+00:00</updated><content type="html"><![CDATA[<p>事与愿违，这是去年我记得最清楚的一句话。</p>
 <p>与之相同的是日本某大学校长新生入学的演讲:恭喜你们，你们要进入努力也不一定有回报的成人世界了。</p>
 <p><img src="https://user-images.githubusercontent.com/81410185/156892302-9e2acee6-6910-40ce-8d1b-bc8151058b07.jpeg" alt="image" /></p>
 <p>士兵突击的班长曾说，生活就是一件事接着一件事，处理好了这件事，就要准备处理下件事。我对这句话体会特别深刻:
@@ -32,13 +32,13 @@ yihong0618说，为什么要内疚，要学会原谅自己。</p>
 <p>所以，物流上的迷茫，促销上的失误，货卖不出去的烦恼，以及15万的压力。
 没关系，如果是排比句，我和谷爱凌的排比句长度也差不多。</p>
 <p>毕竟，事与愿违是常态，一帆风顺是愿景。</p>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/3" rel="alternate"/><category term="生活琐事"/><published>2022-03-05T17:10:05+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-03-11T08:25:49.005359+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/3" rel="alternate"/><category term="生活琐事"/><published>2022-03-05T17:10:05+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-03-11T09:04:17.938200+00:00</updated><content type="html"><![CDATA[<ul>
 <li>跑步，争取打卡80%以上。</li>
 <li>瘦，及格线150，良好140，满分135.</li>
 <li>每月一本书，要求不高。</li>
 <li>挣钱，10万</li>
 </ul>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><category term="生活琐事"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-03-11T08:25:49.185465+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。<br />
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><category term="生活琐事"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-03-11T09:04:18.106164+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。<br />
 自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。<br />
 这解决了我两个问题：</p>
 <ol>
@@ -49,7 +49,8 @@ yihong0618说，为什么要内疚，要学会原谅自己。</p>
 <h2>博客整体折腾了两天，有以下几点总结：</h2>
 <ul>
 <li>还是水平问题，出问题了看不懂靠猜</li>
-<li>解决问题的思路有问题，我的目的是生成一篇博客，而不是生成一个完美的博客。所以我只要将博客生成就好了。在过程中遇到了一开始时间无法精确到分钟，我花了一下午时间查google都没解决，晚上吃了顿烧烤瞬间冷静下来了，无法精确到分我就自己手写一个分啊，那个时间又不会在前端显示，我特么的全写成8:00不久行了嘛？？我凑还花了我一下午。紧接着就是catalog和slug以及tag的问题，我他妈全都可以用stand表示啊，又不显示出来。slug直接照搬title。<strong>于是本次gitblog搞定，总用时，2天半</strong></li>
+<li>解决问题的思路有问题，我的目的是生成一篇博客，而不是生成一个完美的博客。所以我只要将博客生成就好了。在过程中遇到了一开始时间无法精确到分钟，我花了一下午时间查google都没解决，晚上吃了顿烧烤瞬间冷静下来了，无法精确到分我就自己手写一个分啊，那个时间又不会在前端显示，我特么的全写成8:00不久行了嘛？？我凑还花了我一下午。紧接着就是catalog和slug以及tag的问题，我他妈全都可以用stand表示啊，又不显示出来。slug直接照搬title。  </li>
+<li><strong>于是本次gitblog搞定，总用时，2天半</strong></li>
 </ul>
 <hr />
 <h2>you will die but github long live.</h2>
