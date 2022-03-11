@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 05 Mar 2022 17:13:10 +0806</lastBuildDate><pubDate>Sat, 05 Mar 2022 17:13:10 +0806</pubDate><item><title>我的媒体播放库 libdrive</title><link>/archives/我的媒体播放库 libdrive/</link><description>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 11 Mar 2022 08:26:26 +0806</lastBuildDate><pubDate>Fri, 11 Mar 2022 08:26:26 +0806</pubDate><item><title>我的媒体播放库 libdrive</title><link>/archives/我的媒体播放库 libdrive/</link><description>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Look at this beautiful website!&lt;/p&gt;
 &lt;p&gt;It's my &lt;a href="http://35.221.246.119:8000"&gt;media library&lt;/a&gt;!&lt;/p&gt;
 &lt;h2&gt;什么是Libdrive&lt;/h2&gt;
@@ -614,8 +614,8 @@ $$**沉浸**$$
 &lt;h2&gt;最后&lt;/h2&gt;
 &lt;p&gt;人有两次死亡，一次是肉体死亡，一次是被人们遗忘。
 幸好互联网有记忆。&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/人会死两次/</guid><pubDate>Thu, 10 Feb 2022 11:20:00 +0806</pubDate></item><item><title>我终于弄好了gitblog</title><link>/archives/我终于弄好了gitblog/</link><description>&lt;p&gt;天呐，我又开始折腾博客了。
-自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。
+</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/人会死两次/</guid><pubDate>Thu, 10 Feb 2022 11:20:00 +0806</pubDate></item><item><title>我终于弄好了gitblog</title><link>/archives/我终于弄好了gitblog/</link><description>&lt;p&gt;天呐，我又开始折腾博客了。&lt;br&gt;
+自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。&lt;br&gt;
 这解决了我两个问题：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;不用每次git clone我的项目然后再Push了，极大的缩短了捷径，以后我写文章直接来github写就可以了。&lt;/li&gt;
@@ -629,14 +629,14 @@ $$**沉浸**$$
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;you will die but github long live.&lt;/h2&gt;
-&lt;p&gt;这两天其实我一直在想一个问题，使用github最大的因素是因为github活得久吗？后来我思前想后，觉得不是的。
+&lt;p&gt;这两天其实我一直在想一个问题，使用github最大的因素是因为github活得久吗？后来我思前想后，觉得不是的。&lt;br&gt;
 &lt;strong&gt;使用github最大的因素是因为他简单。&lt;/strong&gt;
-我突然理解为什么程序员都是直男了，因为我们都是以结果为导向的，结果驱动过程。什么hexo，jyll，notion-blog，vercel，花里胡哨的。有那闲工夫，我就使用github不久好了吗？？？
+我突然理解为什么程序员都是直男了，因为我们都是以结果为导向的，结果驱动过程。什么hexo，jyll，notion-blog，vercel，花里胡哨的。有那闲工夫，我就使用github不久好了吗？？？&lt;br&gt;
 也可以很美呀。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;end，愉快的工作了。
-接下来把其他记录添加上来，虽然我已经30岁了，但我不服老。
-我对自己的人生总结，最难的时光挺过去没死，之后都是大好时光。
+&lt;p&gt;end，愉快的工作了。&lt;br&gt;
+接下来把其他记录添加上来，虽然我已经30岁了，但我不服老。&lt;br&gt;
+我对自己的人生总结，最难的时光挺过去没死，之后都是大好时光。&lt;br&gt;
 我爱lxy哟！&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/1"&gt;我终于弄好了gitblog&lt;/a&gt;&lt;/p&gt;
 </description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/我终于弄好了gitblog/</guid><pubDate>Fri, 11 Feb 2022 08:00:00 +0806</pubDate></item><item><title>2022的二三事（OKR）</title><link>/archives/2022的二三事（OKR）/</link><description>&lt;ul&gt;
