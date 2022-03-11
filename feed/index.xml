@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 11 Mar 2022 08:26:26 +0806</lastBuildDate><pubDate>Fri, 11 Mar 2022 08:26:26 +0806</pubDate><item><title>我的媒体播放库 libdrive</title><link>/archives/我的媒体播放库 libdrive/</link><description>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 11 Mar 2022 09:05:03 +0806</lastBuildDate><pubDate>Fri, 11 Mar 2022 09:05:03 +0806</pubDate><item><title>我的媒体播放库 libdrive</title><link>/archives/我的媒体播放库 libdrive/</link><description>&lt;p&gt;&lt;figure style="flex: 102.84810126582279" &gt;&lt;img loading="lazy" width="1300" height="632" src="/archives/assets/7484700cdbcc503b6f9d45c03e24af69.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;Look at this beautiful website!&lt;/p&gt;
 &lt;p&gt;It's my &lt;a href="http://35.221.246.119:8000"&gt;media library&lt;/a&gt;!&lt;/p&gt;
 &lt;h2&gt;什么是Libdrive&lt;/h2&gt;
@@ -625,7 +625,8 @@ $$**沉浸**$$
 &lt;h2&gt;博客整体折腾了两天，有以下几点总结：&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;还是水平问题，出问题了看不懂靠猜&lt;/li&gt;
-&lt;li&gt;解决问题的思路有问题，我的目的是生成一篇博客，而不是生成一个完美的博客。所以我只要将博客生成就好了。在过程中遇到了一开始时间无法精确到分钟，我花了一下午时间查google都没解决，晚上吃了顿烧烤瞬间冷静下来了，无法精确到分我就自己手写一个分啊，那个时间又不会在前端显示，我特么的全写成8:00不久行了嘛？？我凑还花了我一下午。紧接着就是catalog和slug以及tag的问题，我他妈全都可以用stand表示啊，又不显示出来。slug直接照搬title。&lt;strong&gt;于是本次gitblog搞定，总用时，2天半&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;解决问题的思路有问题，我的目的是生成一篇博客，而不是生成一个完美的博客。所以我只要将博客生成就好了。在过程中遇到了一开始时间无法精确到分钟，我花了一下午时间查google都没解决，晚上吃了顿烧烤瞬间冷静下来了，无法精确到分我就自己手写一个分啊，那个时间又不会在前端显示，我特么的全写成8:00不久行了嘛？？我凑还花了我一下午。紧接着就是catalog和slug以及tag的问题，我他妈全都可以用stand表示啊，又不显示出来。slug直接照搬title。  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;于是本次gitblog搞定，总用时，2天半&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2&gt;you will die but github long live.&lt;/h2&gt;
