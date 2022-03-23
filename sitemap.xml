@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/养一只猫/</loc>
+    <lastmod>2022-03-23</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/事与愿违/</loc>
     <lastmod>2022-03-05</lastmod>
     <changefreq>always</changefreq>
