@@ -14,7 +14,7 @@ My personal blog using issues & GitHub Actions and Maverick .
 [RSS Feed](https://raw.githubusercontent.com/{repo_name}/master/feed.xml)
 """
 
-BACKUP_DIR = "BACKUP"
+BACKUP_DIR = "src"
 ANCHOR_NUMBER = 5
 TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
