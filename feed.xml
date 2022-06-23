@@ -1,5 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-05-19T01:51:10.360706+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/8</id><title>EMBY</title><updated>2022-05-19T01:51:10.686453+00:00</updated><content type="html"><![CDATA[<p>最近做了几件事，第一件事是搭建了一个EMBY，并用了两个服务器进行反代二次加速。目前来看观看不卡。我的腾讯机也不会放着不用了。<br />
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/lesnolie/Marverick</id><title>RSS feed of lesnolie's Marverick</title><updated>2022-06-23T15:09:14.758506+00:00</updated><author><name>lesnolie</name><email>lesliezhang08@gmail.com</email></author><link href="https://github.com/lesnolie/Marverick"/><link href="https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/lesnolie/Marverick/issues/9</id><title>搬去了新的城市</title><updated>2022-06-23T15:09:15.203132+00:00</updated><content type="html"><![CDATA[<p>又离开了深圳，这次的地点是东莞。  </p>
+<p>感情的基础是什么，是生活。  </p>
+<p>我发现我在深圳是没有生活的，于是乎也就没有了感情。<br />
+从20平搬到了56平，地方大了，心情也就愉悦了。于是很快一个月就过去了。   </p>
+<p>新的地方没有网，我决定不办理了，下班晚点，回来就给自己一个切断互联网的机会。让自己听听古典音乐，看看自己五年前买的书，做做冥想和瑜伽。  </p>
+<p>最近也是又到了无聊的时刻，心慌意乱的，有好几点。  </p>
+<ul>
+<li>穷，没有起色</li>
+<li>可是日子并不等你，还是要花钱</li>
+<li>总是吵架，疲倦了</li>
+</ul>
+<p>接下来计划了许多事情，比如趣天，比如美克多，希望，希望，一切顺利。  </p>
+<p>马上下半年了，愿一帆风顺。</p>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/9" rel="alternate"/><published>2022-06-23T15:06:30+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/8</id><title>EMBY</title><updated>2022-06-23T15:09:15.423315+00:00</updated><content type="html"><![CDATA[<p>最近做了几件事，第一件事是搭建了一个EMBY，并用了两个服务器进行反代二次加速。目前来看观看不卡。我的腾讯机也不会放着不用了。<br />
 第二件事就是想弄一个全自动化的追剧，目前发现的工具有“NAS-TOOLS”、“MOVIE-ROBOT”、以及一个”懒人追剧体验，全自动顶级追剧“。<br />
 没错，依照我的性格，我不能允许这种东西我不会，那就放手一搏吧。  </p>
 <p>东西很简单，用到的软件有：<br />
@@ -11,7 +24,7 @@ Qbittorrent &amp; NZB 用来下载电影。<br />
 <p>那，毫无意外，整体过程又是及其耗费时间的，遇到的问题有：nginx、VPS的性能不行，WSL无法systemctl，service不会用，WSL2无法使用代理。<br />
 等等等等等等等等。  </p>
 <p>最终我明白一个道理，我目前还是先赚钱，等有了NAS系统（或者PS5）以后，再来搞这个吧。  </p>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/8" rel="alternate"/><published>2022-05-19T01:48:50+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/7</id><title>外公</title><updated>2022-05-19T01:51:10.849968+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/81410185/165794267-9266c6ad-ee83-42ca-8ebd-e47d5db49256.jpeg" alt="image" />
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/8" rel="alternate"/><published>2022-05-19T01:48:50+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/7</id><title>外公</title><updated>2022-06-23T15:09:15.643124+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/81410185/165794267-9266c6ad-ee83-42ca-8ebd-e47d5db49256.jpeg" alt="image" />
 外公于2022年4月16日去世，谨以此文纪念。  </p>
 <hr />
 <p>我小时候是跟着外婆外公长大的，原因是爷爷去世的早，奶奶住在农村，爸爸为了生计在我两岁就去深圳打工挣钱。于是妈妈就带着我和外公住在城市内。<br />
@@ -34,7 +47,7 @@ Qbittorrent &amp; NZB 用来下载电影。<br />
 姥爷也是十分聪明，给日记起名叫做气象记录，日记每篇开头都是本日天气如何，接下来才是发生的事情。若无事发生，那天气还是要记一记的。<br />
 若姥爷那个年代知道GITHUB，或者我给他介绍我的记录仓库，或许做的比我还要好。<br />
 回过头来，流水账并不可怕，难能可贵的就是坚持。写的多了，一切也就顺了。  </p>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/7" rel="alternate"/><category term="生活琐事"/><published>2022-04-28T15:21:42+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/4</id><title>养一只猫</title><updated>2022-05-19T01:51:11.011294+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/81410185/159613742-a7a8de0c-bed6-4db1-8fb8-9daf3721d024.jpg" alt="KIMI" /></p>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/7" rel="alternate"/><category term="生活琐事"/><published>2022-04-28T15:21:42+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/4</id><title>养一只猫</title><updated>2022-06-23T15:09:15.864385+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/81410185/159613742-a7a8de0c-bed6-4db1-8fb8-9daf3721d024.jpg" alt="KIMI" /></p>
 <p>我不止一次想过要放弃养猫，可是每当我心情低落，它们趴在我身边撒娇咕噜的时候，一切的烦恼都烟消云散了。</p>
 <hr />
 <p>我从小就喜欢猫，小时候我奶奶养猫，农村养猫不像现在这么讲究，都是散养，没笼子没封窗，根本不怕跑丢。<br />
@@ -100,7 +113,7 @@ Qbittorrent &amp; NZB 用来下载电影。<br />
 人们所谈论的有几分是真，而又有几人愿意去求真？  </p>
 <hr />
 <p>养一只猫吧。</p>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/4" rel="alternate"/><category term="生活琐事"/><published>2022-03-23T02:47:50+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/3</id><title>事与愿违</title><updated>2022-05-19T01:51:11.179400+00:00</updated><content type="html"><![CDATA[<p>事与愿违，这是去年我记得最清楚的一句话。</p>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/4" rel="alternate"/><category term="生活琐事"/><published>2022-03-23T02:47:50+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/3</id><title>事与愿违</title><updated>2022-06-23T15:09:16.097206+00:00</updated><content type="html"><![CDATA[<p>事与愿违，这是去年我记得最清楚的一句话。</p>
 <p>与之相同的是日本某大学校长新生入学的演讲:恭喜你们，你们要进入努力也不一定有回报的成人世界了。</p>
 <p><img src="https://user-images.githubusercontent.com/81410185/156892302-9e2acee6-6910-40ce-8d1b-bc8151058b07.jpeg" alt="image" /></p>
 <p>士兵突击的班长曾说，生活就是一件事接着一件事，处理好了这件事，就要准备处理下件事。我对这句话体会特别深刻:
@@ -133,13 +146,13 @@ yihong0618说，为什么要内疚，要学会原谅自己。</p>
 <p>所以，物流上的迷茫，促销上的失误，货卖不出去的烦恼，以及15万的压力。
 没关系，如果是排比句，我和谷爱凌的排比句长度也差不多。</p>
 <p>毕竟，事与愿违是常态，一帆风顺是愿景。</p>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/3" rel="alternate"/><category term="生活琐事"/><published>2022-03-05T17:10:05+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-05-19T01:51:11.348147+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/3" rel="alternate"/><category term="生活琐事"/><published>2022-03-05T17:10:05+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/2</id><title>2022的二三事（OKR）</title><updated>2022-06-23T15:09:16.327952+00:00</updated><content type="html"><![CDATA[<ul>
 <li>跑步，争取打卡80%以上。</li>
 <li>瘦，及格线150，良好140，满分135.</li>
 <li>每月一本书，要求不高。</li>
 <li>挣钱，10万</li>
 </ul>
-]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><category term="生活琐事"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-05-19T01:51:11.506227+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。<br />
+]]></content><link href="https://github.com/lesnolie/Marverick/issues/2" rel="alternate"/><category term="生活琐事"/><published>2022-02-12T09:28:04+00:00</published></entry><entry><id>https://github.com/lesnolie/Marverick/issues/1</id><title>我终于弄好了gitblog</title><updated>2022-06-23T15:09:16.558065+00:00</updated><content type="html"><![CDATA[<p>天呐，我又开始折腾博客了。<br />
 自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。<br />
 这解决了我两个问题：</p>
 <ol>
