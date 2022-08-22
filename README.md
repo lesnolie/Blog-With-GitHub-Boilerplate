@@ -6,7 +6,7 @@ My personal blog using issues & GitHub Actions and Maverick .
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
-- [压力](https://github.com/lesnolie/Marverick/issues/11)--2022-07-11
+- [做饭](https://github.com/lesnolie/Marverick/issues/11)--2022-07-11
 - [压力](https://github.com/lesnolie/Marverick/issues/10)--2022-07-11
 - [搬去了新的城市](https://github.com/lesnolie/Marverick/issues/9)--2022-06-23
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
