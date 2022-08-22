@@ -1,37 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 11 Jul 2022 15:52:19 +0806</lastBuildDate><pubDate>Mon, 11 Jul 2022 15:52:19 +0806</pubDate><item><title>人会死两次</title><link>/archives/人会死两次/</link><description>&lt;blockquote&gt;&lt;p&gt;人会死两次，一次是肉体死亡，另一次是被人忘记&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;hr&gt;
-&lt;p&gt;开年第一天上班的路上，看了一篇文章。
-文章来源于yihong0618的GITHUB。&lt;a href="https://laike9m.com/blog/people-die-but-long-live-github,122/"&gt;People Die,But long live GITHUB&lt;/a&gt;
-文章大致意思是，GITHUB的核心是内容及历史，而其他任何产品都是为了基于流量。&lt;/p&gt;
-&lt;p&gt;如果100年以后，我想让世界上还存在我的痕迹，我应该把他们留在哪里？
-我的微博？我的公众号？
-我的谷歌网盘？
-我的notion笔记？
-我的TWITTER?我的FACEBOOK？
-仿佛以上所有公司都无法活那么久。现如今人们为什么那么喜欢NAS，是因为数据的安全性，除了隐私性意外，更是遗失性。&lt;/p&gt;
-&lt;p&gt;我之前一直不清楚，自己拾掇博客，wiki，域名都是为了什么。现在清晰了，原来都是为了记录。我想留下一些什么，无论是现如今的展示，还是对未来说，这就是我活过的痕迹。&lt;/p&gt;
-&lt;p&gt;抑郁症时期，思前想后所有都是四个字，死了算了。
-大不了一死竟然成了那时我活下去的唯一理由。
-既然活过来了，那么不如让我们一直活下去吧。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;RUNNING_PAGE&lt;/h2&gt;
-&lt;p&gt;感谢yihong0618的&lt;a href="[yihong0618/running_page: Make your own running home page (github.com"&gt;running_page&lt;/a&gt;](&lt;a href="https://github.com/yihong0618/running_page"&gt;https://github.com/yihong0618/running_page&lt;/a&gt;)).
-我也建立了自己的第一个跑步系统。或许这是我坚持跑步的起点，正如NRC所说，你已经开始跑步了不是吗？&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;MAVERICK&lt;/h2&gt;
-&lt;p&gt;我的博客是基于GITHUB ACTION自动部署的MAVERICK，当我看见&lt;a href="[如何用一个仓库记录自己的一年 · Issue #209 · yihong0618/gitblog (github.com"&gt;yihong0618的GITBLOG&lt;/a&gt;](&lt;a href="https://github.com/yihong0618/gitblog/issues/209"&gt;https://github.com/yihong0618/gitblog/issues/209&lt;/a&gt;))
-时，我想将两者结合，MAVERICK作为前端，GITBLOG作为后端。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;我的数字&lt;/h2&gt;
-&lt;p&gt;GITBLOG还有一项功能，是他能够基于IOS的捷径功能，自动更新GITHUB的REDME。自动帮助我们记录每天重要的学习及生活。&lt;/p&gt;
-&lt;p&gt;这也是我接下来要做的事情。&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;最后&lt;/h2&gt;
-&lt;p&gt;人有两次死亡，一次是肉体死亡，一次是被人们遗忘。
-幸好互联网有记忆。&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (LESLIE)</author><guid isPermaLink="true">/archives/人会死两次/</guid><pubDate>Thu, 10 Feb 2022 11:20:00 +0806</pubDate></item><item><title>我终于弄好了gitblog</title><link>/archives/我终于弄好了gitblog/</link><description>&lt;p&gt;天呐，我又开始折腾博客了。&lt;br&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Mon, 22 Aug 2022 13:43:29 +0806</lastBuildDate><pubDate>Mon, 22 Aug 2022 13:43:29 +0806</pubDate><item><title>我终于弄好了gitblog</title><link>/archives/我终于弄好了gitblog/</link><description>&lt;p&gt;天呐，我又开始折腾博客了。&lt;br&gt;
 自从看了yihong0618的gitblog以后，就有了用github issue写blog的想法。&lt;br&gt;
 这解决了我两个问题：&lt;/p&gt;
 &lt;ol&gt;
@@ -221,7 +189,14 @@ Qbittorrent &amp;amp; NZB 用来下载电影。&lt;br&gt;
 而我还在摸鱼，这可不行。&lt;br&gt;
 张憧，你要努力才行。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/11"&gt;压力&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/压力/</guid><pubDate>Mon, 11 Jul 2022 08:00:00 +0806</pubDate></item><item><title>压力</title><link>/archives/压力/</link><description>&lt;p&gt;人还是得有压力的，在30岁这个年龄。&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/压力/</guid><pubDate>Mon, 11 Jul 2022 08:00:00 +0806</pubDate></item><item><title>做饭</title><link>/archives/做饭/</link><description>&lt;p&gt;人还是得有压力的，在30岁这个年龄。&lt;/p&gt;
+&lt;p&gt;亚马逊运营半年了，目前的策略是，日本市场稳定以后，开始其他平台，美国站和美克多。&lt;/p&gt;
+&lt;p&gt;我的目标还是很明确的，总有一个自己的公司，如果只是自己做的话我是不满足的，我希望能够做成刘叔叔那种地步，但是我不要喝酒。&lt;/p&gt;
+&lt;p&gt;看着以前同学都自己开公司了，人也那么多，看来挣得钱不少。&lt;br&gt;
+而我还在摸鱼，这可不行。&lt;br&gt;
+张憧，你要努力才行。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/11"&gt;做饭&lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/做饭/</guid><pubDate>Mon, 11 Jul 2022 08:00:00 +0806</pubDate></item><item><title>压力</title><link>/archives/压力/</link><description>&lt;p&gt;人还是得有压力的，在30岁这个年龄。&lt;/p&gt;
 &lt;p&gt;亚马逊运营半年了，目前的策略是，日本市场稳定以后，开始其他平台，美国站和美克多。&lt;/p&gt;
 &lt;p&gt;我的目标还是很明确的，总有一个自己的公司，如果只是自己做的话我是不满足的，我希望能够做成刘叔叔那种地步，但是我不要喝酒。&lt;/p&gt;
 &lt;p&gt;看着以前同学都自己开公司了，人也那么多，看来挣得钱不少。&lt;br&gt;
