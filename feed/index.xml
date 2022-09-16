@@ -1,12 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 02 Sep 2022 03:16:16 +0806</lastBuildDate><pubDate>Fri, 02 Sep 2022 03:16:16 +0806</pubDate><item><title>2022的二三事（OKR）</title><link>/archives/2022的二三事（OKR）/</link><description>&lt;ul&gt;
-&lt;li&gt;跑步，争取打卡80%以上。&lt;/li&gt;
-&lt;li&gt;瘦，及格线150，良好140，满分135.&lt;/li&gt;
-&lt;li&gt;每月一本书，要求不高。&lt;/li&gt;
-&lt;li&gt;挣钱，10万&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/2"&gt;2022的二三事（OKR）&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/2022的二三事（OKR）/</guid><pubDate>Sat, 12 Feb 2022 08:00:00 +0806</pubDate></item><item><title>事与愿违</title><link>/archives/事与愿违/</link><description>&lt;p&gt;事与愿违，这是去年我记得最清楚的一句话。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 16 Sep 2022 01:49:17 +0806</lastBuildDate><pubDate>Fri, 16 Sep 2022 01:49:17 +0806</pubDate><item><title>事与愿违</title><link>/archives/事与愿违/</link><description>&lt;p&gt;事与愿违，这是去年我记得最清楚的一句话。&lt;/p&gt;
 &lt;p&gt;与之相同的是日本某大学校长新生入学的演讲:恭喜你们，你们要进入努力也不一定有回报的成人世界了。&lt;/p&gt;
 &lt;p&gt;&lt;figure style="flex: 55.762081784386616" &gt;&lt;img loading="lazy" width="600" height="538" src="https://user-images.githubusercontent.com/81410185/156892302-9e2acee6-6910-40ce-8d1b-bc8151058b07.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;士兵突击的班长曾说，生活就是一件事接着一件事，处理好了这件事，就要准备处理下件事。我对这句话体会特别深刻:
@@ -287,4 +280,7 @@ Qbittorrent &amp;amp; NZB 用来下载电影。&lt;br&gt;
 我过去纠缠过，没有好结果。&lt;br&gt;
 改变自己才是最好的解药。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/13"&gt;改变自己才是最好的解药&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/改变自己才是最好的解药/</guid><pubDate>Fri, 02 Sep 2022 08:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/改变自己才是最好的解药/</guid><pubDate>Fri, 02 Sep 2022 08:00:00 +0806</pubDate></item><item><title>关于VPS的一点思考</title><link>/archives/关于VPS的一点思考/</link><description>&lt;p&gt;细数了一下，自己手里有6个服务器。这些服务器都可以拿来开vpn代理。所以此时此刻我脑海中一直有一个声音。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;qv2ray + 无痕浏览&lt;/strong&gt;这个组合能否用来做不同的店铺？&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/14"&gt;关于VPS的一点思考&lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/关于VPS的一点思考/</guid><pubDate>Fri, 16 Sep 2022 08:00:00 +0806</pubDate></item></channel></rss>
