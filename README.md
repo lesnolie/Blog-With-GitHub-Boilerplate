@@ -6,11 +6,11 @@ My personal blog using issues & GitHub Actions and Maverick .
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 最近更新
+- [9月随笔](https://github.com/lesnolie/Marverick/issues/15)--2022-09-24
 - [关于VPS的一点思考](https://github.com/lesnolie/Marverick/issues/14)--2022-09-16
 - [改变自己才是最好的解药](https://github.com/lesnolie/Marverick/issues/13)--2022-09-02
 - [一个谎言需要无数的谎言](https://github.com/lesnolie/Marverick/issues/12)--2022-08-24
 - [做饭](https://github.com/lesnolie/Marverick/issues/11)--2022-07-11
-- [压力](https://github.com/lesnolie/Marverick/issues/10)--2022-07-11
 ## 开发笔记
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
 - [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
