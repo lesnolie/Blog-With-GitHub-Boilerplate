@@ -1,39 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 16 Sep 2022 01:55:49 +0806</lastBuildDate><pubDate>Fri, 16 Sep 2022 01:55:49 +0806</pubDate><item><title>事与愿违</title><link>/archives/事与愿违/</link><description>&lt;p&gt;事与愿违，这是去年我记得最清楚的一句话。&lt;/p&gt;
-&lt;p&gt;与之相同的是日本某大学校长新生入学的演讲:恭喜你们，你们要进入努力也不一定有回报的成人世界了。&lt;/p&gt;
-&lt;p&gt;&lt;figure style="flex: 55.762081784386616" &gt;&lt;img loading="lazy" width="600" height="538" src="https://user-images.githubusercontent.com/81410185/156892302-9e2acee6-6910-40ce-8d1b-bc8151058b07.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;士兵突击的班长曾说，生活就是一件事接着一件事，处理好了这件事，就要准备处理下件事。我对这句话体会特别深刻:
-1月份的物流，莫名其妙的多了仓储费，内点费，还多了莫名其妙的税金。并且物流公司也太不专业了，任何前提都不提醒。&lt;/p&gt;
-&lt;p&gt;最终，导致货物因为缺货权重下降严重，在最需要货的时候没有货了。&lt;/p&gt;
-&lt;p&gt;还要多付8000莫名其妙的钱。&lt;/p&gt;
-&lt;p&gt;人到中年，我早已不怨天尤人，早就学会了事情的发生肯定是因为自己学艺不精&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;我不懂税金，不懂发票填写&lt;/li&gt;
-&lt;li&gt;我没有更好的物流渠道&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;与其抱怨对方，不如自己加把油，吃一堑长一智，要么换个物流，一个能耐心教会我发票如何填写的物流，要么自己搞明白。&lt;/p&gt;
-&lt;p&gt;总而言之，我不是天选之子，没有逆天的运气。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;老婆没有考上省考，心情很down。
-其实我也很down，替她down。
-我常对她说，事情的结果不重要，只要我们努力过。
-可是，当我们是当事人时，又可以放过自己吗？
-yihong0618在播客里面，主持人问他，如果有一天，我没去跑步，没坚持下来，该怎么办，应该内疚很久吗？
-yihong0618说，为什么要内疚，要学会原谅自己。&lt;/p&gt;
-&lt;p&gt;我们来到世界上，应当努力地享受生活，而不是为了一个目标蹉跎的活着。
-一眼望到头的生活，麻木不仁。&lt;/p&gt;
-&lt;p&gt;谷爱凌只是在享受滑雪的乐趣，她还享受音乐，学习，数学，吃等等等等。&lt;/p&gt;
-&lt;p&gt;此时此刻，我想做这件事，于是我就去做了。
-此时此刻，我想跑步，于是我就跑了。
-毕竟，我已经开始跑步了不是吗？&lt;/p&gt;
-&lt;p&gt;所以，如果我在她身边，我只会跟她抱抱，然后告诉她，总会事与愿违。
-但是我对你不会。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;所以，物流上的迷茫，促销上的失误，货卖不出去的烦恼，以及15万的压力。
-没关系，如果是排比句，我和谷爱凌的排比句长度也差不多。&lt;/p&gt;
-&lt;p&gt;毕竟，事与愿违是常态，一帆风顺是愿景。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/3"&gt;事与愿违&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/事与愿违/</guid><pubDate>Sat, 05 Mar 2022 08:00:00 +0806</pubDate></item><item><title>养一只猫</title><link>/archives/养一只猫/</link><description>&lt;p&gt;&lt;figure style="flex: 50.02129471890971" &gt;&lt;img loading="lazy" width="2349" height="2348" src="https://user-images.githubusercontent.com/81410185/159613742-a7a8de0c-bed6-4db1-8fb8-9daf3721d024.jpg" /&gt;&lt;figcaption&gt;KIMI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫，和LXY</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 24 Sep 2022 18:27:29 +0806</lastBuildDate><pubDate>Sat, 24 Sep 2022 18:27:29 +0806</pubDate><item><title>养一只猫</title><link>/archives/养一只猫/</link><description>&lt;p&gt;&lt;figure style="flex: 50.02129471890971" &gt;&lt;img loading="lazy" width="2349" height="2348" src="https://user-images.githubusercontent.com/81410185/159613742-a7a8de0c-bed6-4db1-8fb8-9daf3721d024.jpg" /&gt;&lt;figcaption&gt;KIMI&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;我不止一次想过要放弃养猫，可是每当我心情低落，它们趴在我身边撒娇咕噜的时候，一切的烦恼都烟消云散了。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;我从小就喜欢猫，小时候我奶奶养猫，农村养猫不像现在这么讲究，都是散养，没笼子没封窗，根本不怕跑丢。&lt;br&gt;
@@ -287,4 +253,25 @@ Qbittorrent &amp;amp; NZB 用来下载电影。&lt;br&gt;
 &lt;p&gt;突然发现，这种钱才好赚，抓住消费者不愿意冒险的心里。这种赚钱行为本质就是保险，根源还是信息差。&lt;/p&gt;
 &lt;p&gt;那么相关行业有哪些呢？细想了一下有很多，很多人不愿意麻烦&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/14"&gt;关于VPS的一点思考&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/关于VPS的一点思考/</guid><pubDate>Fri, 16 Sep 2022 08:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/关于VPS的一点思考/</guid><pubDate>Fri, 16 Sep 2022 08:00:00 +0806</pubDate></item><item><title>9月随笔</title><link>/archives/9月随笔/</link><description>&lt;p&gt;广东不是一个好地方，炎热太久了，久的让人忘记了月份。许多时候都感觉不到自己身处几月。当你习惯了炎热以后，一眨眼，9月就过去了。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;我不喜欢这个九月。&lt;br&gt;
+就像我不喜欢8月一样。9月的我也并没有好转。我失去了自由，再加上不时的不走运，整一个月都异常浮躁。&lt;/p&gt;
+&lt;h2&gt;祸从口出，浮躁的内心总会有脱口而出的快言快语，时刻阻止我迈向温柔的男人。  &lt;/h2&gt;
+&lt;p&gt;万事无法脱离方法论，如果没有一个好的方法论，再好的事情也会变得不好起来。&lt;br&gt;
+没有方法论的人总喜欢把事情看成两个部分，目的和结果。我的目的是什么，只要能达到这个结果就好，无论用什么方法。这就是典型的方法论缺失的唯心主义者一贯地思想，常常出现在资本家身上。&lt;br&gt;
+方法论是高效的，正确的达到目的有效手段，使用正确的方法论往往能达到事半功倍的效果。&lt;br&gt;
+但方法论往往需要总结，需要人们经历了事情的各个阶段以后，复盘总结整体过程。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;其实上面那句话对我来说也是一句废话，因为在我看来我和身边的人最大的不同就是，我善于寻找解决事情的方法。并不是我比别人聪明，懂得多，而仅仅是，我愿意比她们多做一件事，那就是寻找答案。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;所以，9月的答案是什么呢？因为浮躁的心态导致我容易对最亲近的人施加不好的态度。也尝尝会因为不喜欢的事身陷囹圄，无法脱困。我总是在说他人没有安全感，总是在说他人要自信。可是越强调越是因为自己本身也是这样。&lt;/p&gt;
+&lt;p&gt;我才是那个没有安全感的人。&lt;/p&gt;
+&lt;p&gt;9月的答案是什么，其实很简单，就是因为自己没有做到最好，导致别人会有其他的心思。&lt;br&gt;
+若你做到了最好，他人做了你不喜欢的事情，只会愧对你，并且再也不做类似的事情。而不是现如今你自己一再要求他人不要做某些事情。&lt;/p&gt;
+&lt;p&gt;虽然人的一生都很累，都很苦。但还是可以选择不让自己那么累的生活方式。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;结语&lt;br&gt;
+我不喜欢依附于他人，所以必定要挣到钱。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/15"&gt;9月随笔&lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/9月随笔/</guid><pubDate>Sat, 24 Sep 2022 08:00:00 +0806</pubDate></item></channel></rss>
