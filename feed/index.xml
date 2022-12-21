@@ -1,18 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sun, 18 Dec 2022 06:34:42 +0806</lastBuildDate><pubDate>Sun, 18 Dec 2022 06:34:42 +0806</pubDate><item><title>EMBY</title><link>/archives/EMBY/</link><description>&lt;p&gt;最近做了几件事，第一件事是搭建了一个EMBY，并用了两个服务器进行反代二次加速。目前来看观看不卡。我的腾讯机也不会放着不用了。&lt;br&gt;
-第二件事就是想弄一个全自动化的追剧，目前发现的工具有“NAS-TOOLS”、“MOVIE-ROBOT”、以及一个”懒人追剧体验，全自动顶级追剧“。&lt;br&gt;
-没错，依照我的性格，我不能允许这种东西我不会，那就放手一搏吧。&lt;/p&gt;
-&lt;p&gt;东西很简单，用到的软件有：&lt;br&gt;
-jackket 用来搜索&lt;br&gt;
-Snoarr用来管理电视剧&lt;br&gt;
-Radarr用来管理电影&lt;br&gt;
-Qbittorrent &amp;amp; NZB 用来下载电影。&lt;br&gt;
-整体都用DOCKER运行，NASTOOLS和MOVIE-ROBOT是两个DOCKER将几个DOCKER 串联起来。总之就是让几个DOCKER 通过硬链接实现搜索点击想看的剧，自动下载并整理命名，就可以在EMBY上观看了。&lt;/p&gt;
-&lt;p&gt;那，毫无意外，整体过程又是及其耗费时间的，遇到的问题有：nginx、VPS的性能不行，WSL无法systemctl，service不会用，WSL2无法使用代理。&lt;br&gt;
-等等等等等等等等。&lt;/p&gt;
-&lt;p&gt;最终我明白一个道理，我目前还是先赚钱，等有了NAS系统（或者PS5）以后，再来搞这个吧。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/8"&gt;EMBY&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/EMBY/</guid><pubDate>Thu, 19 May 2022 08:00:00 +0806</pubDate></item><item><title>搬去了新的城市</title><link>/archives/搬去了新的城市/</link><description>&lt;p&gt;又离开了深圳，这次的地点是东莞。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>心语镇</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>心语镇</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 21 Dec 2022 03:19:24 +0806</lastBuildDate><pubDate>Wed, 21 Dec 2022 03:19:24 +0806</pubDate><item><title>搬去了新的城市</title><link>/archives/搬去了新的城市/</link><description>&lt;p&gt;又离开了深圳，这次的地点是东莞。&lt;/p&gt;
 &lt;p&gt;感情的基础是什么，是生活。&lt;/p&gt;
 &lt;p&gt;我发现我在深圳是没有生活的，于是乎也就没有了感情。&lt;br&gt;
 从20平搬到了56平，地方大了，心情也就愉悦了。于是很快一个月就过去了。&lt;/p&gt;
@@ -263,4 +250,13 @@ WORK MACHINE。&lt;br&gt;
 &lt;/ul&gt;
 &lt;p&gt;今天是第一天，我还是阴性，让我们一起记录吧。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/17"&gt;似阳&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/似阳/</guid><pubDate>Sun, 18 Dec 2022 08:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/似阳/</guid><pubDate>Sun, 18 Dec 2022 08:00:00 +0806</pubDate></item><item><title>骄阳</title><link>/archives/骄阳/</link><description>&lt;p&gt;今日第四天&lt;br&gt;
+第一天下午发热到38度，然后吃了布洛芬，晚上降到了37左右，没那么难受。&lt;br&gt;
+第二天早上起来就39度，于是吃了布洛芬就睡觉了。期间出了点汗，但体温没降多少。第二天整天几乎都在睡觉。&lt;br&gt;
+临近傍晚吃了中药，睡了一觉一身汗，第二天就退烧了。&lt;br&gt;
+不知道是中药管用还是本来就该退烧了。&lt;/p&gt;
+&lt;p&gt;第三天无大碍。&lt;br&gt;
+今日开始咳嗽，喉咙有痰，鼻子不透气，暂无其他症状。&lt;br&gt;
+&lt;figure style="flex: 28.125" &gt;&lt;img loading="lazy" width="1080" height="1920" src="https://user-images.githubusercontent.com/81410185/208812478-a4109427-01f7-44cc-bc93-fa0f92cef567.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/18"&gt;骄阳&lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/骄阳/</guid><pubDate>Wed, 21 Dec 2022 08:00:00 +0806</pubDate></item></channel></rss>
