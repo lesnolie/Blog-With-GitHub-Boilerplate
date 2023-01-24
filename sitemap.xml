@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/满江红/</loc>
+    <lastmod>2023-01-24</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/新的一年/</loc>
     <lastmod>2023-01-11</lastmod>
     <changefreq>always</changefreq>
@@ -75,14 +82,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/压力/</loc>
+    <loc>/archives/做饭/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>/archives/做饭/</loc>
+    <loc>/archives/压力/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
