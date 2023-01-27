@@ -18,13 +18,19 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
 - [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
 ## 生活琐事
+- [《三体》以及需要梳理的自己](https://github.com/lesnolie/Marverick/issues/22)--2023-01-27
+- [满江红](https://github.com/lesnolie/Marverick/issues/21)--2023-01-24
+- [新的一年](https://github.com/lesnolie/Marverick/issues/20)--2023-01-11
+- [夕阳利刃出鞘](https://github.com/lesnolie/Marverick/issues/19)--2022-12-25
+- [骄阳](https://github.com/lesnolie/Marverick/issues/18)--2022-12-21
+<details><summary>显示更多</summary>
+
+- [似阳](https://github.com/lesnolie/Marverick/issues/17)--2022-12-18
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28
 - [9月随笔](https://github.com/lesnolie/Marverick/issues/15)--2022-09-24
 - [改变自己才是最好的解药](https://github.com/lesnolie/Marverick/issues/13)--2022-09-02
 - [一个谎言需要无数的谎言](https://github.com/lesnolie/Marverick/issues/12)--2022-08-24
 - [做饭](https://github.com/lesnolie/Marverick/issues/11)--2022-07-11
-<details><summary>显示更多</summary>
-
 - [压力](https://github.com/lesnolie/Marverick/issues/10)--2022-07-11
 - [搬去了新的城市](https://github.com/lesnolie/Marverick/issues/9)--2022-06-23
 - [外公](https://github.com/lesnolie/Marverick/issues/7)--2022-04-28
