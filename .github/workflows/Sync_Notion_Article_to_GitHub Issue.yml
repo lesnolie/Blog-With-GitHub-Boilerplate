@@ -1,9 +1,9 @@
 name: Sync Notion Article to GitHub Issue
 
 on:
-schedule:
+  schedule:
     - cron: '0 0 * * *'  
-notion:
+  notion:
     types: [page, database]
     properties:
       Status: published
