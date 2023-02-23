@@ -1,29 +1,65 @@
-name: Sync Notion Article to GitHub Issue
+name: Notion Scan
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
+
 jobs:
-  sync_to_github_issue:
-    if: ${{ github.event_name == 'notion' && github.event.notion.properties.status == 'published' }}
+  notion-scan:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14.x'
+          
       - name: Install dependencies
         run: npm install @notionhq/client
-      - name: Fetch Notion Article
+      
+      - name: Scan Notion database
+        id: notion-scan
         env:
-          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: |
-          node .github/workflows/fetch-notion-article.js
-      - name: Create new GitHub Issue
-        uses: peter-evans/create-issue-from-file@v2
-        with:
-          title: ${{ env.NOTION_ARTICLE_TITLE }}
-          body: ${{ env.NOTION_ARTICLE_CONTENT }}
-          labels: sync-from-notion
+          const { Client } = require('@notionhq/client');
+          const notion = new Client({ auth: process.env.NOTION_TOKEN });
+          const databaseId = process.env.NOTION_DATABASE_ID;
+          const response = await notion.databases.query({
+            database_id: databaseId,
+            filter: {
+              property: 'Status',
+              select: {
+                equals: 'published'
+              }
+            }
+          });
+          console.log(response.results);
+          const issues = response.results.map(result => ({
+            title: result.properties.Name.title[0].text.content,
+            body: result.properties.Description.rich_text[0].text.content
+          }));
+          console.log(issues);
+          console.log(`Found ${issues.length} issues`);
+
+      - name: Create issues
+        if: ${{ steps.notion-scan.outputs.issues }}
         env:
           GITHUB_TOKEN: ${{ secrets.G_T }}
+        run: |
+          const { context, getOctokit } = require('@actions/github');
+          const octokit = getOctokit(process.env.G_T);
+          const issues = JSON.parse(steps.notion-scan.outputs.issues);
+          console.log(`Creating ${issues.length} issues`);
+          issues.forEach(async issue => {
+            const { data } = await octokit.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: issue.title,
+              body: issue.body
+            });
+            console.log(`Created issue ${data.html_url}`);
+          });
