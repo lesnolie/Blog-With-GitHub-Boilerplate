@@ -1,6 +1,7 @@
 name: Sync Notion Article to GitHub Issue
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *'
 jobs:
