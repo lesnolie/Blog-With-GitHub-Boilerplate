@@ -19,7 +19,12 @@ jobs:
           
       - name: Install dependencies
         run: npm install @notionhq/client
-      
+      - name: Execute shell script
+        run: |
+             sh my-script.sh
+       env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
       - name: Scan Notion database
         id: notion-scan
         env:
