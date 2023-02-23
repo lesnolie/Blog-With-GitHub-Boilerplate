@@ -6,7 +6,7 @@ on:
     - cron: '0 0 * * *'
 jobs:
   sync_to_github_issue:
-    if: ${{ github.event.notion && github.event.notion.properties.Status === 'published' }}
+    if: ${{ github.event.notion && github.event.notion.properties.Status === "published" }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
