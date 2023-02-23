@@ -23,7 +23,7 @@ jobs:
       - name: Scan Notion database
         id: notion-scan
         env:
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_TOKEN: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: |
           const { Client } = require('@notionhq/client');
