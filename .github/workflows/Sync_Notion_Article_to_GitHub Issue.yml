@@ -12,13 +12,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
-          node-version: '14.x'
+          python-version: '3.x'
           
       - name: Install dependencies
-        run: npm install @notionhq/client
+        run: |
+          python -m pip install --upgrade pip
+          pip install notion-client
 
       - name: Scan Notion database
         id: notion-scan
@@ -26,25 +28,7 @@ jobs:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: |
-          const { Client } = require('@notionhq/client');
-          const notion = new Client({ auth: process.env.NOTION_API_KEY });
-          const databaseId = process.env.NOTION_DATABASE_ID;
-          const response = await notion.databases.query({
-            database_id: databaseId,
-            filter: {
-              property: 'Status',
-              select: {
-                equals: 'published'
-              }
-            }
-          });
-          console.log(response.results);
-          const issues = response.results.map(result => ({
-            title: result.properties.Name.title[0].text.content,
-            body: result.properties.Description.rich_text[0].text.content
-          }));
-          console.log(issues);
-          console.log(`Found ${issues.length} issues`);
+          python scan.py
 
       - name: Create issues
         if: ${{ steps.notion-scan.outputs.issues }}
