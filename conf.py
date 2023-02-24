@@ -19,14 +19,14 @@ enable_jsdelivr = {
 }
 
 # 站点设置
-site_name = "心语镇"
+site_name = "不愧不忘"
 site_logo = "${static_prefix}logo.jpg"
 site_build_date = "2021-03-29T16:51+08:00"
 author = "LESLIE"
 email = "lesliezhang08@gmail.com"
 author_homepage = "https://blog.lesliemm.xyz"
 description = "我喜欢猫"
-key_words = ['心语镇', 'LESLIE']
+key_words = ['ilxyz', 'LESLIE']
 language = 'zh-CN'
 external_links = [
     {
