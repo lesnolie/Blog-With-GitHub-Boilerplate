@@ -8,11 +8,11 @@ My personal blog using issues & GitHub Actions and Maverick .
 ## 置顶文章
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28
 ## 最近更新
+- [白灼菜配白灼汁食譜：](https://github.com/lesnolie/Marverick/issues/27)--2023-03-14
 - [New Issue Title](https://github.com/lesnolie/Marverick/issues/26)--2023-03-14
 - [利用chatgpt优化亚马逊1.0](https://github.com/lesnolie/Marverick/issues/25)--2023-02-11
 - [满江红2](https://github.com/lesnolie/Marverick/issues/24)--2023-01-30
 - [Ai太令人激动了](https://github.com/lesnolie/Marverick/issues/23)--2023-01-29
-- [《三体》以及需要梳理的自己](https://github.com/lesnolie/Marverick/issues/22)--2023-01-27
 ## 开发笔记
 - [关于VPS的一点思考](https://github.com/lesnolie/Marverick/issues/14)--2022-09-16
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
