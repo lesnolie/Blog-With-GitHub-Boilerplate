@@ -1,34 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 14 Mar 2023 04:59:47 +0806</lastBuildDate><pubDate>Tue, 14 Mar 2023 04:59:47 +0806</pubDate><item><title>新的一年</title><link>/archives/新的一年/</link><description>&lt;p&gt;&lt;figure style="flex: 40.02574002574003" &gt;&lt;img loading="lazy" width="622" height="777" src="https://user-images.githubusercontent.com/81410185/214484158-0dca7065-f1fd-4d16-93db-687a1f44be42.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h2&gt;2022&lt;/h2&gt;
-&lt;p&gt;2022okr如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[ ] 跑步，争取打卡80%&lt;/li&gt;
-&lt;li&gt;[ ] 体重控制在140-150&lt;/li&gt;
-&lt;li&gt;[ ] 每月一本书&lt;/li&gt;
-&lt;li&gt;[x] 挣钱，10万&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;唯一完成的目标是挣钱。&lt;/p&gt;
-&lt;p&gt;跑步因为疫情断断续续，搬去虎门以后从跳操到完全放弃。
-体重控制在达到150以后，彻底躺平，迅速反弹。&lt;br&gt;
-📚书，emmmmm，一年看了2本好像。&lt;/p&gt;
-&lt;p&gt;2022年发现最好用的产品时readwise，以及readwise reader。&lt;br&gt;
-readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输入了文章、books等。&lt;/p&gt;
-&lt;p&gt;一句话总结2022: 
-蒸蒸日上&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2023&lt;/h2&gt;
-&lt;p&gt;学习、锻炼、赚钱。&lt;br&gt;
-2023六字真言，2022年没做到的，在2023年要补上，并且继续做的更好。&lt;br&gt;
-今年目标：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[ ] 年入30万&lt;/li&gt;
-&lt;li&gt;[ ] 体重控制在150&lt;/li&gt;
-&lt;li&gt;[ ] 每月两本书
-测试一下2023记录&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/20"&gt;新的一年&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/新的一年/</guid><pubDate>Wed, 11 Jan 2023 08:00:00 +0806</pubDate></item><item><title>满江红</title><link>/archives/满江红/</link><description>&lt;p&gt;&lt;figure style="flex: 66.66666666666667" &gt;&lt;img loading="lazy" width="4032" height="3024" src="https://user-images.githubusercontent.com/81410185/214484094-b4a7fb2b-2d2c-41d0-ae90-9dcc0159faab.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 16 Mar 2023 12:00:23 +0806</lastBuildDate><pubDate>Thu, 16 Mar 2023 12:00:23 +0806</pubDate><item><title>满江红</title><link>/archives/满江红/</link><description>&lt;p&gt;&lt;figure style="flex: 66.66666666666667" &gt;&lt;img loading="lazy" width="4032" height="3024" src="https://user-images.githubusercontent.com/81410185/214484094-b4a7fb2b-2d2c-41d0-ae90-9dcc0159faab.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;1月23日晚看了国师的满江红，故有此文。&lt;/p&gt;
 &lt;h3&gt;故事概要 (无剧透)&lt;/h3&gt;
 &lt;p&gt;故事聚焦在岳飞死后，秦桧欲赴金议和，金派使臣来宋，却被刺杀，护卫发现其身带金王密信，该信很可能和秦桧叛国通金有关，之后上演了少年将军孙将军（易烊千玺饰）携张大（沈腾饰）破案的故事，剧情由喜剧推向悬疑，最终上升到岳飞精忠报国的故事上。&lt;/p&gt;
@@ -237,4 +208,11 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/28"&gt;香菜牛肉食谱 &lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/香菜牛肉食谱/</guid><pubDate>Tue, 14 Mar 2023 08:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/香菜牛肉食谱/</guid><pubDate>Tue, 14 Mar 2023 08:00:00 +0806</pubDate></item><item><title>AI的时代来临了</title><link>/archives/AI的时代来临了/</link><description>&lt;p&gt;2023年3月15日，美国时间3月14日，这是值得被铭记的一天。因为这一天，距离chatgpt gpt-3.5发布仅仅106天，gpt4诞生了。仅仅100天，ai的质量进步了不止一个量级，已经从婴儿般理解低难度会话，进步到了理解图片内容了。更加恐怖的是，据说年底gpt5就又要发布了。&lt;br&gt;
+ai给生活带来的改变是显而易见的，以我自身为例，我从需要同事帮忙花大量时间写日语，到现如今chatgpt5分钟写出的日语比同事还要好。而这一个月也仅仅需要140块钱而已。&lt;/p&gt;
+&lt;p&gt;三体中描述人类未来世界里，进行了一次语言大融合，无论中国人还是外国人，语言都是中英结合。在我看来，ai的出现加速了这一部分的进度，甚至可以预见，在不久的将来，一款可以联网的耳机就可以代替现阶段的同声传译设备了。&lt;/p&gt;
+&lt;p&gt;现如今，基于chatgpt的各种应用如雨后春笋一般冒出，令我印象最深的则是chatpdf，他可以读取pdf内容，回答基于pdf内容的各种问题。也就是说，将我们的任何信息记录成pdf以后，就可以创造一个属于我们自身的机器人，来回答解决各种问题，学习各种知识。&lt;/p&gt;
+&lt;p&gt;另外，我个人是如何使用chatgpt的呢？最大的帮助就是个人助理。帮我安排行程，帮我翻译，帮我总结。我利用快捷指令和chatgpt的api创建了多个低代码应用，这些应用虽然不是那么的智能，但是因为是自己独立创建的，并且也确实解决了一些问题，让我感到十分快乐。&lt;/p&gt;
+&lt;p&gt;最后，AI不会淘汰人类，只有拒绝AI的人才会被淘汰。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/30"&gt;AI的时代来临了 &lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/AI的时代来临了/</guid><pubDate>Thu, 16 Mar 2023 08:00:00 +0806</pubDate></item></channel></rss>

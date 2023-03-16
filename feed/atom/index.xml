@@ -1,34 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>不愧不忘</title><updated>2023-03-14T04:59:47.949673+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫</subtitle><entry><id>/archives/新的一年/</id><title>新的一年</title><updated>2023-03-14T04:59:47.950035+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 40.02574002574003" &gt;&lt;img loading="lazy" width="622" height="777" src="https://user-images.githubusercontent.com/81410185/214484158-0dca7065-f1fd-4d16-93db-687a1f44be42.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;h2&gt;2022&lt;/h2&gt;
-&lt;p&gt;2022okr如下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[ ] 跑步，争取打卡80%&lt;/li&gt;
-&lt;li&gt;[ ] 体重控制在140-150&lt;/li&gt;
-&lt;li&gt;[ ] 每月一本书&lt;/li&gt;
-&lt;li&gt;[x] 挣钱，10万&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;唯一完成的目标是挣钱。&lt;/p&gt;
-&lt;p&gt;跑步因为疫情断断续续，搬去虎门以后从跳操到完全放弃。
-体重控制在达到150以后，彻底躺平，迅速反弹。&lt;br&gt;
-📚书，emmmmm，一年看了2本好像。&lt;/p&gt;
-&lt;p&gt;2022年发现最好用的产品时readwise，以及readwise reader。&lt;br&gt;
-readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输入了文章、books等。&lt;/p&gt;
-&lt;p&gt;一句话总结2022: 
-蒸蒸日上&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;2023&lt;/h2&gt;
-&lt;p&gt;学习、锻炼、赚钱。&lt;br&gt;
-2023六字真言，2022年没做到的，在2023年要补上，并且继续做的更好。&lt;br&gt;
-今年目标：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;[ ] 年入30万&lt;/li&gt;
-&lt;li&gt;[ ] 体重控制在150&lt;/li&gt;
-&lt;li&gt;[ ] 每月两本书
-测试一下2023记录&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/20"&gt;新的一年&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/新的一年/" rel="alternate"/><published>2023-01-11T08:00:00+08:06</published></entry><entry><id>/archives/满江红/</id><title>满江红</title><updated>2023-03-14T04:59:47.949998+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 66.66666666666667" &gt;&lt;img loading="lazy" width="4032" height="3024" src="https://user-images.githubusercontent.com/81410185/214484094-b4a7fb2b-2d2c-41d0-ae90-9dcc0159faab.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>不愧不忘</title><updated>2023-03-16T12:00:23.882590+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫</subtitle><entry><id>/archives/满江红/</id><title>满江红</title><updated>2023-03-16T12:00:23.882897+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 66.66666666666667" &gt;&lt;img loading="lazy" width="4032" height="3024" src="https://user-images.githubusercontent.com/81410185/214484094-b4a7fb2b-2d2c-41d0-ae90-9dcc0159faab.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;1月23日晚看了国师的满江红，故有此文。&lt;/p&gt;
 &lt;h3&gt;故事概要 (无剧透)&lt;/h3&gt;
 &lt;p&gt;故事聚焦在岳飞死后，秦桧欲赴金议和，金派使臣来宋，却被刺杀，护卫发现其身带金王密信，该信很可能和秦桧叛国通金有关，之后上演了少年将军孙将军（易烊千玺饰）携张大（沈腾饰）破案的故事，剧情由喜剧推向悬疑，最终上升到岳飞精忠报国的故事上。&lt;/p&gt;
@@ -44,7 +15,7 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 &lt;h3&gt;结语&lt;/h3&gt;
 &lt;p&gt;我已不知何时开始，每次看电影都会思考自身，有好处也有坏处。成长并没有一个量化的指标，所以需要有足够的耐心。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/21"&gt;满江红&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/满江红/" rel="alternate"/><published>2023-01-24T08:00:00+08:06</published></entry><entry><id>/archives/《三体》以及需要梳理的自己/</id><title>《三体》以及需要梳理的自己</title><updated>2023-03-14T04:59:47.949972+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 35.0" &gt;&lt;img loading="lazy" width="350" height="500" src="https://user-images.githubusercontent.com/81410185/215114898-a198d038-0a67-4541-8196-57f9560ec65c.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+</content><link href="/archives/满江红/" rel="alternate"/><published>2023-01-24T08:00:00+08:06</published></entry><entry><id>/archives/《三体》以及需要梳理的自己/</id><title>《三体》以及需要梳理的自己</title><updated>2023-03-16T12:00:23.882873+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;figure style="flex: 35.0" &gt;&lt;img loading="lazy" width="350" height="500" src="https://user-images.githubusercontent.com/81410185/215114898-a198d038-0a67-4541-8196-57f9560ec65c.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;今日（1月23日）读完三体，故有此文。&lt;br&gt;
 前几日看完《满江红》以后行文，发觉自己文采太烂，有话也写不出，故今后要多行文才能够更好。&lt;/p&gt;
 &lt;h3&gt;内容概要&lt;/h3&gt;
@@ -68,7 +39,7 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 &lt;/ul&gt;
 &lt;p&gt;一点一点来，先把2023制作出来。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/22"&gt;《三体》以及需要梳理的自己&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/《三体》以及需要梳理的自己/" rel="alternate"/><published>2023-01-27T08:00:00+08:06</published></entry><entry><id>/archives/Ai太令人激动了/</id><title>Ai太令人激动了</title><updated>2023-03-14T04:59:47.949945+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h3&gt;ai改变世界&lt;/h3&gt;
+</content><link href="/archives/《三体》以及需要梳理的自己/" rel="alternate"/><published>2023-01-27T08:00:00+08:06</published></entry><entry><id>/archives/Ai太令人激动了/</id><title>Ai太令人激动了</title><updated>2023-03-16T12:00:23.882848+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h3&gt;ai改变世界&lt;/h3&gt;
 &lt;p&gt;今日看完了书，侥幸在推上看见了这样一个网页:
 利用openai自动写邮件，支持多语言。
 &lt;a href="https://email-helper.vercel.app/"&gt;emailhelper&lt;/a&gt;&lt;/p&gt;
@@ -82,7 +53,7 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 &lt;h3&gt;担忧&lt;/h3&gt;
 &lt;p&gt;ai取代人类，但会使用ai是不是还有点希望？&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/23"&gt;Ai太令人激动了&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/Ai太令人激动了/" rel="alternate"/><published>2023-01-29T08:00:00+08:06</published></entry><entry><id>/archives/满江红2/</id><title>满江红2</title><updated>2023-03-14T04:59:47.949917+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;记2023年第一次和嘉敏观影。&lt;/p&gt;
+</content><link href="/archives/Ai太令人激动了/" rel="alternate"/><published>2023-01-29T08:00:00+08:06</published></entry><entry><id>/archives/满江红2/</id><title>满江红2</title><updated>2023-03-16T12:00:23.882824+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;记2023年第一次和嘉敏观影。&lt;/p&gt;
 &lt;p&gt;前几日看到说满江红剧情有问题，鄙人观影之时，并未发现有个问题，但这几天回想之下，确有几处不太明白。刚好嘉敏还没有观影，于是二刷满江红。&lt;/p&gt;
 &lt;h3&gt;破案核心&lt;/h3&gt;
 &lt;p&gt;孙将军带着张大见秦桧，秦桧给予令牌，所有人退下后，何立的两句话是本片的关键所在。&lt;/p&gt;
@@ -130,7 +101,7 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 因为何没有贴身护卫。&lt;/p&gt;
 &lt;p&gt;至此，满江红真可谓斗智斗勇，一出好戏。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/24"&gt;满江红2&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/满江红2/" rel="alternate"/><published>2023-01-30T08:00:00+08:06</published></entry><entry><id>/archives/利用chatgpt优化亚马逊1.0/</id><title>利用chatgpt优化亚马逊1.0</title><updated>2023-03-14T04:59:47.949889+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;利用chatgpt优化亚马逊的标题&lt;/h2&gt;
+</content><link href="/archives/满江红2/" rel="alternate"/><published>2023-01-30T08:00:00+08:06</published></entry><entry><id>/archives/利用chatgpt优化亚马逊1.0/</id><title>利用chatgpt优化亚马逊1.0</title><updated>2023-03-16T12:00:23.882799+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;利用chatgpt优化亚马逊的标题&lt;/h2&gt;
 &lt;h3&gt;Intro&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;搜集排名靠前的产品标题&lt;/li&gt;
@@ -156,7 +127,7 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 &lt;li&gt;开发产品&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/25"&gt;利用chatgpt优化亚马逊1.0&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/利用chatgpt优化亚马逊1.0/" rel="alternate"/><published>2023-02-11T08:00:00+08:06</published></entry><entry><id>/archives/香菜牛肉食谱/</id><title>香菜牛肉食谱</title><updated>2023-03-14T04:59:47.949860+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;IMG_5386
+</content><link href="/archives/利用chatgpt优化亚马逊1.0/" rel="alternate"/><published>2023-02-11T08:00:00+08:06</published></entry><entry><id>/archives/香菜牛肉食谱/</id><title>香菜牛肉食谱</title><updated>2023-03-16T12:00:23.882774+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;IMG_5386
 ￼&lt;/p&gt;
 &lt;p&gt;材料：
     •   牛肉：300克&lt;br&gt;
@@ -185,9 +156,9 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/29"&gt;香菜牛肉食谱 &lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/香菜牛肉食谱/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry><entry><id>/archives/New Issue Title/</id><title>New Issue Title</title><updated>2023-03-14T04:59:47.949829+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;This is the body of the new issue&lt;/p&gt;
+</content><link href="/archives/香菜牛肉食谱/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry><entry><id>/archives/New Issue Title/</id><title>New Issue Title</title><updated>2023-03-16T12:00:23.882748+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;This is the body of the new issue&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/26"&gt;New Issue Title&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/New Issue Title/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry><entry><id>/archives/白灼菜配白灼汁食譜：/</id><title>白灼菜配白灼汁食譜：</title><updated>2023-03-14T04:59:47.949795+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;材料：
+</content><link href="/archives/New Issue Title/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry><entry><id>/archives/白灼菜配白灼汁食譜：/</id><title>白灼菜配白灼汁食譜：</title><updated>2023-03-16T12:00:23.882722+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;材料：
     •   青菜等蔬菜適量
     •   生抽
     •   豉油
@@ -209,7 +180,7 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 6.享用：白灼汁和蔬菜混合均勻，即可享用。&lt;/p&gt;
 &lt;p&gt;注意事項：烹調過程中火候掌握好，不要燙熟，以保持蔬菜的新鮮口感。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/27"&gt;白灼菜配白灼汁食譜：&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/白灼菜配白灼汁食譜：/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry><entry><id>/archives/香菜牛肉食谱/</id><title>香菜牛肉食谱</title><updated>2023-03-14T04:59:47.949725+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;￼&lt;/p&gt;
+</content><link href="/archives/白灼菜配白灼汁食譜：/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry><entry><id>/archives/香菜牛肉食谱/</id><title>香菜牛肉食谱</title><updated>2023-03-16T12:00:23.882691+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;￼&lt;/p&gt;
 &lt;p&gt;材料：
     •   牛肉：300克&lt;br&gt;
     •   香菜：适量&lt;br&gt;
@@ -237,4 +208,11 @@ readwise有效的刺激了我的摄入欲望，接合rss，短时间内大量输
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/28"&gt;香菜牛肉食谱 &lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/香菜牛肉食谱/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry></feed>
+</content><link href="/archives/香菜牛肉食谱/" rel="alternate"/><published>2023-03-14T08:00:00+08:06</published></entry><entry><id>/archives/AI的时代来临了/</id><title>AI的时代来临了</title><updated>2023-03-16T12:00:23.882639+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;2023年3月15日，美国时间3月14日，这是值得被铭记的一天。因为这一天，距离chatgpt gpt-3.5发布仅仅106天，gpt4诞生了。仅仅100天，ai的质量进步了不止一个量级，已经从婴儿般理解低难度会话，进步到了理解图片内容了。更加恐怖的是，据说年底gpt5就又要发布了。&lt;br&gt;
+ai给生活带来的改变是显而易见的，以我自身为例，我从需要同事帮忙花大量时间写日语，到现如今chatgpt5分钟写出的日语比同事还要好。而这一个月也仅仅需要140块钱而已。&lt;/p&gt;
+&lt;p&gt;三体中描述人类未来世界里，进行了一次语言大融合，无论中国人还是外国人，语言都是中英结合。在我看来，ai的出现加速了这一部分的进度，甚至可以预见，在不久的将来，一款可以联网的耳机就可以代替现阶段的同声传译设备了。&lt;/p&gt;
+&lt;p&gt;现如今，基于chatgpt的各种应用如雨后春笋一般冒出，令我印象最深的则是chatpdf，他可以读取pdf内容，回答基于pdf内容的各种问题。也就是说，将我们的任何信息记录成pdf以后，就可以创造一个属于我们自身的机器人，来回答解决各种问题，学习各种知识。&lt;/p&gt;
+&lt;p&gt;另外，我个人是如何使用chatgpt的呢？最大的帮助就是个人助理。帮我安排行程，帮我翻译，帮我总结。我利用快捷指令和chatgpt的api创建了多个低代码应用，这些应用虽然不是那么的智能，但是因为是自己独立创建的，并且也确实解决了一些问题，让我感到十分快乐。&lt;/p&gt;
+&lt;p&gt;最后，AI不会淘汰人类，只有拒绝AI的人才会被淘汰。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/30"&gt;AI的时代来临了 &lt;/a&gt;&lt;/p&gt;
+</content><link href="/archives/AI的时代来临了/" rel="alternate"/><published>2023-03-16T08:00:00+08:06</published></entry></feed>
