@@ -1,14 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Fri, 17 Mar 2023 10:49:47 +0806</lastBuildDate><pubDate>Fri, 17 Mar 2023 10:49:47 +0806</pubDate><item><title>骄阳</title><link>/archives/骄阳/</link><description>&lt;p&gt;今日第四天&lt;br&gt;
-第一天下午发热到38度，然后吃了布洛芬，晚上降到了37左右，没那么难受。&lt;br&gt;
-第二天早上起来就39度，于是吃了布洛芬就睡觉了。期间出了点汗，但体温没降多少。第二天整天几乎都在睡觉。&lt;br&gt;
-临近傍晚吃了中药，睡了一觉一身汗，第二天就退烧了。&lt;br&gt;
-不知道是中药管用还是本来就该退烧了。&lt;/p&gt;
-&lt;p&gt;第三天无大碍。&lt;br&gt;
-今日开始咳嗽，喉咙有痰，鼻子不透气，暂无其他症状。&lt;br&gt;
-&lt;figure style="flex: 28.125" &gt;&lt;img loading="lazy" width="1080" height="1920" src="https://user-images.githubusercontent.com/81410185/208812478-a4109427-01f7-44cc-bc93-fa0f92cef567.jpeg" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/18"&gt;骄阳&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/骄阳/</guid><pubDate>Wed, 21 Dec 2022 08:00:00 +0806</pubDate></item><item><title>夕阳利刃出鞘</title><link>/archives/夕阳利刃出鞘/</link><description>&lt;p&gt;今天圣诞节，正午阳光正好。&lt;br&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 23 Mar 2023 13:54:43 +0806</lastBuildDate><pubDate>Thu, 23 Mar 2023 13:54:43 +0806</pubDate><item><title>夕阳利刃出鞘</title><link>/archives/夕阳利刃出鞘/</link><description>&lt;p&gt;今天圣诞节，正午阳光正好。&lt;br&gt;
 今天是🐑的第七天，目前所剩症状仅有咳嗽。&lt;br&gt;
 传说当中的味觉消失，嗅觉消失还并没有出现。&lt;br&gt;
 只是呼吸道难受的问题不知道何时可以结束。&lt;/p&gt;
@@ -184,4 +175,11 @@ ai给生活带来的改变是显而易见的，以我自身为例，我从需要
 &lt;p&gt;对于我来说，目前基于快捷指令的低代码平台仍旧是我写代码的首选。其实这么久以来，写代码并不难，因为他只是在逻辑上不停的实现一些东西，就好像英语日语，都是存在逻辑上的东西的，抓住逻辑，就可以顺利解决你想要的东西。&lt;/p&gt;
 &lt;p&gt;继续加油。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/32"&gt;尝试用chatgpt-4写代码 &lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/尝试用chatgpt-4写代码/</guid><pubDate>Fri, 17 Mar 2023 08:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/尝试用chatgpt-4写代码/</guid><pubDate>Fri, 17 Mar 2023 08:00:00 +0806</pubDate></item><item><title>ai画图不属于我</title><link>/archives/ai画图不属于我/</link><description>&lt;p&gt;这两天开通了midjounery和leondor.ai，画出来的图简直一个比一个丑。&lt;br&gt;
+用prompt，用同一个模型，参数，做出来的图就是比别人丑。&lt;br&gt;
+用image2image，出来的图简直不是人。&lt;br&gt;
+不得不说midjounery可玩性还是非常强的，也非常的已用，但是他只能输出他自己已经理解的东西，无法输出他不理解的东西。比如我让她画珍珠手机吊绳，它输出的全是珍珠项链。&lt;br&gt;
+打开推特，看到了一句话:你永远无法赚到你认知以外的钱，换句话说，你永远无法让ai输出你认知以外的东西。&lt;br&gt;
+嗯，ai亦然，它也无法输出它理解不了的东西。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/33"&gt;ai画图不属于我 &lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/ai画图不属于我/</guid><pubDate>Thu, 23 Mar 2023 08:00:00 +0806</pubDate></item></channel></rss>
