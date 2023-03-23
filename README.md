@@ -8,11 +8,11 @@ My personal blog using issues & GitHub Actions and Maverick .
 ## 置顶文章
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28
 ## 最近更新
+- [ai画图不属于我 ](https://github.com/lesnolie/Marverick/issues/33)--2023-03-23
 - [尝试用chatgpt-4写代码 ](https://github.com/lesnolie/Marverick/issues/32)--2023-03-17
 - [AI的时代来临了 ](https://github.com/lesnolie/Marverick/issues/30)--2023-03-16
 - [利用chatgpt优化亚马逊1.0](https://github.com/lesnolie/Marverick/issues/25)--2023-02-11
 - [满江红2](https://github.com/lesnolie/Marverick/issues/24)--2023-01-30
-- [Ai太令人激动了](https://github.com/lesnolie/Marverick/issues/23)--2023-01-29
 ## 开发笔记
 - [关于VPS的一点思考](https://github.com/lesnolie/Marverick/issues/14)--2022-09-16
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
