@@ -12,13 +12,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/记第一次搭建软路由（旁路有）/</loc>
-    <lastmod>2023-06-20</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
     <loc>/archives/记第一次搭建软路由（旁路由）/</loc>
     <lastmod>2023-06-20</lastmod>
     <changefreq>always</changefreq>
@@ -145,14 +138,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/压力/</loc>
+    <loc>/archives/做饭/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
 
 <url>
-    <loc>/archives/做饭/</loc>
+    <loc>/archives/压力/</loc>
     <lastmod>2022-07-11</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
