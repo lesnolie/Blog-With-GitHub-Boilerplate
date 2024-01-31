@@ -6,13 +6,14 @@ My personal blog using issues & GitHub Actions and Maverick .
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 置顶文章
+- [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28
 ## 最近更新
+- [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 - [记第一次搭建软路由（旁路由）](https://github.com/lesnolie/Marverick/issues/34)--2023-06-20
 - [ai画图不属于我 ](https://github.com/lesnolie/Marverick/issues/33)--2023-03-23
 - [尝试用chatgpt-4写代码 ](https://github.com/lesnolie/Marverick/issues/32)--2023-03-17
 - [AI的时代来临了 ](https://github.com/lesnolie/Marverick/issues/30)--2023-03-16
-- [利用chatgpt优化亚马逊1.0](https://github.com/lesnolie/Marverick/issues/25)--2023-02-11
 ## 开发笔记
 - [关于VPS的一点思考](https://github.com/lesnolie/Marverick/issues/14)--2022-09-16
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
