@@ -12,13 +12,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/捣鼓点网络：Hyper-V下PaoPaoDns&&PaoPaoGateway——利用DNS分流，加速网络/</loc>
-    <lastmod>2024-03-16</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
     <loc>/archives/Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程/</loc>
     <lastmod>2024-03-16</lastmod>
     <changefreq>always</changefreq>
