@@ -20,7 +20,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/6e46b958c1819fc4dce9da1269318344.json"
+            api: "/3031e7fcb916e8a25a4871cb770e5bc4.json"
         }
     </script>
    
@@ -397,8 +397,8 @@ ex_dns="192.168.50.2:53"</code></pre>
 <p>5.2 网关的编译</p>
 <p>替换clash/mihomo核心
 你可以把你的amd64的clash/mihomo(就是clash-meta)二进制文件重命名为clash放到当前目录即可。通过替换clash核心，你可以支持更多的协议和规则功能，比如替换为<a href="https://github.com/MetaCubeX/mihomo/releases">mihomo</a>。</p>
-<p>最终你的iso文件夹会是这个样子的:
-<figure style="flex: 207.08661417322836" ><img loading="lazy" width="526" height="127" src="https://github.com/lesnolie/Marverick/assets/81410185/5d39771c-87f1-4968-9d43-d4cf966441a9" /><figcaption>image</figcaption></figure></p>
+<p>最终你的iso文件夹会是这个样子的:</p>
+<p><figure style="flex: 207.08661417322836" ><img loading="lazy" width="526" height="127" src="https://github.com/lesnolie/Marverick/assets/81410185/5d39771c-87f1-4968-9d43-d4cf966441a9" /><figcaption>iso文件夹</figcaption></figure></p>
 <p>在iso文件夹下执行这个命令</p>
 
 <pre><code>docker run --rm -v .:/data sliamb/ppgwiso</code></pre>
@@ -438,15 +438,15 @@ ex_dns="192.168.50.2:53"</code></pre>
 <p><em>注意：如果节点数量很多或者连接数很多或者你的配置文件比较复杂的话，建议适当增加内存和CPU核心数</em></p>
 <p>在hyper-新建虚拟机，<strong>选择第一代</strong>（重点），最后一步无需使用磁盘，完成后虚拟机设置加载刚才打包的 ISO镜像，直接光驱启动即可。</p>
 <p>登录面板，地址为：网关IP地址/ui</p>
-<p><figure style="flex: 85.4521625163827" ><img loading="lazy" width="1304" height="763" src="https://github.com/lesnolie/Marverick/assets/81410185/78126142-0d89-48bb-936a-79e41fec2a3e" /><figcaption>image</figcaption></figure></p>
-<h3>附我的hyper截图&amp;&amp;配置</h3>
-<p><figure style="flex: 325.187969924812" ><img loading="lazy" width="865" height="133" src="https://github.com/lesnolie/Marverick/assets/81410185/52ee282b-d10b-4c89-8ab4-b12227c15fa9" /><figcaption>image</figcaption></figure></p>
+<p><figure style="flex: 85.4521625163827" ><img loading="lazy" width="1304" height="763" src="https://github.com/lesnolie/Marverick/assets/81410185/78126142-0d89-48bb-936a-79e41fec2a3e" /><figcaption>登录面板</figcaption></figure></p>
+<h3>附我的hyper-v截图</h3>
+<p><figure style="flex: 325.187969924812" ><img loading="lazy" width="865" height="133" src="https://github.com/lesnolie/Marverick/assets/81410185/52ee282b-d10b-4c89-8ab4-b12227c15fa9" /><figcaption>hyper-v截图</figcaption></figure></p>
 <h3>七、主路由设置</h3>
 <p>需要设置一下内容：我的主路由是梅林固件，你按照你的配置</p>
 <p>7.1 LAN-DHCP
-<figure style="flex: 61.57232704402516" ><img loading="lazy" width="979" height="795" src="https://github.com/lesnolie/Marverick/assets/81410185/01806c1a-5cd1-4c35-9b7d-0a4587461ef1" /><figcaption>image</figcaption></figure></p>
+<figure style="flex: 61.57232704402516" ><img loading="lazy" width="979" height="795" src="https://github.com/lesnolie/Marverick/assets/81410185/01806c1a-5cd1-4c35-9b7d-0a4587461ef1" /><figcaption>LAN-DHCP</figcaption></figure></p>
 <p>7.2 静态路由设置</p>
-<p><figure style="flex: 56.84931506849315" ><img loading="lazy" width="996" height="876" src="https://github.com/lesnolie/Marverick/assets/81410185/23ee96ec-61e7-4cf2-94ef-346275b40556" /><figcaption>image</figcaption></figure></p>
+<p><figure style="flex: 56.84931506849315" ><img loading="lazy" width="996" height="876" src="https://github.com/lesnolie/Marverick/assets/81410185/23ee96ec-61e7-4cf2-94ef-346275b40556" /><figcaption>静态路由设置</figcaption></figure></p>
 <hr>
 <h3>结语</h3>
 <p>看起来麻烦，实际特别简单</p>
