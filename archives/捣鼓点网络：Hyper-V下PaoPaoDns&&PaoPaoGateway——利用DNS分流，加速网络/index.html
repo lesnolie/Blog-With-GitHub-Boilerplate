@@ -20,7 +20,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/c6fa303b03d407b2e4128c11fc0e40c2.json"
+            api: "/46b124d21884a980a53b1f7f8e73e64b.json"
         }
     </script>
    
@@ -163,100 +163,96 @@
        1.3. 因为Alpine刚装完是只读状态，一定要进行设置，否则重启就还原。（我在这里纠结了一下午）
        示例设置流程</p>
 
-<pre><code>   ```
-</code></pre>
-<h1>使用 root 超级用户直接登录</h1>
-<p>localhost login: root</p>
-<h1>运行 setup-alpine 安装程序</h1>
-<p>localhost:~# setup-alpine</p>
-<h1>询问键盘布局设置，直接输入 cn ，并回车</h1>
-<p>Select keyboard layout [none]: cn</p>
-<h1>询问字符集设置，直接输入 cn ，并回车</h1>
-<p>Select variant []: cn</p>
-<h1>询问主机名设置，如无特殊需要直接回车即可（仅能由小写英文字母及英文横杠组成）</h1>
-<p>Enter system hostname (short form, e.g. 'foo') [localhost]:</p>
-<h1>选择将用于外网连接的网卡，如无特殊需，求直接回车使用默认的 eth0 即可</h1>
-<p>Which one do you want to initialize? (or '?' or 'done') [eth0]</p>
-<h1>询问主机 IP 获取方式，如无特殊需求，直接回车使用默认的 DHCP 获取方式即可</h1>
-<p>Ip address for eth0? (or 'dhcp', 'none', '?') [dhcp]</p>
-<h1>询问是否需要手动配置其它特殊的网络设置，无特殊需求直接回车，默认“否”即可</h1>
-<p>Do you want to do any manual network configuration? [no]</p>
-<h1>设置 root 超级用户密码（需重复一遍，不能是弱密码，位数要求高于六位，为了安全设置时不显示任何字符）</h1>
-<p>Changing password for root
+<pre><code># 使用 root 超级用户直接登录
+localhost login: root
+# 运行 setup-alpine 安装程序
+localhost:~# setup-alpine
+# 询问键盘布局设置，直接输入 cn ，并回车
+Select keyboard layout [none]: cn
+# 询问字符集设置，直接输入 cn ，并回车
+Select variant []: cn
+# 询问主机名设置，如无特殊需要直接回车即可（仅能由小写英文字母及英文横杠组成）
+Enter system hostname (short form, e.g. 'foo') [localhost]: 
+# 选择将用于外网连接的网卡，如无特殊需，求直接回车使用默认的 eth0 即可
+Which one do you want to initialize? (or '?' or 'done') [eth0]
+# 询问主机 IP 获取方式，如无特殊需求，直接回车使用默认的 DHCP 获取方式即可
+Ip address for eth0? (or 'dhcp', 'none', '?') [dhcp] 
+# 询问是否需要手动配置其它特殊的网络设置，无特殊需求直接回车，默认“否”即可
+Do you want to do any manual network configuration? [no]
+# 设置 root 超级用户密码（需重复一遍，不能是弱密码，位数要求高于六位，为了安全设置时不显示任何字符）
+Changing password for root
 New password: 
-Retype password:</p>
-<h1>询问时区设置，直接输入 Asia/Shanghai 并回车即可</h1>
-<p>Which timezone are you in? ('?' for list) [UTC] Asia/Shanghai</p>
-<h1>询问是否设置 HTTP/FTP 代理，无特殊需求直接回车不配置即可</h1>
-<p>HTTP/FTP proxy URL? (e.g. '<a href="http://proxy:8080">http://proxy:8080</a>', or 'none') [none]</p>
-<h1>询问软件包镜像源配置，国内的推荐选择域名后缀为 edu.cn 的其中一个，根据自己的网络来选</h1>
-<p>Enter mirror number (1-44) or URL to add (or r/f/e/done) [f]: 23</p>
-<h1>询问使用哪个 SSH server 程序，无特殊需求直接回车使用默认的 openssh 即可</h1>
-<p>Which SSH server? ('openssh', 'dropbear' or 'none') [openssh]</p>
-<h1>询问使用哪个 NTP client 时间同步校对客户端，无特殊需求直接回车使用默认的 chrony 即可</h1>
-<p>Which NTP client to run? ('busybox', 'openntpd', 'chrony' or 'none') [chrony]</p>
-<h1>询问将哪块硬盘用于配置 Alpine Linux 环境，根据自己需求输入对应硬盘并回车即可</h1>
-<p>Which disk(s) would you like to use? (or '?' for help or 'none') [none] sda</p>
-<h1>询问上面选择的硬盘用途，直接输入 sys 并回车用于安装 Alpine Linux 系统即可</h1>
-<p>How would you like to use it? ('sys', 'data', 'lvm' or '?' for help) [?] sys</p>
-<h1>告知将格式化整块磁盘，询问是否继续，输入 y 并回车选择“是”继续即可</h1>
-<p>WARNING: Erase the above disk(s) and continue? [y/N]: y</p>
-<h1>之后就是等待安装完成提示重启即可（记得提前弹出CD-ROM/DVD）</h1>
-<p>reboot</p>
+Retype password: 
+# 询问时区设置，直接输入 Asia/Shanghai 并回车即可
+Which timezone are you in? ('?' for list) [UTC] Asia/Shanghai
+# 询问是否设置 HTTP/FTP 代理，无特殊需求直接回车不配置即可
+HTTP/FTP proxy URL? (e.g. 'http://proxy:8080', or 'none') [none]
+# 询问软件包镜像源配置，国内的推荐选择域名后缀为 edu.cn 的其中一个，根据自己的网络来选
+Enter mirror number (1-44) or URL to add (or r/f/e/done) [f]: 23
+# 询问使用哪个 SSH server 程序，无特殊需求直接回车使用默认的 openssh 即可
+Which SSH server? ('openssh', 'dropbear' or 'none') [openssh] 
+# 询问使用哪个 NTP client 时间同步校对客户端，无特殊需求直接回车使用默认的 chrony 即可
+Which NTP client to run? ('busybox', 'openntpd', 'chrony' or 'none') [chrony] 
+# 询问将哪块硬盘用于配置 Alpine Linux 环境，根据自己需求输入对应硬盘并回车即可
+Which disk(s) would you like to use? (or '?' for help or 'none') [none] sda
+# 询问上面选择的硬盘用途，直接输入 sys 并回车用于安装 Alpine Linux 系统即可
+How would you like to use it? ('sys', 'data', 'lvm' or '?' for help) [?] sys
+# 告知将格式化整块磁盘，询问是否继续，输入 y 并回车选择“是”继续即可
+WARNING: Erase the above disk(s) and continue? [y/N]: y
 
-<pre><code>注：弹出CD-ROM/DVD需要在HYPER-V，Alpine的设置处弹出，这里不再进行截图，请自行寻找。
+# 之后就是等待安装完成提示重启即可（记得提前弹出CD-ROM/DVD）
+reboot</code></pre>
+<p>注：弹出CD-ROM/DVD需要在HYPER-V，Alpine的设置处弹出，这里不再进行截图，请自行寻找。</p>
 
-    14. 设置网络：setup-interfaces，设置IP，这个IP就是以后你的DNS的IP。**比如我设置的是192.168.50.2**
+<pre><code>14. 设置网络：setup-interfaces，设置IP，这个IP就是以后你的DNS的IP。**比如我设置的是192.168.50.2**
 
-### 二、安装docker
+</code></pre>
+<h3>二、安装docker</h3>
+<p>有一个<a href="https://gist.github.com/rupertbenbrook/99a02725934f91a280d154800d541634">Alpine的脚本</a>，但是这个脚本我直接运行总是没效果，所以我就把脚本里面的所有命令手打了一遍，效果拔群，你们也可以试试。</p>
+<h3>三、安装PaoPaoDns</h3>
+<p><em>如果你的网络环境访问Dokcer镜像有困难，可以尝试使用<a href="https://mirror.sjtu.edu.cn/docs/docker-registry">上海交大</a>的镜像。</em><br>
+官方建议使用docker-compose进行安装，方便更新以及更新配置：</p>
+<h1>修改 192.168.50.3 为你自己的网关(你准备设置的PaoPaoGateway)地址，其他无需修改</h1>
 
-有一个[Alpine的脚本][]，但是这个脚本我直接运行总是没效果，所以我就把脚本里面的所有命令手打了一遍，效果拔群，你们也可以试试。
+<pre><code>version: "3"
 
-### 三、安装PaoPaoDns
-*如果你的网络环境访问Dokcer镜像有困难，可以尝试使用[上海交大][]的镜像。*   
-官方建议使用docker-compose进行安装，方便更新以及更新配置：
-#修改 192.168.50.3 为你自己的网关(你准备设置的PaoPaoGateway)地址，其他无需修改</code></pre>
-<p>version: "3"</p>
-<p>services:
+services:
   paopaodns:
     image: sliamb/paopaodns:latest
     container_name: PaoPaoDNS
     restart: always
-    volumes:</p>
+    volumes:
+      - /home/paopaodns:/data
+    environment:
+      - TZ=Asia/Shanghai
+      - UPDATE=weekly
+      - DNS_SERVERNAME=PaoPaoDNS,blog.03k.org
+      - DNSPORT=53
+      - CNAUTO=yes
+      - CNFALL=yes
+      - CN_TRACKER=yes
+      - USE_HOSTS=no
+      - IPV6=no
+      - SOCKS5=192.168.50.3:1080
+      - SERVER_IP=10.10.10.8
+      - CUSTOM_FORWARD=192.168.50.3:53
+      - AUTO_FORWARD=yes
+      - AUTO_FORWARD_CHECK=yes
+      - USE_MARK_DATA=yes
+      - HTTP_FILE=yes
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+      - "5304:5304/udp"
+      - "5304:5304/tcp"
+      - "7889:7889/tcp"</code></pre>
+<p>当然，你也可以直接使用docker进行安装（我就是这样）</p>
 
-<pre><code>  - /home/paopaodns:/data
-environment:
-  - TZ=Asia/Shanghai
-  - UPDATE=weekly
-  - DNS_SERVERNAME=PaoPaoDNS,blog.03k.org
-  - DNSPORT=53
-  - CNAUTO=yes
-  - CNFALL=yes
-  - CN_TRACKER=yes
-  - USE_HOSTS=no
-  - IPV6=no
-  - SOCKS5=192.168.50.3:1080
-  - SERVER_IP=10.10.10.8
-  - CUSTOM_FORWARD=192.168.50.3:53
-  - AUTO_FORWARD=yes
-  - AUTO_FORWARD_CHECK=yes
-  - USE_MARK_DATA=yes
-  - HTTP_FILE=yes
-ports:
-  - "53:53/udp"
-  - "53:53/tcp"
-  - "5304:5304/udp"
-  - "5304:5304/tcp"
-  - "7889:7889/tcp"
-</code></pre>
-
-<pre><code>
-当然，你也可以直接使用docker进行安装（我就是这样）</code></pre>
-<h1>拉取最新的docker镜像</h1>
-<p>docker pull sliamb/paopaodns:latest</p>
-<h1>设置环境变量</h1>
-<h1>修改 192.168.50.3 为你自己的网关(你准备设置的PaoPaoGateway)地址，其他无需修改</h1>
-<p>docker run -d \
+<pre><code>#拉取最新的docker镜像
+docker pull sliamb/paopaodns:latest
+#设置环境变量
+#修改 192.168.50.3 为你自己的网关(你准备设置的PaoPaoGateway)地址，其他无需修改
+docker run -d \
 --name paopaodns \
 -v /home/mydata:/data \
 -e UPDATE=weekly \
@@ -276,138 +272,140 @@ ports:
 --restart unless-stopped \
 -p 53:53/tcp -p 53:53/udp \
 -p 5304:5304/tcp -p 5304:5304/udp \
-sliamb/paopaodns</p>
-
-<pre><code>### 四、安装备用DNS
-你可以再安装一个PaoPaodns作为备用dns，当其中一个崩溃时另一个仍能运行。
+sliamb/paopaodns</code></pre>
+<h3>四、安装备用DNS</h3>
+<p>你可以再安装一个PaoPaodns作为备用dns，当其中一个崩溃时另一个仍能运行。
 并且听说ikuai必须设置两个dns。
-不知道能不能在远程运行一个PaoPaoDns作为备用Dns服务器，你可以试试，我觉得可行。....
+不知道能不能在远程运行一个PaoPaoDns作为备用Dns服务器，你可以试试，我觉得可行。....</p>
+<h3>五、安装PaoPaoGateway</h3>
+<p>随便找一个能运行docker的机器，刚才Alpine就可以。</p>
+<p>创建目录</p>
 
-### 五、安装PaoPaoGateway
-随便找一个能运行docker的机器，刚才Alpine就可以。
+<pre><code>mkdir iso</code></pre>
+<p>进入目录</p>
 
-创建目录</code></pre>
-<p>mkdir iso</p>
+<pre><code>cd iso</code></pre>
+<p>5.1.1 network.ini配置</p>
 
-<pre><code>进入目录</code></pre>
-<p>cd iso</p>
-
-<pre><code>5.1.1 network.ini配置</code></pre>
-<p>ip=192.168.50.3
+<pre><code>ip=192.168.50.3
 mask=255.255.255.0
 gw=192.168.50.1
 dns1=192.168.50.2
-dns2=备用DNS</p>
-
-<pre><code>参数解释：
-&gt; ip：PaoPaoGateWay的IP要和PaoPaoDNS的-e CUSTOM_FORWARD=192.168.50.3:53一致。
+dns2=备用DNS</code></pre>
+<p>参数解释：</p>
+<blockquote><p>ip：PaoPaoGateWay的IP要和PaoPaoDNS的-e CUSTOM_FORWARD=192.168.50.3:53一致。
    gw：主路由的IP.
    dns1:PaoPaoDNS（主）的IP
-   dns2:PaoPaoDNS（备）的IP
-
-5.1.2 ppgw.ini配置
-下面参数根据实际修改。
-
-主要参数：
-&gt; clash_web_password="password" # 管理面板的密码password
+   dns2:PaoPaoDNS（备）的IP</p>
+</blockquote>
+<p>5.1.2 ppgw.ini配置
+下面参数根据实际修改。</p>
+<p>主要参数：</p>
+<blockquote><p>clash_web_password="password" # 管理面板的密码password
    dns_ip=192.168.50.2 # PaoDNS（主）
    ex_dns="192.168.50.2:53" # PaoDNS（主）
-   model建议使用yaml，因为clash的proxies比较容易写。
+   model建议使用yaml，因为clash的proxies比较容易写。</p>
+</blockquote>
+<p>配置如下</p>
 
+<pre><code>#paopao-gateway
 
-配置如下</code></pre>
-<h1>paopao-gateway</h1>
-<h1>mode=socks5|ovpn|yaml|suburl|free</h1>
-<h1>default: socks5</h1>
-<p>mode=yaml</p>
-<h1>Set fakeip's CIDR here</h1>
-<h1>default: fake_cidr=7.0.0.0/8</h1>
-<p>fake_cidr=11.0.0.0/8</p>
-<h1>Set your trusted DNS here</h1>
-<h1>default: dns_ip=1.0.0.1</h1>
-<h1>使用PaoPaoDNS这里就设置PaoDNS的地址</h1>
-<p>dns_ip=192.168.50.2</p>
-<h1>default: dns_port=53</h1>
-<h1>If used with PaoPaoDNS, you can set the 5304 port</h1>
-<p>dns_port=5304</p>
-<h1>Clash's web dashboard</h1>
-<p>clash_web_port="80"</p>
-<h1>Clash's 面板密码</h1>
-<p>clash_web_password="password"</p>
-<h1>default:openport=no</h1>
-<h1>socks+http mixed 1080</h1>
-<p>openport=yes</p>
-<h1>default: udp_enable=no</h1>
-<p>udp_enable=no</p>
-<h1>default:30</h1>
-<p>sleeptime=30</p>
-<h1>socks5 mode settting</h1>
-<h1>default: socks5_ip=gatewayIP</h1>
-<p>socks5_ip="192.168.8.1"</p>
-<h1>default: socks5_port="7890"</h1>
-<p>socks5_port="7890"</p>
-<h1>ovpn mode settting</h1>
-<h1>The ovpn file in the same directory as the ppgw.ini.</h1>
-<h1>default: ovpnfile=custom.ovpn</h1>
-<p>ovpnfile="custom.ovpn"
+# mode=socks5|ovpn|yaml|suburl|free
+# default: socks5
+mode=yaml
+
+# Set fakeip's CIDR here
+# default: fake_cidr=7.0.0.0/8
+fake_cidr=11.0.0.0/8
+
+# Set your trusted DNS here
+# default: dns_ip=1.0.0.1
+# 使用PaoPaoDNS这里就设置PaoDNS的地址
+dns_ip=192.168.50.2
+# default: dns_port=53
+# If used with PaoPaoDNS, you can set the 5304 port
+dns_port=5304
+
+# Clash's web dashboard
+clash_web_port="80"
+# Clash's 面板密码
+clash_web_password="password"
+
+# default:openport=no
+# socks+http mixed 1080
+openport=yes
+
+# default: udp_enable=no
+udp_enable=no
+
+# default:30
+sleeptime=30
+
+# socks5 mode settting
+# default: socks5_ip=gatewayIP
+socks5_ip="192.168.8.1"
+# default: socks5_port="7890"
+socks5_port="7890"
+
+# ovpn mode settting
+# The ovpn file in the same directory as the ppgw.ini.
+# default: ovpnfile=custom.ovpn
+ovpnfile="custom.ovpn"
 ovpn_username=""
-ovpn_password=""</p>
-<h1>yaml mode settting</h1>
-<h1>The yaml file in the same directory as the ppgw.ini.</h1>
-<h1>default: yamlfile=custom.yaml</h1>
-<p>yamlfile="custom.yaml"</p>
-<h1>suburl mode settting</h1>
-<p>suburl=""
-subtime=1d</p>
-<h1>fast_node=check/yes/no</h1>
-<p>fast_node=yes
-test_node_url="<a href="https://cp.cloudflare.com">https://cp.cloudflare.com</a>"
+ovpn_password=""
+
+# yaml mode settting
+# The yaml file in the same directory as the ppgw.ini.
+# default: yamlfile=custom.yaml
+yamlfile="custom.yaml"
+
+# suburl mode settting
+suburl=""
+subtime=1d
+
+# fast_node=check/yes/no
+fast_node=yes
+test_node_url="https://cp.cloudflare.com"
 ext_node="Traffic|Expire| GB|Days|Date"
-cpudelay="3000"</p>
-<h1>dns burn setting</h1>
-<h1>depand on fast_node=yes &amp; mode=suburl/yaml</h1>
-<p>dns_burn=yes</p>
-<h1>If used with PaoPaoDNS, you can set the PaoPaoDNS:53</h1>
-<p>ex_dns="192.168.50.2:53"</p>
+cpudelay="3000"
 
-<pre><code>
-5.1.3 custom.yaml配置(CLASH)
+# dns burn setting
+# depand on fast_node=yes &amp; mode=suburl/yaml
+dns_burn=yes
+# If used with PaoPaoDNS, you can set the PaoPaoDNS:53
+ex_dns="192.168.50.2:53"</code></pre>
+<p>5.1.3 custom.yaml配置(CLASH)
 直接把你节点的proxies部分复制进来就行，但是注意复制后的格式哈。
-下面是一个配置例子。</code></pre>
-<p>proxies:</p>
-<ul>
-<li>name: "hysteria2"
-type: hysteria2
-server: server.com
-port: 443
-# ports: 10000-20000/443
-#  up和down均不写或为0则使用BBR流控
-# up: "30 Mbps" # 若不写单位，默认为 Mbps
-# down: "200 Mbps" # 若不写单位，默认为 Mbps
-password: yourpassword
-# obfs: salamander # 默认为空，如果填写则开启obfs，目前仅支持salamander
-# obfs-password: yourpassword
-# sni: server.com
-# skip-cert-verify: false
-# fingerprint: xxxx
-# alpn:
-#   - h3
-# ca: "./my.ca"
-# ca-str: "xyz"</li>
-</ul>
+下面是一个配置例子。</p>
 
-<pre><code>5.2 网关的编译
+<pre><code>proxies:
+- name: "hysteria2"
+  type: hysteria2
+  server: server.com
+  port: 443
+  # ports: 10000-20000/443
+  #  up和down均不写或为0则使用BBR流控
+  # up: "30 Mbps" # 若不写单位，默认为 Mbps
+  # down: "200 Mbps" # 若不写单位，默认为 Mbps
+  password: yourpassword
+  # obfs: salamander # 默认为空，如果填写则开启obfs，目前仅支持salamander
+  # obfs-password: yourpassword
+  # sni: server.com
+  # skip-cert-verify: false
+  # fingerprint: xxxx
+  # alpn:
+  #   - h3
+  # ca: "./my.ca"
+  # ca-str: "xyz"</code></pre>
+<p>5.2 网关的编译</p>
+<p>替换clash/mihomo核心
+你可以把你的amd64的clash/mihomo(就是clash-meta)二进制文件重命名为clash放到当前目录即可。通过替换clash核心，你可以支持更多的协议和规则功能，比如替换为<a href="https://github.com/MetaCubeX/mihomo/releases">mihomo</a>。</p>
+<p>最终你的iso文件夹会是这个样子的:
+<figure style="flex: 207.08661417322836" ><img loading="lazy" width="526" height="127" src="https://github.com/lesnolie/Marverick/assets/81410185/5d39771c-87f1-4968-9d43-d4cf966441a9" /><figcaption>image</figcaption></figure></p>
+<p>在iso文件夹下执行这个命令</p>
 
-替换clash/mihomo核心
-你可以把你的amd64的clash/mihomo(就是clash-meta)二进制文件重命名为clash放到当前目录即可。通过替换clash核心，你可以支持更多的协议和规则功能，比如替换为[mihomo][]。
-
-最终你的iso文件夹会是这个样子的:
-![image](https://github.com/lesnolie/Marverick/assets/81410185/5d39771c-87f1-4968-9d43-d4cf966441a9)
-
-在iso文件夹下执行这个命令</code></pre>
-<p>docker run --rm -v .:/data sliamb/ppgwiso
-```
-等待执行完成，你的PaoPaoGateWay就会出现在文件夹下了。
+<pre><code>docker run --rm -v .:/data sliamb/ppgwiso</code></pre>
+<p>等待执行完成，你的PaoPaoGateWay就会出现在文件夹下了。
 下载。</p>
 <h3>六、创建PaoPaoGateway虚拟机</h3>
 <h4>运行要求和配置下发</h4>
