@@ -1,19 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 16 Mar 2024 06:13:30 +0806</lastBuildDate><pubDate>Sat, 16 Mar 2024 06:13:30 +0806</pubDate><item><title>Ai太令人激动了</title><link>/archives/Ai太令人激动了/</link><description>&lt;h3&gt;ai改变世界&lt;/h3&gt;
-&lt;p&gt;今日看完了书，侥幸在推上看见了这样一个网页:
-利用openai自动写邮件，支持多语言。
-&lt;a href="https://email-helper.vercel.app/"&gt;emailhelper&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;使用案例&lt;/p&gt;
-&lt;p&gt;&lt;figure style="flex: 23.110151187904968" &gt;&lt;img loading="lazy" width="1284" height="2778" src="https://user-images.githubusercontent.com/81410185/215315896-5b929ec0-1194-490f-875d-0c14878c0c88.png" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure style="flex: 23.110151187904968" &gt;&lt;img loading="lazy" width="1284" height="2778" src="https://user-images.githubusercontent.com/81410185/215315892-95b6996e-8de1-4480-aa1d-0cfd8dbce80f.png" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;简单输入你想表达的内容，会自动生成商业邮件。&lt;/p&gt;
-&lt;p&gt;并且还可以自行搭建。&lt;/p&gt;
-&lt;h3&gt;激动&lt;/h3&gt;
-&lt;p&gt;我的工作需要面对大量的细节处理，ai的出现可以让我快速的整理数据，整理表格，整理邮件。甚至以后开公司都可以减少大量开支。&lt;/p&gt;
-&lt;h3&gt;担忧&lt;/h3&gt;
-&lt;p&gt;ai取代人类，但会使用ai是不是还有点希望？&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/23"&gt;Ai太令人激动了&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/Ai太令人激动了/</guid><pubDate>Sun, 29 Jan 2023 08:00:00 +0806</pubDate></item><item><title>满江红2</title><link>/archives/满江红2/</link><description>&lt;p&gt;记2023年第一次和嘉敏观影。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 16 Mar 2024 06:30:25 +0806</lastBuildDate><pubDate>Sat, 16 Mar 2024 06:30:25 +0806</pubDate><item><title>满江红2</title><link>/archives/满江红2/</link><description>&lt;p&gt;记2023年第一次和嘉敏观影。&lt;/p&gt;
 &lt;p&gt;前几日看到说满江红剧情有问题，鄙人观影之时，并未发现有个问题，但这几天回想之下，确有几处不太明白。刚好嘉敏还没有观影，于是二刷满江红。&lt;/p&gt;
 &lt;h3&gt;破案核心&lt;/h3&gt;
 &lt;p&gt;孙将军带着张大见秦桧，秦桧给予令牌，所有人退下后，何立的两句话是本片的关键所在。&lt;/p&gt;
@@ -155,7 +141,330 @@ ai给生活带来的改变是显而易见的，以我自身为例，我从需要
 &lt;p&gt;最后下载即可。&lt;br&gt;
 修复效果十分惊人，请自行尝试。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/36"&gt;tools篇二：一款图片高清修复工具&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/tools篇二：一款图片高清修复工具/</guid><pubDate>Wed, 31 Jan 2024 08:00:00 +0806</pubDate></item><item><title>捣鼓点网络：Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway——利用DNS分流，加速网络</title><link>/archives/捣鼓点网络：Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway——利用DNS分流，加速网络/</link><description>&lt;p&gt;为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/tools篇二：一款图片高清修复工具/</guid><pubDate>Wed, 31 Jan 2024 08:00:00 +0806</pubDate></item><item><title>Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程</title><link>/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</link><description>&lt;p&gt;为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。&lt;/p&gt;
+&lt;p&gt;最近觉得openwrt的Homeproxy不好用。我都学会了写sing-box的配置文件，却对Homeproxy束手无策。Onedrive和canva竟然都访问不了，dns还时常出岔子。于是在网上冲浪的过程中邂逅了一篇文章，文章本身介绍利用singbox和mosdns进行分流，mosdns发现国内dns就直接直连，国外dns则通过singbox的fakeip模式进行代理。效果很好，速度很快。本人搭建成功以后，谷歌网盘的下载速度能达到40/ms。&lt;/p&gt;
+&lt;p&gt;不过我一直记得作者说的一句话：&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;“因为家里只有一台openwrt设备，无法使用PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway所以才这么做”。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;本文主讲基于Hyper-V虚拟机下，旁路由模式进行PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway的安装设置。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;网络拓扑&amp;amp;原理&lt;/h2&gt;
+&lt;p&gt;&lt;figure style="flex: 82.94573643410853" &gt;&lt;img loading="lazy" width="642" height="387" src="https://github.com/lesnolie/Marverick/assets/81410185/9bd72574-0a42-445e-aa06-8e6c61c7970f" /&gt;&lt;figcaption&gt;paopaodns&amp;&amp;paopaogateway官方示例&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;优势：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;直连直接走主路由，只有代理才走网关。也就是说，即使paopaodns&amp;amp;&amp;amp;paopaogateway都坏了，旁路由崩溃了，因为有备用DNS的存在，你整个家庭网络系统仍然可以正常运行。&lt;/li&gt;
+&lt;li&gt;PaoPaoGateway 不需要硬盘&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;figure style="flex: 50.16181229773463" &gt;&lt;img loading="lazy" width="620" height="618" src="https://github.com/lesnolie/Marverick/assets/81410185/81736437-1f01-4558-a875-6bae920c31f1" /&gt;&lt;figcaption&gt;本人理解的拓扑——direct&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 50.4071661237785" &gt;&lt;img loading="lazy" width="619" height="614" src="https://github.com/lesnolie/Marverick/assets/81410185/3164a5d3-35e8-48fc-8740-71cad1df6310" /&gt;&lt;figcaption&gt;本人理解的拓扑——prxoy&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;而普通的openwrt，无论直连和代理，都需要走一遍openwrt，所以，速度不言而喻。&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 40.2672718103883" &gt;&lt;img loading="lazy" width="1597" height="1983" src="https://github.com/lesnolie/Marverick/assets/81410185/34e73d52-d1e7-4201-b3e0-93a068bfde9e" /&gt;&lt;figcaption&gt;其他拓扑解析&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;安装PaoPaoDns&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;基于Apline-linux安装，因为他小巧易用。&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;一、安装 Alpine Linux&lt;/h3&gt;
+&lt;p&gt;1.1. 前往 &lt;a href="https://www.alpinelinux.org/downloads/"&gt;Alpine 官网&lt;/a&gt;下载安装镜像，这里选用 Virtual 镜像（只有小小的30M+），安装完系统空间占用大概 132MB 左右；
+1.2. 使用上述镜像创建一台 Hyper-V 二代虚拟机（记得关闭安全启动），并启动；
+1.3. 因为Alpine刚装完是只读状态，一定要进行设置，否则重启就还原。（我在这里纠结了一下午）
+&lt;strong&gt;&lt;em&gt;示例设置流程&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 使用 root 超级用户直接登录
+localhost login: root
+# 运行 setup-alpine 安装程序
+localhost:~# setup-alpine
+# 询问键盘布局设置，直接输入 cn ，并回车
+Select keyboard layout [none]: cn
+# 询问字符集设置，直接输入 cn ，并回车
+Select variant []: cn
+# 询问主机名设置，如无特殊需要直接回车即可（仅能由小写英文字母及英文横杠组成）
+Enter system hostname (short form, e.g. 'foo') [localhost]: 
+# 选择将用于外网连接的网卡，如无特殊需，求直接回车使用默认的 eth0 即可
+Which one do you want to initialize? (or '?' or 'done') [eth0]
+# 询问主机 IP 获取方式，如无特殊需求，直接回车使用默认的 DHCP 获取方式即可
+Ip address for eth0? (or 'dhcp', 'none', '?') [dhcp] 
+# 询问是否需要手动配置其它特殊的网络设置，无特殊需求直接回车，默认“否”即可
+Do you want to do any manual network configuration? [no]
+# 设置 root 超级用户密码（需重复一遍，不能是弱密码，位数要求高于六位，为了安全设置时不显示任何字符）
+Changing password for root
+New password: 
+Retype password: 
+# 询问时区设置，直接输入 Asia/Shanghai 并回车即可
+Which timezone are you in? ('?' for list) [UTC] Asia/Shanghai
+# 询问是否设置 HTTP/FTP 代理，无特殊需求直接回车不配置即可
+HTTP/FTP proxy URL? (e.g. 'http://proxy:8080', or 'none') [none]
+# 询问软件包镜像源配置，国内的推荐选择域名后缀为 edu.cn 的其中一个，根据自己的网络来选
+Enter mirror number (1-44) or URL to add (or r/f/e/done) [f]: 23
+# 询问使用哪个 SSH server 程序，无特殊需求直接回车使用默认的 openssh 即可
+Which SSH server? ('openssh', 'dropbear' or 'none') [openssh] 
+# 询问使用哪个 NTP client 时间同步校对客户端，无特殊需求直接回车使用默认的 chrony 即可
+Which NTP client to run? ('busybox', 'openntpd', 'chrony' or 'none') [chrony] 
+# 询问将哪块硬盘用于配置 Alpine Linux 环境，根据自己需求输入对应硬盘并回车即可
+Which disk(s) would you like to use? (or '?' for help or 'none') [none] sda
+# 询问上面选择的硬盘用途，直接输入 sys 并回车用于安装 Alpine Linux 系统即可
+How would you like to use it? ('sys', 'data', 'lvm' or '?' for help) [?] sys
+# 告知将格式化整块磁盘，询问是否继续，输入 y 并回车选择“是”继续即可
+WARNING: Erase the above disk(s) and continue? [y/N]: y
+
+# 之后就是等待安装完成提示重启即可（记得提前弹出CD-ROM/DVD）
+reboot&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;注：弹出CD-ROM/DVD需要在HYPER-V，Alpine的设置处弹出，这里不再进行截图，请自行寻找。&lt;/p&gt;
+&lt;p&gt;1.4. 设置网络：setup-interfaces，设置IP，这个IP就是以后你的DNS的IP。&lt;strong&gt;比如我设置的是192.168.50.2&lt;/strong&gt;&lt;/p&gt;
+&lt;h3&gt;二、安装docker&lt;/h3&gt;
+&lt;p&gt;有一个&lt;a href="https://gist.github.com/rupertbenbrook/99a02725934f91a280d154800d541634"&gt;Alpine的脚本&lt;/a&gt;，但是这个脚本我直接运行总是没效果，所以我就把脚本里面的所有命令手打了一遍，效果拔群，你们也可以试试。&lt;/p&gt;
+&lt;h3&gt;三、安装PaoPaoDns&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;如果你的网络环境访问Dokcer镜像有困难，可以尝试使用&lt;a href="https://mirror.sjtu.edu.cn/docs/docker-registry"&gt;上海交大&lt;/a&gt;的镜像。&lt;/em&gt;&lt;/strong&gt;&lt;br&gt;
+官方建议使用docker-compose进行安装，方便更新以及更新配置：&lt;/p&gt;
+&lt;h1&gt;修改 192.168.50.3 为你自己的网关(你准备设置的PaoPaoGateway)地址，其他无需修改&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;version: "3"
+
+services:
+  paopaodns:
+    image: sliamb/paopaodns:latest
+    container_name: PaoPaoDNS
+    restart: always
+    volumes:
+      - /home/paopaodns:/data
+    environment:
+      - TZ=Asia/Shanghai
+      - UPDATE=weekly
+      - DNS_SERVERNAME=PaoPaoDNS,blog.03k.org
+      - DNSPORT=53
+      - CNAUTO=yes
+      - CNFALL=yes
+      - CN_TRACKER=yes
+      - USE_HOSTS=no
+      - IPV6=no
+      - SOCKS5=192.168.50.3:1080
+      - SERVER_IP=10.10.10.8
+      - CUSTOM_FORWARD=192.168.50.3:53
+      - AUTO_FORWARD=yes
+      - AUTO_FORWARD_CHECK=yes
+      - USE_MARK_DATA=yes
+      - HTTP_FILE=yes
+    ports:
+      - "53:53/udp"
+      - "53:53/tcp"
+      - "5304:5304/udp"
+      - "5304:5304/tcp"
+      - "7889:7889/tcp"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;当然，你也可以直接使用docker进行安装（我就是这样）&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#拉取最新的docker镜像
+docker pull sliamb/paopaodns:latest
+#设置环境变量
+#修改 192.168.50.3 为你自己的网关(你准备设置的PaoPaoGateway)地址，其他无需修改
+docker run -d \
+--name paopaodns \
+-v /home/mydata:/data \
+-e UPDATE=weekly \
+-e CNAUTO=yes \
+-e CNFALL=yes \
+-e CN_TRACKER=yes \
+-e IPV6=no \
+-e CUSTOM_FORWARD=192.168.50.3:53  \
+-e  AUTO_FORWARD=yes   \
+-e  AUTO_FORWARD_CHECK=yes \
+-e  USE_MARK_DATA=yes \
+-e  CN_TRACKER=yes \
+-e  ADDINFO=yes \
+-e  SHUFFLE=yes \
+-e  RULES_TTL=604800 \
+-e  TZ=Asia/Shanghai \
+--restart unless-stopped \
+-p 53:53/tcp -p 53:53/udp \
+-p 5304:5304/tcp -p 5304:5304/udp \
+sliamb/paopaodns&lt;/code&gt;&lt;/pre&gt;
+&lt;h3&gt;四、安装备用DNS&lt;/h3&gt;
+&lt;p&gt;你可以再安装一个PaoPaodns作为备用dns，当其中一个崩溃时另一个仍能运行。
+并且听说ikuai必须设置两个dns。
+不知道能不能在远程运行一个PaoPaoDns作为备用Dns服务器，你可以试试，我觉得可行。....&lt;/p&gt;
+&lt;h3&gt;五、安装PaoPaoGateway&lt;/h3&gt;
+&lt;p&gt;随便找一个能运行docker的机器，刚才Alpine就可以。&lt;/p&gt;
+&lt;p&gt;创建目录&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir iso&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;进入目录&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd iso&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;5.1.1 network.ini配置&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;ip=192.168.50.3
+mask=255.255.255.0
+gw=192.168.50.1
+dns1=192.168.50.2
+dns2=备用DNS&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;参数解释：&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;ip：PaoPaoGateWay的IP要和PaoPaoDNS的-e CUSTOM_FORWARD=192.168.50.3:53一致。
+   gw：主路由的IP.
+   dns1:PaoPaoDNS（主）的IP
+   dns2:PaoPaoDNS（备）的IP&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;5.1.2 ppgw.ini配置
+下面参数根据实际修改。&lt;/p&gt;
+&lt;p&gt;主要参数：&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;clash_web_password="password" # 管理面板的密码password
+   dns_ip=192.168.50.2 # PaoDNS（主）
+   ex_dns="192.168.50.2:53" # PaoDNS（主）
+   model建议使用yaml，因为clash的proxies比较容易写。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;配置如下&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;#paopao-gateway
+
+# mode=socks5|ovpn|yaml|suburl|free
+# default: socks5
+mode=yaml
+
+# Set fakeip's CIDR here
+# default: fake_cidr=7.0.0.0/8
+fake_cidr=11.0.0.0/8
+
+# Set your trusted DNS here
+# default: dns_ip=1.0.0.1
+# 使用PaoPaoDNS这里就设置PaoDNS的地址
+dns_ip=192.168.50.2
+# default: dns_port=53
+# If used with PaoPaoDNS, you can set the 5304 port
+dns_port=5304
+
+# Clash's web dashboard
+clash_web_port="80"
+# Clash's 面板密码
+clash_web_password="password"
+
+# default:openport=no
+# socks+http mixed 1080
+openport=yes
+
+# default: udp_enable=no
+udp_enable=no
+
+# default:30
+sleeptime=30
+
+# socks5 mode settting
+# default: socks5_ip=gatewayIP
+socks5_ip="192.168.8.1"
+# default: socks5_port="7890"
+socks5_port="7890"
+
+# ovpn mode settting
+# The ovpn file in the same directory as the ppgw.ini.
+# default: ovpnfile=custom.ovpn
+ovpnfile="custom.ovpn"
+ovpn_username=""
+ovpn_password=""
+
+# yaml mode settting
+# The yaml file in the same directory as the ppgw.ini.
+# default: yamlfile=custom.yaml
+yamlfile="custom.yaml"
+
+# suburl mode settting
+suburl=""
+subtime=1d
+
+# fast_node=check/yes/no
+fast_node=yes
+test_node_url="https://cp.cloudflare.com"
+ext_node="Traffic|Expire| GB|Days|Date"
+cpudelay="3000"
+
+# dns burn setting
+# depand on fast_node=yes &amp;amp; mode=suburl/yaml
+dns_burn=yes
+# If used with PaoPaoDNS, you can set the PaoPaoDNS:53
+ex_dns="192.168.50.2:53"&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;5.1.3 custom.yaml配置(CLASH)
+直接把你节点的proxies部分复制进来就行，但是注意复制后的格式哈。
+下面是一个配置例子。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;proxies:
+- name: "hysteria2"
+  type: hysteria2
+  server: server.com
+  port: 443
+  # ports: 10000-20000/443
+  #  up和down均不写或为0则使用BBR流控
+  # up: "30 Mbps" # 若不写单位，默认为 Mbps
+  # down: "200 Mbps" # 若不写单位，默认为 Mbps
+  password: yourpassword
+  # obfs: salamander # 默认为空，如果填写则开启obfs，目前仅支持salamander
+  # obfs-password: yourpassword
+  # sni: server.com
+  # skip-cert-verify: false
+  # fingerprint: xxxx
+  # alpn:
+  #   - h3
+  # ca: "./my.ca"
+  # ca-str: "xyz"&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;&lt;p&gt;yaml：自定义clash的yaml配置文件出站。你可以自己写一个clash格式的yaml配置文件，clash支持多种出站协议，具体写法请看官方wiki。只写proxies:字段即可，也可以包含rules:字段。如果只有proxies:字段，在网关启动后你可以在web端选择节点；如果有rules:字段，则会按照你写的规则来执行。
+5.2 网关的编译&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;替换clash/mihomo核心
+你可以把你的amd64的clash/mihomo(就是clash-meta)二进制文件重命名为clash放到当前目录即可。通过替换clash核心，你可以支持更多的协议和规则功能，比如替换为&lt;a href="https://github.com/MetaCubeX/mihomo/releases"&gt;mihomo&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;最终你的iso文件夹会是这个样子的:&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 207.08661417322836" &gt;&lt;img loading="lazy" width="526" height="127" src="https://github.com/lesnolie/Marverick/assets/81410185/5d39771c-87f1-4968-9d43-d4cf966441a9" /&gt;&lt;figcaption&gt;iso文件夹&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;在iso文件夹下执行这个命令&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker run --rm -v .:/data sliamb/ppgwiso&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;等待执行完成，你的PaoPaoGateWay就会出现在文件夹下了。
+下载。&lt;/p&gt;
+&lt;h3&gt;六、创建PaoPaoGateway虚拟机&lt;/h3&gt;
+&lt;h4&gt;运行要求和配置下发&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;&lt;tr&gt;
+&lt;th&gt;类型&lt;/th&gt;
+&lt;th&gt;要求&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;虚拟机CPU&lt;/td&gt;
+&lt;td&gt;x86-64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;内存&lt;/td&gt;
+&lt;td&gt;最低128MB，推荐256MB&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;硬盘&lt;/td&gt;
+&lt;td&gt;不需要&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;网卡&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;光驱&lt;/td&gt;
+&lt;td&gt;1  &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;注意：如果节点数量很多或者连接数很多或者你的配置文件比较复杂的话，建议适当增加内存和CPU核心数&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;在hyper-新建虚拟机，&lt;strong&gt;选择第一代&lt;/strong&gt;（重点），最后一步无需使用磁盘，完成后虚拟机设置加载刚才打包的 ISO镜像，直接光驱启动即可。&lt;/p&gt;
+&lt;p&gt;登录面板，地址为：网关IP地址/ui&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 85.4521625163827" &gt;&lt;img loading="lazy" width="1304" height="763" src="https://github.com/lesnolie/Marverick/assets/81410185/78126142-0d89-48bb-936a-79e41fec2a3e" /&gt;&lt;figcaption&gt;登录面板&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;附我的hyper-v截图&lt;/h3&gt;
+&lt;p&gt;&lt;figure style="flex: 325.187969924812" &gt;&lt;img loading="lazy" width="865" height="133" src="https://github.com/lesnolie/Marverick/assets/81410185/52ee282b-d10b-4c89-8ab4-b12227c15fa9" /&gt;&lt;figcaption&gt;hyper-v截图&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;七、主路由设置&lt;/h3&gt;
+&lt;p&gt;需要设置一下内容：我的主路由是梅林固件，你按照你的配置&lt;/p&gt;
+&lt;p&gt;7.1 LAN-DHCP
+&lt;figure style="flex: 61.57232704402516" &gt;&lt;img loading="lazy" width="979" height="795" src="https://github.com/lesnolie/Marverick/assets/81410185/01806c1a-5cd1-4c35-9b7d-0a4587461ef1" /&gt;&lt;figcaption&gt;LAN-DHCP&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;7.2 静态路由设置&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 56.84931506849315" &gt;&lt;img loading="lazy" width="996" height="876" src="https://github.com/lesnolie/Marverick/assets/81410185/23ee96ec-61e7-4cf2-94ef-346275b40556" /&gt;&lt;figcaption&gt;静态路由设置&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;结语&lt;/h3&gt;
+&lt;p&gt;看起来麻烦，实际特别简单&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装Alpine&lt;/li&gt;
+&lt;li&gt;Alpine安装docker&lt;/li&gt;
+&lt;li&gt;安装PaoPaodns&lt;/li&gt;
+&lt;li&gt;编译PaoPaoGateway&lt;/li&gt;
+&lt;li&gt;启用PaoPaoGateway&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/37"&gt;Hyper-V下PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway配置教程&lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</guid><pubDate>Sat, 16 Mar 2024 08:00:00 +0806</pubDate></item><item><title>捣鼓点网络：Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway——利用DNS分流，加速网络</title><link>/archives/捣鼓点网络：Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway——利用DNS分流，加速网络/</link><description>&lt;p&gt;为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。&lt;/p&gt;
 &lt;p&gt;最近觉得openwrt的Homeproxy不好用。我都学会了写sing-box的配置文件，却对Homeproxy束手无策。Onedrive和canva竟然都访问不了，dns还时常出岔子。于是在网上冲浪的过程中邂逅了一篇文章，文章本身介绍利用singbox和mosdns进行分流，mosdns发现国内dns就直接直连，国外dns则通过singbox的fakeip模式进行代理。效果很好，速度很快。本人搭建成功以后，谷歌网盘的下载速度能达到40/ms。&lt;/p&gt;
 &lt;p&gt;不过我一直记得作者说的一句话：&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;“因为家里只有一台openwrt设备，无法使用PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway所以才这么做”。&lt;/p&gt;
