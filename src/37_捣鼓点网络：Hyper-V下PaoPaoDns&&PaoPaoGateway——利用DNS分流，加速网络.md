@@ -305,6 +305,8 @@ proxies:
   # ca-str: "xyz"
 
 ```
+
+> yaml：自定义clash的yaml配置文件出站。你可以自己写一个clash格式的yaml配置文件，clash支持多种出站协议，具体写法请看官方wiki。只写proxies:字段即可，也可以包含rules:字段。如果只有proxies:字段，在网关启动后你可以在web端选择节点；如果有rules:字段，则会按照你写的规则来执行。
 5.2 网关的编译
 
 替换clash/mihomo核心
