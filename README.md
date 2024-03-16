@@ -6,6 +6,7 @@ My personal blog using issues & GitHub Actions and Maverick .
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
 ## 置顶文章
+- [Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程](https://github.com/lesnolie/Marverick/issues/37)--2024-03-16
 - [tools篇二：一款图片高清修复工具](https://github.com/lesnolie/Marverick/issues/36)--2024-01-31
 - [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28

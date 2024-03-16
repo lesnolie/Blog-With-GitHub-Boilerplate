@@ -15,7 +15,7 @@ excerpt:
 
 为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。     
 
-最近觉得openwrt的Homeproxy不好用。我都学会了写sing-box的配置文件，却对Homeproxy束手无策。Onedrive和canva竟然都访问不了，dns还时常出岔子。于是在网上冲浪的过程中邂逅了一篇文章，文章本身介绍利用singbox和mosdns进行分流，mosdns发现国内dns就直接直连，国外dns则通过singbox的fakeip模式进行代理。效果很好，速度很快。本人搭建成功以后，谷歌网盘的下载速度能达到40/ms。  
+最近觉得openwrt的Homeproxy不好用。我都学会了写sing-box的配置文件，却对Homeproxy束手无策。Onedrive和canva竟然都访问不了，dns还时常出岔子。于是在网上冲浪的过程中邂逅了一篇文章，文章本身介绍利用singbox和mosdns进行分流，mosdns发现国内dns就直接直连，国外dns则通过singbox的fakeip模式进行代理。效果很好，速度很快。本人搭建成功以后，谷歌网盘的下载速度能达到40mb/s。  
 
 
 不过我一直记得作者说的一句话：
