@@ -10,7 +10,7 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28
 ## 最近更新
-- [捣鼓点网络：Hyper-V下PaoPaoDns&&PaoPaoGateway——利用DNS分流，加速网络](https://github.com/lesnolie/Marverick/issues/37)--2024-03-16
+- [Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程](https://github.com/lesnolie/Marverick/issues/37)--2024-03-16
 - [tools篇二：一款图片高清修复工具](https://github.com/lesnolie/Marverick/issues/36)--2024-01-31
 - [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 - [记第一次搭建软路由（旁路由）](https://github.com/lesnolie/Marverick/issues/34)--2023-06-20
@@ -19,7 +19,7 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [tools篇二：一款图片高清修复工具](https://github.com/lesnolie/Marverick/issues/36)--2024-01-31
 - [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 ## 开发笔记
-- [捣鼓点网络：Hyper-V下PaoPaoDns&&PaoPaoGateway——利用DNS分流，加速网络](https://github.com/lesnolie/Marverick/issues/37)--2024-03-16
+- [Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程](https://github.com/lesnolie/Marverick/issues/37)--2024-03-16
 - [关于VPS的一点思考](https://github.com/lesnolie/Marverick/issues/14)--2022-09-16
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
 - [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
