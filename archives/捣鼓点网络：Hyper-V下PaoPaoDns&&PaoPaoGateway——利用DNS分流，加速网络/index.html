@@ -20,7 +20,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/3031e7fcb916e8a25a4871cb770e5bc4.json"
+            api: "/72771b9fa80725c95cdfe85f7f081207.json"
         }
     </script>
    
@@ -394,7 +394,9 @@ ex_dns="192.168.50.2:53"</code></pre>
   #   - h3
   # ca: "./my.ca"
   # ca-str: "xyz"</code></pre>
-<p>5.2 网关的编译</p>
+<blockquote><p>yaml：自定义clash的yaml配置文件出站。你可以自己写一个clash格式的yaml配置文件，clash支持多种出站协议，具体写法请看官方wiki。只写proxies:字段即可，也可以包含rules:字段。如果只有proxies:字段，在网关启动后你可以在web端选择节点；如果有rules:字段，则会按照你写的规则来执行。
+5.2 网关的编译</p>
+</blockquote>
 <p>替换clash/mihomo核心
 你可以把你的amd64的clash/mihomo(就是clash-meta)二进制文件重命名为clash放到当前目录即可。通过替换clash核心，你可以支持更多的协议和规则功能，比如替换为<a href="https://github.com/MetaCubeX/mihomo/releases">mihomo</a>。</p>
 <p>最终你的iso文件夹会是这个样子的:</p>
