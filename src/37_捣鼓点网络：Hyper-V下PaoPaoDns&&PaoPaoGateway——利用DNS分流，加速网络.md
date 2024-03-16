@@ -311,7 +311,8 @@ proxies:
 你可以把你的amd64的clash/mihomo(就是clash-meta)二进制文件重命名为clash放到当前目录即可。通过替换clash核心，你可以支持更多的协议和规则功能，比如替换为[mihomo][]。
 
 最终你的iso文件夹会是这个样子的:
-![image](https://github.com/lesnolie/Marverick/assets/81410185/5d39771c-87f1-4968-9d43-d4cf966441a9)
+
+![iso文件夹][5]
 
 在iso文件夹下执行这个命令
 ```
@@ -337,22 +338,22 @@ docker run --rm -v .:/data sliamb/ppgwiso
 
 登录面板，地址为：网关IP地址/ui
 
-![image](https://github.com/lesnolie/Marverick/assets/81410185/78126142-0d89-48bb-936a-79e41fec2a3e)
+![登录面板][6]
 
 
-### 附我的hyper截图&&配置
+### 附我的hyper-v截图
 
-![image](https://github.com/lesnolie/Marverick/assets/81410185/52ee282b-d10b-4c89-8ab4-b12227c15fa9)
+![hyper-v截图][7]
 
 ### 七、主路由设置
 需要设置一下内容：我的主路由是梅林固件，你按照你的配置
 
 7.1 LAN-DHCP
-![image](https://github.com/lesnolie/Marverick/assets/81410185/01806c1a-5cd1-4c35-9b7d-0a4587461ef1)
+![LAN-DHCP][8]
 
 7.2 静态路由设置
 
-![image](https://github.com/lesnolie/Marverick/assets/81410185/23ee96ec-61e7-4cf2-94ef-346275b40556)
+![静态路由设置][9]
 
 ---
 
@@ -368,6 +369,11 @@ docker run --rm -v .:/data sliamb/ppgwiso
 [2]: https://github.com/lesnolie/Marverick/assets/81410185/81736437-1f01-4558-a875-6bae920c31f1
 [3]: https://github.com/lesnolie/Marverick/assets/81410185/3164a5d3-35e8-48fc-8740-71cad1df6310
 [4]: https://github.com/lesnolie/Marverick/assets/81410185/34e73d52-d1e7-4201-b3e0-93a068bfde9e
+[5]: https://github.com/lesnolie/Marverick/assets/81410185/5d39771c-87f1-4968-9d43-d4cf966441a9
+[6]: https://github.com/lesnolie/Marverick/assets/81410185/78126142-0d89-48bb-936a-79e41fec2a3e
+[7]: https://github.com/lesnolie/Marverick/assets/81410185/52ee282b-d10b-4c89-8ab4-b12227c15fa9
+[8]: https://github.com/lesnolie/Marverick/assets/81410185/01806c1a-5cd1-4c35-9b7d-0a4587461ef1
+[9]: https://github.com/lesnolie/Marverick/assets/81410185/23ee96ec-61e7-4cf2-94ef-346275b40556
 [mihomo]:https://github.com/MetaCubeX/mihomo/releases
 [Alpine 官网]:https://www.alpinelinux.org/downloads/
 [Alpine的脚本]:https://gist.github.com/rupertbenbrook/99a02725934f91a280d154800d541634
