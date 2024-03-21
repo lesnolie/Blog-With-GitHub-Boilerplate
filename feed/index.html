@@ -1,19 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 16 Mar 2024 06:34:43 +0806</lastBuildDate><pubDate>Sat, 16 Mar 2024 06:34:43 +0806</pubDate><item><title>Ai太令人激动了</title><link>/archives/Ai太令人激动了/</link><description>&lt;h3&gt;ai改变世界&lt;/h3&gt;
-&lt;p&gt;今日看完了书，侥幸在推上看见了这样一个网页:
-利用openai自动写邮件，支持多语言。
-&lt;a href="https://email-helper.vercel.app/"&gt;emailhelper&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;使用案例&lt;/p&gt;
-&lt;p&gt;&lt;figure style="flex: 23.110151187904968" &gt;&lt;img loading="lazy" width="1284" height="2778" src="https://user-images.githubusercontent.com/81410185/215315896-5b929ec0-1194-490f-875d-0c14878c0c88.png" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;&lt;figure style="flex: 23.110151187904968" &gt;&lt;img loading="lazy" width="1284" height="2778" src="https://user-images.githubusercontent.com/81410185/215315892-95b6996e-8de1-4480-aa1d-0cfd8dbce80f.png" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;简单输入你想表达的内容，会自动生成商业邮件。&lt;/p&gt;
-&lt;p&gt;并且还可以自行搭建。&lt;/p&gt;
-&lt;h3&gt;激动&lt;/h3&gt;
-&lt;p&gt;我的工作需要面对大量的细节处理，ai的出现可以让我快速的整理数据，整理表格，整理邮件。甚至以后开公司都可以减少大量开支。&lt;/p&gt;
-&lt;h3&gt;担忧&lt;/h3&gt;
-&lt;p&gt;ai取代人类，但会使用ai是不是还有点希望？&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/23"&gt;Ai太令人激动了&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/Ai太令人激动了/</guid><pubDate>Sun, 29 Jan 2023 08:00:00 +0806</pubDate></item><item><title>满江红2</title><link>/archives/满江红2/</link><description>&lt;p&gt;记2023年第一次和嘉敏观影。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Thu, 21 Mar 2024 02:10:07 +0806</lastBuildDate><pubDate>Thu, 21 Mar 2024 02:10:07 +0806</pubDate><item><title>满江红2</title><link>/archives/满江红2/</link><description>&lt;p&gt;记2023年第一次和嘉敏观影。&lt;/p&gt;
 &lt;p&gt;前几日看到说满江红剧情有问题，鄙人观影之时，并未发现有个问题，但这几天回想之下，确有几处不太明白。刚好嘉敏还没有观影，于是二刷满江红。&lt;/p&gt;
 &lt;h3&gt;破案核心&lt;/h3&gt;
 &lt;p&gt;孙将军带着张大见秦桧，秦桧给予令牌，所有人退下后，何立的两句话是本片的关键所在。&lt;/p&gt;
@@ -478,4 +464,60 @@ ex_dns="192.168.50.2:53"&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;启用PaoPaoGateway&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/37"&gt;Hyper-V下PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway配置教程&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</guid><pubDate>Sat, 16 Mar 2024 08:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</guid><pubDate>Sat, 16 Mar 2024 08:00:00 +0806</pubDate></item><item><title>基于systemd实现gost开机自启动的方法</title><link>/archives/基于systemd实现gost开机自启动的方法/</link><description>&lt;p&gt;&lt;strong&gt;由于adspower可以使用sock5代理，所以在两个vps上使用gost创建socks5代理。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;打开&lt;a href="https://github.com/go-gost/gost"&gt;Gost仓库&lt;/a&gt;,使用脚本安装gost&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;# 安装最新版本 [https://github.com/go-gost/gost/releases](https://github.com/go-gost/gost/releases)
+bash &amp;lt;(curl -fsSL https://github.com/go-gost/gost/raw/master/install.sh) --install&lt;/code&gt;&lt;/pre&gt;
+&lt;blockquote&gt;&lt;p&gt;[!NOTE] 
+如果你是国内服务器，可以自己复制install.sh里面的代码到机器，然后添加自己的github加速地址
+&lt;figure style="flex: 191.51785714285714" &gt;&lt;img loading="lazy" width="429" height="112" src="https://github.com/lesnolie/Marverick/assets/81410185/113c7666-e133-471c-9b93-732b8b7b41fc" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;利用systemd讲gost开机启动&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;添加service文件&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;nano /etc/systemd/system/gost.service&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;内容如下&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[Unit]
+Description=GOSTv3-Server of GO simple tunnel
+Documentation=https://gost.run/
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/gost -L socks5://username:password@:port_num  #修改为自己要使用的gost模式，这里我使用的是socks5
+Restart=always
+[Install]
+WantedBy=multi-user.target&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;重现加载文件&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;systemctl daemon-reload&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;设置开机启动&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;systemctl enable gost.service&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;启动&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;systemctl start gost.service&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;查看状态&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;systemctl status gost.service&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;strong&gt;使用systemctl管理gost服务的完整用例如下：&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# 开机启动
+systemctl enable gost.service
+# 关闭开机启动
+systemctl disable gost.service
+# 启动服务
+systemctl start gost.service
+# 停止服务
+systemctl stop gost.service
+# 重启服务
+systemctl restart gost.service
+# 查看服务状态
+systemctl status gost.service
+systemctl is-active gost.service
+# 结束服务进程(服务无法停止时)
+systemctl kill gost.service&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/38"&gt;基于systemd实现gost开机自启动的方法&lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/基于systemd实现gost开机自启动的方法/</guid><pubDate>Thu, 21 Mar 2024 08:00:00 +0806</pubDate></item></channel></rss>
