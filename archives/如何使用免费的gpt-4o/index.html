@@ -20,7 +20,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "/55ced12a7422a5f141cf718b887e766d.json"
+            api: "/7790f94deb87c5e87d0af0d5a1752460.json"
         }
     </script>
    
@@ -155,7 +155,7 @@
 <ul>
 <li>推荐 <a href="https://github.com/Bin-Huang/chatbox">Chatbox</a>，你也可以使用其他的客户端。</li>
 </ul>
-<h2>chatapi部署步骤</h2>
+<h2>chat2api部署步骤</h2>
 <h3>Docker Compose 部署</h3>
 <ol>
 <li>创建一个新的目录，例如 <code>chat2api</code>，并进入该目录：<div class="highlight"><pre><span></span>mkdir<span class="w"> </span>chat2api
@@ -185,6 +185,8 @@
 如果设置了 AUTHORIZATION 环境变量，可以将设置的值当作 OpenAI APIKEY 传入进行多 Tokens 轮询。
 AccessToken 获取: chatgpt 登录后，再打开 <a href="https://chatgpt.com/api/auth/session">session API</a> 获取 accessToken 值。
 免登录 gpt-3.5 无需传入 Token。</p>
+<h2>使用cloudflare_temp_email</h2>
+<p>由于chatgpt-4o非plus用户只能3小时10条，所以使用临时邮箱注册4个账号，达到3消失40条。</p>
 <h2>部署 open-api</h2>
 <p>使用 Docker Compose 进行部署
 注意：虽然启动方式有所不同，但参数设置保持不变。具体的参数设置请参考基于 Docker 部署部分。</p>
