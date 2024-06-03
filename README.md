@@ -17,16 +17,23 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程](https://github.com/lesnolie/Marverick/issues/37)--2024-03-16
 - [tools篇二：一款图片高清修复工具](https://github.com/lesnolie/Marverick/issues/36)--2024-01-31
 ## AI
+- [如何使用免费的gpt-4o](https://github.com/lesnolie/Marverick/issues/40)--2024-06-03
 - [只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。](https://github.com/lesnolie/Marverick/issues/39)--2024-03-30
 ## tools
+- [如何使用免费的gpt-4o](https://github.com/lesnolie/Marverick/issues/40)--2024-06-03
 - [tools篇二：一款图片高清修复工具](https://github.com/lesnolie/Marverick/issues/36)--2024-01-31
 - [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 ## 开发笔记
+- [如何使用免费的gpt-4o](https://github.com/lesnolie/Marverick/issues/40)--2024-06-03
 - [基于systemd实现gost开机自启动的方法](https://github.com/lesnolie/Marverick/issues/38)--2024-03-21
 - [Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程](https://github.com/lesnolie/Marverick/issues/37)--2024-03-16
 - [关于VPS的一点思考](https://github.com/lesnolie/Marverick/issues/14)--2022-09-16
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
+<details><summary>显示更多</summary>
+
 - [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
+</details>
+
 ## 生活琐事
 - [记第一次搭建软路由（旁路由）](https://github.com/lesnolie/Marverick/issues/34)--2023-06-20
 - [《三体》以及需要梳理的自己](https://github.com/lesnolie/Marverick/issues/22)--2023-01-27

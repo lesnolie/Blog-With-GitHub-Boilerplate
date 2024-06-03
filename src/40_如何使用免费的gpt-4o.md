@@ -30,7 +30,7 @@ coze 可以免费使用。
 ### 客户端
 - 推荐 [Chatbox](https://github.com/Bin-Huang/chatbox)，你也可以使用其他的客户端。
 
-## chatapi部署步骤
+## chat2api部署步骤
 
 ### Docker Compose 部署
 1. 创建一个新的目录，例如 `chat2api`，并进入该目录：
@@ -68,6 +68,10 @@ curl --location 'http://127.0.0.1:5005/v1/chat/completions' \
 如果设置了 AUTHORIZATION 环境变量，可以将设置的值当作 OpenAI APIKEY 传入进行多 Tokens 轮询。
 AccessToken 获取: chatgpt 登录后，再打开 [session API](https://chatgpt.com/api/auth/session) 获取 accessToken 值。
 免登录 gpt-3.5 无需传入 Token。
+
+## 使用cloudflare_temp_email
+
+由于chatgpt-4o非plus用户只能3小时10条，所以使用临时邮箱注册4个账号，达到3消失40条。
 
 ## 部署 open-api
 使用 Docker Compose 进行部署
