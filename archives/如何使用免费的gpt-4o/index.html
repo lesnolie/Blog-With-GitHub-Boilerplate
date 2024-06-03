@@ -38,18 +38,18 @@
     <meta name="theme-color" content="#ffffff">
 
     
-<title>骄阳 - 不愧不忘</title>
+<title>如何使用免费的gpt-4o - 不愧不忘</title>
 <meta name="author" content="Leslie" />
-<meta name="description" content="今日第四天" />
-<meta property="og:title" content="骄阳 - 不愧不忘" />
-<meta property="og:description" content="今日第四天" />
+<meta name="description" content="非API" />
+<meta property="og:title" content="如何使用免费的gpt-4o - 不愧不忘" />
+<meta property="og:description" content="非API" />
 <meta property="og:site_name" content="不愧不忘" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/archives/骄阳/" />
+<meta property="og:url" content="/archives/如何使用免费的gpt-4o/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2022-12-21T08:00:00-00.00" />
-<meta name="twitter:title" content="骄阳 - 不愧不忘" />
-<meta name="twitter:description" content="今日第四天" />
+<meta property="article:published_time" content="2024-06-03T08:00:00-00.00" />
+<meta name="twitter:title" content="如何使用免费的gpt-4o - 不愧不忘" />
+<meta name="twitter:description" content="非API" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -125,11 +125,11 @@
 <div class="post-detail">
     <article class="post">
         <h1 class="post-title">
-            骄阳
+            如何使用免费的gpt-4o
         </h1>
         <div class="post-info">
             <time>
-                2022-12-21
+                2024-06-03
             </time>
             <span>
                 Leslie
@@ -137,15 +137,75 @@
         </div>
         <div class="post-content-wrapper">
             <div class="post-content pswp-gallery">
-                <p>今日第四天<br>
-第一天下午发热到38度，然后吃了布洛芬，晚上降到了37左右，没那么难受。<br>
-第二天早上起来就39度，于是吃了布洛芬就睡觉了。期间出了点汗，但体温没降多少。第二天整天几乎都在睡觉。<br>
-临近傍晚吃了中药，睡了一觉一身汗，第二天就退烧了。<br>
-不知道是中药管用还是本来就该退烧了。</p>
-<p>第三天无大碍。<br>
-今日开始咳嗽，喉咙有痰，鼻子不透气，暂无其他症状。<br>
-<figure style="flex: 28.125" ><img loading="lazy" width="1080" height="1920" src="https://user-images.githubusercontent.com/81410185/208812478-a4109427-01f7-44cc-bc93-fa0f92cef567.jpeg" /><figcaption>image</figcaption></figure></p>
-<p><a href="https://github.com/lesnolie/Marverick/issues/18">骄阳</a></p>
+                <h2>非API</h2>
+<p>coze 可以免费使用。</p>
+<h2>API</h2>
+<p>需要部署以下几个工具。</p>
+<h3>必须</h3>
+<ul>
+<li><a href="https://github.com/lanqian528/chat2api">chat2api</a></li>
+<li><a href="https://github.com/MartialBE/one-api">one-api</a></li>
+<li>注册 <a href="https://burn.hair/">Burn.hair</a></li>
+</ul>
+<h3>非必需</h3>
+<ul>
+<li>部署 <a href="https://github.com/berstend/CFTempEmail">cloudflare_temp_email</a>（用于注册chatgpt）</li>
+</ul>
+<h3>客户端</h3>
+<ul>
+<li>推荐 <a href="https://github.com/Bin-Huang/chatbox">Chatbox</a>，你也可以使用其他的客户端。</li>
+</ul>
+<h2>chatapi部署步骤</h2>
+<h3>Docker Compose 部署</h3>
+<ol>
+<li>创建一个新的目录，例如 <code>chat2api</code>，并进入该目录：<div class="highlight"><pre><span></span>mkdir<span class="w"> </span>chat2api
+<span class="nb">cd</span><span class="w"> </span>chat2api
+</pre></div>
+</li>
+<li>在此目录中下载库中的 docker-compose.yml 文件：<div class="highlight"><pre><span></span>wget<span class="w"> </span>https://raw.githubusercontent.com/LanQian528/chat2api/main/docker-compose.yml
+</pre></div>
+修改 docker-compose.yml 文件中的环境变量，保存后：
+<pre><code>docker-compose up -d</code></pre>
+使用
+在网页使用，直接访问以下地址:</li>
+</ol>
+
+<pre><code>http://127.0.0.1:5005</code></pre>
+<p>使用 API，支持传入 AccessToken 或 RefreshToken，可用 GPT-4, GPT-4o, GPTs：</p>
+
+<pre><code>curl --location 'http://127.0.0.1:5005/v1/chat/completions' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer {{OpenAI APIKEY}}' \
+--data '{
+     "model": "gpt-3.5-turbo",
+     "messages": [{"role": "user", "content": "Say this is a test!"}],
+     "stream": true
+   }'</code></pre>
+<p>将你账号的 AccessToken 或 RefreshToken 当作 OpenAI APIKEY 传入。
+如果设置了 AUTHORIZATION 环境变量，可以将设置的值当作 OpenAI APIKEY 传入进行多 Tokens 轮询。
+AccessToken 获取: chatgpt 登录后，再打开 <a href="https://chatgpt.com/api/auth/session">session API</a> 获取 accessToken 值。
+免登录 gpt-3.5 无需传入 Token。</p>
+<h2>部署 open-api</h2>
+<p>使用 Docker Compose 进行部署
+注意：虽然启动方式有所不同，但参数设置保持不变。具体的参数设置请参考基于 Docker 部署部分。</p>
+<p>在你本机创建一个目录用于存放数据，例如 /home/ubuntu/data/one-api，注意：以下操作都是基于你处于 /home/ubuntu/data/one-api 目录下进行的。如果你的目录不是 /home/ubuntu/data/one-api，请自行进入到你的目录。</p>
+
+<pre><code>mkdir -p ./data/mysql
+mkdir -p ./data/one-api</code></pre>
+<p>下载 docker-compose.yml 文件到你的本地目录（上面的列子是：/home/ubuntu/data/one-api）。</p>
+<p>修改 docker-compose.yml 文件，将你需要的环境变量填入。如果你想使用配置文件，可以下载配置文件，并重命名为 config.yaml 放入 ./data/one-api 目录中。</p>
+<p>启动服务：</p>
+
+<pre><code>docker-compose up -d</code></pre>
+<p>启动服务后，你可以通过运行以下命令来查看部署状态：</p>
+
+<pre><code>docker-compose ps</code></pre>
+<p>请确保所有的服务都已经成功启动，并且状态为 'Up'。</p>
+<h2>使用</h2>
+<p>将 burn.hair 和导入 one-api</p>
+<h2>客户端使用</h2>
+<p>使用 One-api 的地址和令牌即可。</p>
+<p><a href="https://github.com/lesnolie/Marverick/issues/40">如何使用免费的gpt-4o</a></p>
 
             </div>
         </div>
@@ -156,10 +216,10 @@
 <div class="next-post">
  
     <div class="next"">下一篇</div>
-    <a href="/archives/似阳/">
+    <a href="/archives/只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。/">
 
         <h3 class="post-title">
-            似阳
+            只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。
         </h3>
     </a>
  

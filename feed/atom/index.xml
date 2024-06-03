@@ -1,50 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>不愧不忘</title><updated>2024-03-30T02:45:53.687731+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫</subtitle><entry><id>/archives/利用chatgpt优化亚马逊1.0/</id><title>利用chatgpt优化亚马逊1.0</title><updated>2024-03-30T02:45:53.688010+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;利用chatgpt优化亚马逊的标题&lt;/h2&gt;
-&lt;h3&gt;Intro&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;搜集排名靠前的产品标题&lt;/li&gt;
-&lt;li&gt;搜集品牌分析中核心关键字和长尾词（ABA）&lt;/li&gt;
-&lt;li&gt;整理后询问chatgpt，根据亚马逊A10算法优化生成产品标题
-### Use&lt;/li&gt;
-&lt;li&gt;获取亚马逊品牌分析提供的亚马逊搜索词：
-&lt;pre&gt;&lt;code&gt;”スマホ ショルダーバッグ“，”スマホショルダー“，”スマホショルダー レディース“，”スマホショルダー“&lt;/code&gt;&lt;/pre&gt;
-&lt;/li&gt;
-&lt;li&gt;获取各个关键词优秀的产品标题：
-&lt;figure style="flex: 148.3430799220273" &gt;&lt;img loading="lazy" width="1522" height="513" src="https://raw.githubusercontent.com/lesnolie/img/master/obsidian/20230203135836.png" /&gt;&lt;figcaption&gt;image.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;/li&gt;
-&lt;li&gt;在chatgpt中输入问题：
-&lt;figure style="flex: 21.598821638993037" &gt;&lt;img loading="lazy" width="1613" height="3734" src="https://raw.githubusercontent.com/lesnolie/img/master/obsidian/20230203141100.png" /&gt;&lt;figcaption&gt;image.png&lt;/figcaption&gt;&lt;/figure&gt;&lt;ol&gt;
-&lt;li&gt;询问方式：请分析我搜集的标题，优化生成符合亚马逊A10算法的标题，注意：产品销售对象为：xx。&lt;/li&gt;
-&lt;li&gt;为什么你会生成这个标题，请讲明原因。
-### 补充&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/li&gt;
-&lt;li&gt;更换提问方式：例如，NOW YOU ARE BASED ON AMAZON A10 SYSTEM, I HAVE WRITE SOME KEYWORD ABOT THIS PRODUCT, PLEASE MAKE A PRODUCT TITLE &amp;amp; TELL ME WHY.(XXX IS THE MOST IMPORTANT KEYWORD.)&lt;/li&gt;
-&lt;li&gt;可以分析标题，描述，review等等
-### TODO&lt;/li&gt;
-&lt;li&gt;分析广告&lt;/li&gt;
-&lt;li&gt;开发产品&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/25"&gt;利用chatgpt优化亚马逊1.0&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/利用chatgpt优化亚马逊1.0/"/><published>2023-02-11T08:00:00+08:06</published></entry><entry><id>/archives/AI的时代来临了/</id><title>AI的时代来临了</title><updated>2024-03-30T02:45:53.687988+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;2023年3月15日，美国时间3月14日，这是值得被铭记的一天。因为这一天，距离chatgpt gpt-3.5发布仅仅106天，gpt4诞生了。仅仅100天，ai的质量进步了不止一个量级，已经从婴儿般理解低难度会话，进步到了理解图片内容了。更加恐怖的是，据说年底gpt5就又要发布了。&lt;br&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>不愧不忘</title><updated>2024-06-03T06:28:19.874175+08:06</updated><author><name>LESLIE</name><email>lesliezhang08@gmail.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="1.0.0">python-feedgen</generator><logo>/logo.jpg</logo><subtitle>我喜欢猫</subtitle><entry><id>/archives/AI的时代来临了/</id><title>AI的时代来临了</title><updated>2024-06-03T06:28:19.874436+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;2023年3月15日，美国时间3月14日，这是值得被铭记的一天。因为这一天，距离chatgpt gpt-3.5发布仅仅106天，gpt4诞生了。仅仅100天，ai的质量进步了不止一个量级，已经从婴儿般理解低难度会话，进步到了理解图片内容了。更加恐怖的是，据说年底gpt5就又要发布了。&lt;br&gt;
 ai给生活带来的改变是显而易见的，以我自身为例，我从需要同事帮忙花大量时间写日语，到现如今chatgpt5分钟写出的日语比同事还要好。而这一个月也仅仅需要140块钱而已。&lt;/p&gt;
 &lt;p&gt;三体中描述人类未来世界里，进行了一次语言大融合，无论中国人还是外国人，语言都是中英结合。在我看来，ai的出现加速了这一部分的进度，甚至可以预见，在不久的将来，一款可以联网的耳机就可以代替现阶段的同声传译设备了。&lt;/p&gt;
 &lt;p&gt;现如今，基于chatgpt的各种应用如雨后春笋一般冒出，令我印象最深的则是chatpdf，他可以读取pdf内容，回答基于pdf内容的各种问题。也就是说，将我们的任何信息记录成pdf以后，就可以创造一个属于我们自身的机器人，来回答解决各种问题，学习各种知识。&lt;/p&gt;
 &lt;p&gt;另外，我个人是如何使用chatgpt的呢？最大的帮助就是个人助理。帮我安排行程，帮我翻译，帮我总结。我利用快捷指令和chatgpt的api创建了多个低代码应用，这些应用虽然不是那么的智能，但是因为是自己独立创建的，并且也确实解决了一些问题，让我感到十分快乐。&lt;/p&gt;
 &lt;p&gt;最后，AI不会淘汰人类，只有拒绝AI的人才会被淘汰。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/30"&gt;AI的时代来临了 &lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/AI的时代来临了/"/><published>2023-03-16T08:00:00+08:06</published></entry><entry><id>/archives/尝试用chatgpt-4写代码/</id><title>尝试用chatgpt-4写代码</title><updated>2024-03-30T02:45:53.687967+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;推特上有一个基于slack的读文章机器人，能够讲网页内容转成文本，让chatgpt读取，我尝试利用chatgpt-4改成telegram bot，失败了。&lt;/p&gt;
+</content><link href="/archives/AI的时代来临了/"/><published>2023-03-16T08:00:00+08:06</published></entry><entry><id>/archives/尝试用chatgpt-4写代码/</id><title>尝试用chatgpt-4写代码</title><updated>2024-06-03T06:28:19.874416+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;推特上有一个基于slack的读文章机器人，能够讲网页内容转成文本，让chatgpt读取，我尝试利用chatgpt-4改成telegram bot，失败了。&lt;/p&gt;
 &lt;p&gt;失败的地方在于chatgpt的版本资料停留在2021年，所以导致许多模块的不兼容。目前我没有什么好的办法去解决这件事。&lt;/p&gt;
 &lt;p&gt;对于我来说，目前基于快捷指令的低代码平台仍旧是我写代码的首选。其实这么久以来，写代码并不难，因为他只是在逻辑上不停的实现一些东西，就好像英语日语，都是存在逻辑上的东西的，抓住逻辑，就可以顺利解决你想要的东西。&lt;/p&gt;
 &lt;p&gt;继续加油。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/32"&gt;尝试用chatgpt-4写代码 &lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/尝试用chatgpt-4写代码/"/><published>2023-03-17T08:00:00+08:06</published></entry><entry><id>/archives/ai画图不属于我/</id><title>ai画图不属于我</title><updated>2024-03-30T02:45:53.687945+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;这两天开通了midjounery和leondor.ai，画出来的图简直一个比一个丑。&lt;br&gt;
+</content><link href="/archives/尝试用chatgpt-4写代码/"/><published>2023-03-17T08:00:00+08:06</published></entry><entry><id>/archives/ai画图不属于我/</id><title>ai画图不属于我</title><updated>2024-06-03T06:28:19.874395+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;这两天开通了midjounery和leondor.ai，画出来的图简直一个比一个丑。&lt;br&gt;
 用prompt，用同一个模型，参数，做出来的图就是比别人丑。&lt;br&gt;
 用image2image，出来的图简直不是人。&lt;br&gt;
 不得不说midjounery可玩性还是非常强的，也非常的已用，但是他只能输出他自己已经理解的东西，无法输出他不理解的东西。比如我让她画珍珠手机吊绳，它输出的全是珍珠项链。&lt;br&gt;
 打开推特，看到了一句话:你永远无法赚到你认知以外的钱，换句话说，你永远无法让ai输出你认知以外的东西。&lt;br&gt;
 嗯，ai亦然，它也无法输出它理解不了的东西。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/33"&gt;ai画图不属于我 &lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/ai画图不属于我/"/><published>2023-03-23T08:00:00+08:06</published></entry><entry><id>/archives/记第一次搭建软路由（旁路由）/</id><title>记第一次搭建软路由（旁路由）</title><updated>2024-03-30T02:45:53.687925+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;于是，我终于搭建了属于自己的路由器。&lt;br&gt;
+</content><link href="/archives/ai画图不属于我/"/><published>2023-03-23T08:00:00+08:06</published></entry><entry><id>/archives/记第一次搭建软路由（旁路由）/</id><title>记第一次搭建软路由（旁路由）</title><updated>2024-06-03T06:28:19.874374+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;于是，我终于搭建了属于自己的路由器。&lt;br&gt;
 于是，我终于人到中年。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;早就想要折腾路由器了，从开始折腾梅林算起，到如今已经有十多年了。其中，因自身的原因有个3，4年空窗期，但是自己对于折腾的喜爱还是停不下来。&lt;br&gt;
@@ -63,7 +37,7 @@ ai给生活带来的改变是显而易见的，以我自身为例，我从需要
 &lt;p&gt;最后我决定，再添加一个wan口，然后将lan口桥接关闭。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/34"&gt;记第一次搭建软路由（旁路由）&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/记第一次搭建软路由（旁路由）/"/><published>2023-06-20T08:00:00+08:06</published></entry><entry><id>/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/</id><title>这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI</title><updated>2024-03-30T02:45:53.687903+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;2024第一篇，2023年没有怎么发推，因为太懒了。2024估计也改不掉懒的毛病，但是我觉得还是需要把日常使用的工具记录一下，方便以后分享或者总结。也算是给自己开一个新篇章:tools篇&lt;/h2&gt;
+</content><link href="/archives/记第一次搭建软路由（旁路由）/"/><published>2023-06-20T08:00:00+08:06</published></entry><entry><id>/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/</id><title>这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI</title><updated>2024-06-03T06:28:19.874353+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;2024第一篇，2023年没有怎么发推，因为太懒了。2024估计也改不掉懒的毛病，但是我觉得还是需要把日常使用的工具记录一下，方便以后分享或者总结。也算是给自己开一个新篇章:tools篇&lt;/h2&gt;
 &lt;h2&gt;什么是背景去除工具&lt;/h2&gt;
 &lt;p&gt;背景去除工具，简单讲就是抠图。我个人常用场景是：网图只想使用其中的某个元素，之前只能通过PS一点一点抠图，为此还学了很多方法：什么蒙板、钢笔等等等等。现在，得益于AI的发展迅速，迭代了许许多多的抠图工具，今天我就要介绍一款我所使用过的最好用的工具：&lt;a href="https:pixian.ai"&gt;Pixian.ai&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure style="flex: 100.82256169212691" &gt;&lt;img loading="lazy" width="1716" height="851" src="https://github.com/lesnolie/Marverick/assets/81410185/44241a36-6ffe-4610-8e50-772fdba10b48" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -80,7 +54,7 @@ ai给生活带来的改变是显而易见的，以我自身为例，我从需要
 &lt;p&gt;有尺寸限制，需要你自行进行探索&lt;/p&gt;
 &lt;p&gt;-end-&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/35"&gt;这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/"/><published>2024-01-31T08:00:00+08:06</published></entry><entry><id>/archives/tools篇二：一款图片高清修复工具/</id><title>tools篇二：一款图片高清修复工具</title><updated>2024-03-30T02:45:53.687881+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;很快，我们就来到了第二篇：图片高清放大工具——&lt;a href="https://replicate.com/jingyunliang/swinir"&gt;swinir&lt;/a&gt;&lt;/p&gt;
+</content><link href="/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/"/><published>2024-01-31T08:00:00+08:06</published></entry><entry><id>/archives/tools篇二：一款图片高清修复工具/</id><title>tools篇二：一款图片高清修复工具</title><updated>2024-06-03T06:28:19.874332+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;很快，我们就来到了第二篇：图片高清放大工具——&lt;a href="https://replicate.com/jingyunliang/swinir"&gt;swinir&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;这是一个开源的图片高清修复工具，你可以在它的主页找到github仓库地址。&lt;br&gt;
 打开的是一个ONLINE的网站，但是这个网站在使用的过程中，经常会遇到内存不足的问题，所以需要自己亲手去&lt;a href="https://colab.research.google.com/gist/JingyunLiang/a5e3e54bc9ef8d7bf594f6fee8208533/swinir-demo-on-real-world-image-sr.ipynb"&gt;google cloab&lt;/a&gt;设置。&lt;/p&gt;
@@ -93,7 +67,7 @@ ai给生活带来的改变是显而易见的，以我自身为例，我从需要
 &lt;p&gt;最后下载即可。&lt;br&gt;
 修复效果十分惊人，请自行尝试。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/36"&gt;tools篇二：一款图片高清修复工具&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/tools篇二：一款图片高清修复工具/"/><published>2024-01-31T08:00:00+08:06</published></entry><entry><id>/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</id><title>Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程</title><updated>2024-03-30T02:45:53.687857+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。&lt;/p&gt;
+</content><link href="/archives/tools篇二：一款图片高清修复工具/"/><published>2024-01-31T08:00:00+08:06</published></entry><entry><id>/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</id><title>Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程</title><updated>2024-06-03T06:28:19.874311+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。&lt;/p&gt;
 &lt;p&gt;最近觉得openwrt的Homeproxy不好用。我都学会了写sing-box的配置文件，却对Homeproxy束手无策。Onedrive和canva竟然都访问不了，dns还时常出岔子。于是在网上冲浪的过程中邂逅了一篇文章，文章本身介绍利用singbox和mosdns进行分流，mosdns发现国内dns就直接直连，国外dns则通过singbox的fakeip模式进行代理。效果很好，速度很快。本人搭建成功以后，谷歌网盘的下载速度能达到40mb/s。&lt;/p&gt;
 &lt;p&gt;不过我一直记得作者说的一句话：&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;“因为家里只有一台openwrt设备，无法使用PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway所以才这么做”。&lt;/p&gt;
@@ -416,7 +390,7 @@ ex_dns="192.168.50.2:53"&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;启用PaoPaoGateway&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/37"&gt;Hyper-V下PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway配置教程&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/"/><published>2024-03-16T08:00:00+08:06</published></entry><entry><id>/archives/基于systemd实现gost开机自启动的方法/</id><title>基于systemd实现gost开机自启动的方法</title><updated>2024-03-30T02:45:53.687831+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;strong&gt;由于adspower可以使用sock5代理，所以在两个vps上使用gost创建socks5代理。&lt;/strong&gt;&lt;/p&gt;
+</content><link href="/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/"/><published>2024-03-16T08:00:00+08:06</published></entry><entry><id>/archives/基于systemd实现gost开机自启动的方法/</id><title>基于systemd实现gost开机自启动的方法</title><updated>2024-06-03T06:28:19.874288+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;&lt;strong&gt;由于adspower可以使用sock5代理，所以在两个vps上使用gost创建socks5代理。&lt;/strong&gt;&lt;/p&gt;
 &lt;h2&gt;打开&lt;a href="https://github.com/go-gost/gost"&gt;Gost仓库&lt;/a&gt;,使用脚本安装gost&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code&gt;# 安装最新版本 [https://github.com/go-gost/gost/releases](https://github.com/go-gost/gost/releases)
@@ -472,8 +446,77 @@ systemctl is-active gost.service
 # 结束服务进程(服务无法停止时)
 systemctl kill gost.service&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/38"&gt;基于systemd实现gost开机自启动的方法&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/基于systemd实现gost开机自启动的方法/"/><published>2024-03-21T08:00:00+08:06</published></entry><entry><id>/archives/只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。/</id><title>只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。</title><updated>2024-03-30T02:45:53.687780+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;**最近对SUNO的探究让我领悟到一个深刻的真理：&lt;/p&gt;
+</content><link href="/archives/基于systemd实现gost开机自启动的方法/"/><published>2024-03-21T08:00:00+08:06</published></entry><entry><id>/archives/只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。/</id><title>只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。</title><updated>2024-06-03T06:28:19.874263+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;p&gt;**最近对SUNO的探究让我领悟到一个深刻的真理：&lt;/p&gt;
 &lt;h2&gt;只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。**&lt;/h2&gt;
 &lt;p&gt;&lt;figure style="flex: 13.8671875" &gt;&lt;img loading="lazy" width="568" height="2048" src="https://github.com/lesnolie/Marverick/assets/81410185/c759e149-b7a4-4635-933d-055caa538ffe" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/39"&gt;只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。&lt;/a&gt;&lt;/p&gt;
-</content><link href="/archives/只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。/"/><published>2024-03-30T08:00:00+08:06</published></entry></feed>
+</content><link href="/archives/只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。/"/><published>2024-03-30T08:00:00+08:06</published></entry><entry><id>/archives/如何使用免费的gpt-4o/</id><title>如何使用免费的gpt-4o</title><updated>2024-06-03T06:28:19.874219+00:00</updated><author><name>Leslie</name><email>lesliezhang08@gmail.com</email><uri>https://blog.lesliemm.xyz</uri></author><content>&lt;h2&gt;非API&lt;/h2&gt;
+&lt;p&gt;coze 可以免费使用。&lt;/p&gt;
+&lt;h2&gt;API&lt;/h2&gt;
+&lt;p&gt;需要部署以下几个工具。&lt;/p&gt;
+&lt;h3&gt;必须&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/lanqian528/chat2api"&gt;chat2api&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MartialBE/one-api"&gt;one-api&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;注册 &lt;a href="https://burn.hair/"&gt;Burn.hair&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;非必需&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;部署 &lt;a href="https://github.com/berstend/CFTempEmail"&gt;cloudflare_temp_email&lt;/a&gt;（用于注册chatgpt）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;客户端&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;推荐 &lt;a href="https://github.com/Bin-Huang/chatbox"&gt;Chatbox&lt;/a&gt;，你也可以使用其他的客户端。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;chatapi部署步骤&lt;/h2&gt;
+&lt;h3&gt;Docker Compose 部署&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;创建一个新的目录，例如 &lt;code&gt;chat2api&lt;/code&gt;，并进入该目录：&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;mkdir&lt;span class="w"&gt; &lt;/span&gt;chat2api
+&lt;span class="nb"&gt;cd&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;chat2api
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;在此目录中下载库中的 docker-compose.yml 文件：&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;wget&lt;span class="w"&gt; &lt;/span&gt;https://raw.githubusercontent.com/LanQian528/chat2api/main/docker-compose.yml
+&lt;/pre&gt;&lt;/div&gt;
+修改 docker-compose.yml 文件中的环境变量，保存后：
+&lt;pre&gt;&lt;code&gt;docker-compose up -d&lt;/code&gt;&lt;/pre&gt;
+使用
+在网页使用，直接访问以下地址:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code&gt;http://127.0.0.1:5005&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;使用 API，支持传入 AccessToken 或 RefreshToken，可用 GPT-4, GPT-4o, GPTs：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl --location 'http://127.0.0.1:5005/v1/chat/completions' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer {{OpenAI APIKEY}}' \
+--data '{
+     "model": "gpt-3.5-turbo",
+     "messages": [{"role": "user", "content": "Say this is a test!"}],
+     "stream": true
+   }'&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;将你账号的 AccessToken 或 RefreshToken 当作 OpenAI APIKEY 传入。
+如果设置了 AUTHORIZATION 环境变量，可以将设置的值当作 OpenAI APIKEY 传入进行多 Tokens 轮询。
+AccessToken 获取: chatgpt 登录后，再打开 &lt;a href="https://chatgpt.com/api/auth/session"&gt;session API&lt;/a&gt; 获取 accessToken 值。
+免登录 gpt-3.5 无需传入 Token。&lt;/p&gt;
+&lt;h2&gt;部署 open-api&lt;/h2&gt;
+&lt;p&gt;使用 Docker Compose 进行部署
+注意：虽然启动方式有所不同，但参数设置保持不变。具体的参数设置请参考基于 Docker 部署部分。&lt;/p&gt;
+&lt;p&gt;在你本机创建一个目录用于存放数据，例如 /home/ubuntu/data/one-api，注意：以下操作都是基于你处于 /home/ubuntu/data/one-api 目录下进行的。如果你的目录不是 /home/ubuntu/data/one-api，请自行进入到你的目录。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir -p ./data/mysql
+mkdir -p ./data/one-api&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;下载 docker-compose.yml 文件到你的本地目录（上面的列子是：/home/ubuntu/data/one-api）。&lt;/p&gt;
+&lt;p&gt;修改 docker-compose.yml 文件，将你需要的环境变量填入。如果你想使用配置文件，可以下载配置文件，并重命名为 config.yaml 放入 ./data/one-api 目录中。&lt;/p&gt;
+&lt;p&gt;启动服务：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker-compose up -d&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;启动服务后，你可以通过运行以下命令来查看部署状态：&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;docker-compose ps&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;请确保所有的服务都已经成功启动，并且状态为 'Up'。&lt;/p&gt;
+&lt;h2&gt;使用&lt;/h2&gt;
+&lt;p&gt;将 burn.hair 和导入 one-api&lt;/p&gt;
+&lt;h2&gt;客户端使用&lt;/h2&gt;
+&lt;p&gt;使用 One-api 的地址和令牌即可。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/40"&gt;如何使用免费的gpt-4o&lt;/a&gt;&lt;/p&gt;
+</content><link href="/archives/如何使用免费的gpt-4o/"/><published>2024-06-03T08:00:00+08:06</published></entry></feed>
