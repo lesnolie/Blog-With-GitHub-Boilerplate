@@ -38,18 +38,18 @@
     <meta name="theme-color" content="#ffffff">
 
     
-<title>不以物喜，不以己悲 - 不愧不忘</title>
-<meta name="author" content="LESLIE" />
-<meta name="description" content="许久没有更新了，连lxy都吐槽我了。" />
-<meta property="og:title" content="不以物喜，不以己悲 - 不愧不忘" />
-<meta property="og:description" content="许久没有更新了，连lxy都吐槽我了。" />
+<title>搭建Hysteria2版本gost实现高速中转 - 不愧不忘</title>
+<meta name="author" content="Leslie" />
+<meta name="description" content="GOST可以中转流量，无论是直接转发还是加密隧道转发，都是一个非常好的工具，能够解决我们日常某些节点无法访问的情况。但是GOST由于加密解密以及协议，速度不甚理想，已知hysteria基于UDP，速度非常的快。那么是否可以两者相结合？" />
+<meta property="og:title" content="搭建Hysteria2版本gost实现高速中转 - 不愧不忘" />
+<meta property="og:description" content="GOST可以中转流量，无论是直接转发还是加密隧道转发，都是一个非常好的工具，能够解决我们日常某些节点无法访问的情况。但是GOST由于加密解密以及协议，速度不甚理想，已知hysteria基于UDP，速度非常的快。那么是否可以两者相结合？" />
 <meta property="og:site_name" content="不愧不忘" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/archives/wodediyigegongyi/" />
+<meta property="og:url" content="/archives/搭建Hysteria2版本gost实现高速中转/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2021-11-05T11:45:00-00.00" />
-<meta name="twitter:title" content="不以物喜，不以己悲 - 不愧不忘" />
-<meta name="twitter:description" content="许久没有更新了，连lxy都吐槽我了。" />
+<meta property="article:published_time" content="2024-06-08T08:00:00-00.00" />
+<meta name="twitter:title" content="搭建Hysteria2版本gost实现高速中转 - 不愧不忘" />
+<meta name="twitter:description" content="GOST可以中转流量，无论是直接转发还是加密隧道转发，都是一个非常好的工具，能够解决我们日常某些节点无法访问的情况。但是GOST由于加密解密以及协议，速度不甚理想，已知hysteria基于UDP，速度非常的快。那么是否可以两者相结合？" />
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:image" content="" />
 
@@ -125,58 +125,85 @@
 <div class="post-detail">
     <article class="post">
         <h1 class="post-title">
-            不以物喜，不以己悲
+            搭建Hysteria2版本gost实现高速中转
         </h1>
         <div class="post-info">
             <time>
-                2021-11-05
+                2024-06-08
             </time>
             <span>
-                LESLIE
+                Leslie
             </span>
         </div>
         <div class="post-content-wrapper">
             <div class="post-content pswp-gallery">
-                <p>许久没有更新了，连lxy都吐槽我了。</p>
-<p>最近看抖音，学人家弄了个什么青少年模式。</p>
-<p>得，lxy现在成为我监护人了。</p>
-<p>现如今干个什么都得经国她同意，包括出去吃饭扫码附款。</p>
-<p><figure style="flex: 31.25" ><img loading="lazy" width="1080" height="1728" src="/archives/assets/4824b84d23229df5660c07384f544eae.png" /></figure></p>
-<p>给逐渐无聊的生活又添加了几分趣味。</p>
-<p>嗯，生活就是从新鲜感→刺激→趋于平静→无聊。</p>
-<p>但其实就好像坐火车。坐火车是一件很无聊的事情，可是车上的人，路边的风景，隔壁喧闹的孩童，突然要生产的孕妇。</p>
-<p>这些都是你无法预料却又颇为有趣的插曲。</p>
-<p>坐火车的乐趣就是这样，不急不躁，等待着事情的发声。</p>
-<p>现如今，我有两个宝宝，远方是辛苦拼命的的lxy，近处是小侄女。</p>
-<p>可爱是女孩的通性。</p>
-<p>和她们在一起时，心底发自内心的不愿意去破坏每一分可爱。</p>
-<p>最近日本东京大学的入学致辞出名了，大致意思是</p>
-<p>你能考到东京大学，是因为你努力的结果。</p>
-<p>恭喜你，从今以后，你就要迈入努力也有可能没有收获的世界了。</p>
-<p>所以我想跟lxy说：</p>
-<p>亲爱的</p>
-<p>你得努力我看在眼里</p>
-<p>努力一定会有收获</p>
-<p>只是可能达不到我们的期望</p>
-<p>不过世事不都是这样</p>
-<p>未来是我们永远无法左右的</p>
-<p>他是好是坏，永远都站在那里</p>
-<p>所以我们无需担心</p>
-<p>但是现如今的每一分每一秒</p>
-<p>只要我们满足，充实，幸福，快乐</p>
-<p>努力</p>
-<p>那么未来是什么结果，又有何妨</p>
-<p>再糟糕的结果，也无非是解决他</p>
-<p>到时候再说和走一步看一步，是迈向未来的关键一步</p>
+                <p>GOST可以中转流量，无论是直接转发还是加密隧道转发，都是一个非常好的工具，能够解决我们日常某些节点无法访问的情况。但是GOST由于加密解密以及协议，速度不甚理想，已知hysteria基于UDP，速度非常的快。那么是否可以两者相结合？</p>
+<p>[happyharryh]/gost][]该项目就解决了这个问题。</p>
 <hr>
-<p>最近做了些什么事情呢：</p>
+<h2>使用方法：</h2>
+<p><strong>新增功能</strong></p>
+<h3>[Connector/Transporter] WireGuard</h3>
+<p>用法</p>
+
+<pre><code>./gost -L :8080 -F wg://?c=proxy.conf</code></pre>
 <ul>
-<li>一个个人wiki，真切感受到学得越快忘得越快，必须将所有看过的东西存起来供之后翻找</li>
-<li>一个个人发布站，分享我感兴趣的所有资源，有些内容是给女朋友准备的，她现在忙的厉害，等她不忙了让她有时间补课</li>
-<li>一个网盘的目录索引，sharelist确实挺好用，alist也不错。</li>
+<li>仅支持作为WireGuard客户端，且只能作为代理链的第一级。</li>
+<li>proxy.conf配置请参考 <a href="https://github.com/pufferffish/wireproxy/blob/master/README.md">wireproxy</a>。</li>
 </ul>
-<hr>
-<p>愿未来越来也好，我也坚信着</p>
+<h3>[Listener/Transporter] Hysteria-QUIC</h3>
+<p><strong>使用Apernet魔改的quic-go加快QUIC传输速度</strong>
+其他参数</p>
+<blockquote><p>send_mbps: 数据发送速率，等于0则使用BBR(默认)，大于0则使用Brutal
+recv_window_conn: 流接收窗口大小
+recv_window: 连接接收窗口大小
+max_conn_client (仅服务端): 单客户端最大活跃连接数
+cipher: 考虑到QUIC本身自带TLS加密，这里将原版gost的cipher算法简化，提升性能</p>
+</blockquote>
+<h3>[Handler/Connector] Zero</h3>
+<p><strong>极简化连接逻辑，实现0-RTT连接</strong>
+用法
+服务端</p>
+
+<pre><code>./gost -L zero://:1234</code></pre>
+<p>客户端</p>
+
+<pre><code>./gost -L :8080 -F zero://server_ip:1234</code></pre>
+<p>其他参数</p>
+<blockquote><p>mitm (仅客户端): 使用中间人(MITM)协助握手的地址列表，可缩减端到端TLS握手产生的RTT，格式同路由控制
+mitm_caroot (仅客户端): 根证书路径，默认为~/.mitmproxy，需要将该目录下的mitmproxy-ca-cert.cer添加为受信任的根证书颁发机构证书
+mitm_insecure (仅客户端): 是否跳过网站证书验证</p>
+</blockquote>
+<p>[其他]</p>
+<ul>
+<li><p>添加 -R 命令行参数，用于指定重试次数</p>
+</li>
+<li><p>添加 LOGFLAGS 环境变量，用于自定义日志输出格式</p>
+</li>
+<li><p>修复单独使用 0.0.0.0 或 [::] 时会同时监听两者的问题</p>
+</li>
+<li><p>Bypass 添加 resolve 选项，用于使IP/CIDR规则匹配解析后的域名</p>
+</li>
+</ul>
+<p>克隆说明
+本 Fork 包含 git 子仓库，克隆时需要增加 --recursive 选项</p>
+
+<pre><code>git clone --recursive https://github.com/happyharryh/gost.git</code></pre>
+<p>在 Windows 平台克隆后，还需要手动重建一次软链接</p>
+
+<pre><code>cd gost
+git -c core.symlinks=true checkout .</code></pre>
+<h2>实例：本地软路由和国外静态IP互通</h2>
+<p>我自己将本地软路由和国外静态IP通过gost互通，使用如下指令：</p>
+<p>本地命令：</p>
+
+<pre><code>nohup ./gost -L=socks5://:6666 -F='quic://43.207.100.91:1221?send_mbps=50&amp;keepalive=true' &gt; gost_client.log 2&gt;&amp;1 &amp;</code></pre>
+<p>将本地和43.207.100.91日本服务器连接到一起。</p>
+<p>日本服务器命令：</p>
+
+<pre><code>/root/gost_hy/gost/gost -L=quic://:1221?send_mbps=100 -F socks5://156.231.26.173:2000</code></pre>
+<p>通过以上配置，能够实现高速稳定的中转，解决某些节点无法访问的问题，同时利用Hysteria-QUIC的大幅提升传输速度。</p>
+<p>[happyharryh]/gost]:<a href="https://github.com/happyharryh/gost">https://github.com/happyharryh/gost</a></p>
+<p><a href="https://github.com/lesnolie/Marverick/issues/41">搭建Hysteria2版本gost实现高速中转</a></p>
 
             </div>
         </div>
@@ -187,10 +214,10 @@
 <div class="next-post">
  
     <div class="next"">下一篇</div>
-    <a href="/archives/如何让时间变长/">
+    <a href="/archives/如何使用免费的gpt-4o/">
 
         <h3 class="post-title">
-            如何让时间变长
+            如何使用免费的gpt-4o
         </h3>
     </a>
  

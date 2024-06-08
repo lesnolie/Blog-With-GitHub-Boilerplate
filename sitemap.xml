@@ -12,6 +12,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/搭建Hysteria2版本gost实现高速中转/</loc>
+    <lastmod>2024-06-08</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/如何使用免费的gpt-4o/</loc>
     <lastmod>2024-06-03</lastmod>
     <changefreq>always</changefreq>
