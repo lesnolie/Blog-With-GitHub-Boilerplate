@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 08 Jun 2024 05:41:12 +0806</lastBuildDate><pubDate>Sat, 08 Jun 2024 05:41:12 +0806</pubDate><item><title>尝试用chatgpt-4写代码</title><link>/archives/尝试用chatgpt-4写代码/</link><description>&lt;p&gt;推特上有一个基于slack的读文章机器人，能够讲网页内容转成文本，让chatgpt读取，我尝试利用chatgpt-4改成telegram bot，失败了。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 22 Jun 2024 15:05:44 +0806</lastBuildDate><pubDate>Sat, 22 Jun 2024 15:05:44 +0806</pubDate><item><title>尝试用chatgpt-4写代码</title><link>/archives/尝试用chatgpt-4写代码/</link><description>&lt;p&gt;推特上有一个基于slack的读文章机器人，能够讲网页内容转成文本，让chatgpt读取，我尝试利用chatgpt-4改成telegram bot，失败了。&lt;/p&gt;
 &lt;p&gt;失败的地方在于chatgpt的版本资料停留在2021年，所以导致许多模块的不兼容。目前我没有什么好的办法去解决这件事。&lt;/p&gt;
 &lt;p&gt;对于我来说，目前基于快捷指令的低代码平台仍旧是我写代码的首选。其实这么久以来，写代码并不难，因为他只是在逻辑上不停的实现一些东西，就好像英语日语，都是存在逻辑上的东西的，抓住逻辑，就可以顺利解决你想要的东西。&lt;/p&gt;
 &lt;p&gt;继续加油。&lt;/p&gt;
@@ -30,7 +30,20 @@
 &lt;p&gt;最后我决定，再添加一个wan口，然后将lan口桥接关闭。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/34"&gt;记第一次搭建软路由（旁路由）&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/记第一次搭建软路由（旁路由）/</guid><pubDate>Tue, 20 Jun 2023 08:00:00 +0806</pubDate></item><item><title>这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI</title><link>/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/</link><description>&lt;h2&gt;2024第一篇，2023年没有怎么发推，因为太懒了。2024估计也改不掉懒的毛病，但是我觉得还是需要把日常使用的工具记录一下，方便以后分享或者总结。也算是给自己开一个新篇章:tools篇&lt;/h2&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/记第一次搭建软路由（旁路由）/</guid><pubDate>Tue, 20 Jun 2023 08:00:00 +0806</pubDate></item><item><title>tools篇二：一款图片高清修复工具</title><link>/archives/tools篇二：一款图片高清修复工具/</link><description>&lt;p&gt;很快，我们就来到了第二篇：图片高清放大工具——&lt;a href="https://replicate.com/jingyunliang/swinir"&gt;swinir&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;这是一个开源的图片高清修复工具，你可以在它的主页找到github仓库地址。&lt;br&gt;
+打开的是一个ONLINE的网站，但是这个网站在使用的过程中，经常会遇到内存不足的问题，所以需要自己亲手去&lt;a href="https://colab.research.google.com/gist/JingyunLiang/a5e3e54bc9ef8d7bf594f6fee8208533/swinir-demo-on-real-world-image-sr.ipynb"&gt;google cloab&lt;/a&gt;设置。&lt;/p&gt;
+&lt;p&gt;按照顺序一路下行，在第二点将第二点的&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;test_patch_wise = FALSE
+```&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;改为true&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 162.64150943396226" &gt;&lt;img loading="lazy" width="1724" height="530" src="https://github.com/lesnolie/Marverick/assets/81410185/3033d1c4-6bb1-4187-8ffd-43a1c4488c71" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;最后下载即可。&lt;br&gt;
+修复效果十分惊人，请自行尝试。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/36"&gt;tools篇二：一款图片高清修复工具&lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/tools篇二：一款图片高清修复工具/</guid><pubDate>Wed, 31 Jan 2024 08:00:00 +0806</pubDate></item><item><title>这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI</title><link>/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/</link><description>&lt;h2&gt;2024第一篇，2023年没有怎么发推，因为太懒了。2024估计也改不掉懒的毛病，但是我觉得还是需要把日常使用的工具记录一下，方便以后分享或者总结。也算是给自己开一个新篇章:tools篇&lt;/h2&gt;
 &lt;h2&gt;什么是背景去除工具&lt;/h2&gt;
 &lt;p&gt;背景去除工具，简单讲就是抠图。我个人常用场景是：网图只想使用其中的某个元素，之前只能通过PS一点一点抠图，为此还学了很多方法：什么蒙板、钢笔等等等等。现在，得益于AI的发展迅速，迭代了许许多多的抠图工具，今天我就要介绍一款我所使用过的最好用的工具：&lt;a href="https:pixian.ai"&gt;Pixian.ai&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;figure style="flex: 100.82256169212691" &gt;&lt;img loading="lazy" width="1716" height="851" src="https://github.com/lesnolie/Marverick/assets/81410185/44241a36-6ffe-4610-8e50-772fdba10b48" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
@@ -47,20 +60,7 @@
 &lt;p&gt;有尺寸限制，需要你自行进行探索&lt;/p&gt;
 &lt;p&gt;-end-&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/35"&gt;这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/</guid><pubDate>Wed, 31 Jan 2024 08:00:00 +0806</pubDate></item><item><title>tools篇二：一款图片高清修复工具</title><link>/archives/tools篇二：一款图片高清修复工具/</link><description>&lt;p&gt;很快，我们就来到了第二篇：图片高清放大工具——&lt;a href="https://replicate.com/jingyunliang/swinir"&gt;swinir&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;这是一个开源的图片高清修复工具，你可以在它的主页找到github仓库地址。&lt;br&gt;
-打开的是一个ONLINE的网站，但是这个网站在使用的过程中，经常会遇到内存不足的问题，所以需要自己亲手去&lt;a href="https://colab.research.google.com/gist/JingyunLiang/a5e3e54bc9ef8d7bf594f6fee8208533/swinir-demo-on-real-world-image-sr.ipynb"&gt;google cloab&lt;/a&gt;设置。&lt;/p&gt;
-&lt;p&gt;按照顺序一路下行，在第二点将第二点的&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;test_patch_wise = FALSE
-```&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;改为true&lt;/p&gt;
-&lt;p&gt;&lt;figure style="flex: 162.64150943396226" &gt;&lt;img loading="lazy" width="1724" height="530" src="https://github.com/lesnolie/Marverick/assets/81410185/3033d1c4-6bb1-4187-8ffd-43a1c4488c71" /&gt;&lt;figcaption&gt;image&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
-&lt;p&gt;最后下载即可。&lt;br&gt;
-修复效果十分惊人，请自行尝试。&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/36"&gt;tools篇二：一款图片高清修复工具&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/tools篇二：一款图片高清修复工具/</guid><pubDate>Wed, 31 Jan 2024 08:00:00 +0806</pubDate></item><item><title>Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程</title><link>/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</link><description>&lt;p&gt;为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI/</guid><pubDate>Wed, 31 Jan 2024 08:00:00 +0806</pubDate></item><item><title>Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程</title><link>/archives/Hyper-V下PaoPaoDns&amp;&amp;PaoPaoGateway配置教程/</link><description>&lt;p&gt;为什么我喜欢捣鼓网络呢？一则网络确实是日常所需，最常接触；二是我能接触到的网络技术也确实简单：理解了网络拓扑，流量走向，安装相应的软件，网上还都有教程；三则事后反馈也是即时的，成就感颇高。&lt;/p&gt;
 &lt;p&gt;最近觉得openwrt的Homeproxy不好用。我都学会了写sing-box的配置文件，却对Homeproxy束手无策。Onedrive和canva竟然都访问不了，dns还时常出岔子。于是在网上冲浪的过程中邂逅了一篇文章，文章本身介绍利用singbox和mosdns进行分流，mosdns发现国内dns就直接直连，国外dns则通过singbox的fakeip模式进行代理。效果很好，速度很快。本人搭建成功以后，谷歌网盘的下载速度能达到40mb/s。&lt;/p&gt;
 &lt;p&gt;不过我一直记得作者说的一句话：&lt;/p&gt;
 &lt;blockquote&gt;&lt;p&gt;“因为家里只有一台openwrt设备，无法使用PaoPaoDns&amp;amp;&amp;amp;PaoPaoGateway所以才这么做”。&lt;/p&gt;
@@ -515,7 +515,7 @@ mkdir -p ./data/one-api&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;使用 One-api 的地址和令牌即可。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/40"&gt;如何使用免费的gpt-4o&lt;/a&gt;&lt;/p&gt;
 </description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/如何使用免费的gpt-4o/</guid><pubDate>Mon, 03 Jun 2024 08:00:00 +0806</pubDate></item><item><title>搭建Hysteria2版本gost实现高速中转</title><link>/archives/搭建Hysteria2版本gost实现高速中转/</link><description>&lt;p&gt;GOST可以中转流量，无论是直接转发还是加密隧道转发，都是一个非常好的工具，能够解决我们日常某些节点无法访问的情况。但是GOST由于加密解密以及协议，速度不甚理想，已知hysteria基于UDP，速度非常的快。那么是否可以两者相结合？&lt;/p&gt;
-&lt;p&gt;[happyharryh]/gost][]该项目就解决了这个问题。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/happyharryh/gost"&gt;happyharryh/gost&lt;/a&gt;该项目就解决了这个问题。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;使用方法：&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;新增功能&lt;/strong&gt;&lt;/p&gt;
@@ -573,12 +573,11 @@ git -c core.symlinks=true checkout .&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;我自己将本地软路由和国外静态IP通过gost互通，使用如下指令：&lt;/p&gt;
 &lt;p&gt;本地命令：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;nohup ./gost -L=socks5://:6666 -F='quic://43.207.100.91:1221?send_mbps=50&amp;amp;keepalive=true' &amp;gt; gost_client.log 2&amp;gt;&amp;amp;1 &amp;amp;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;将本地和43.207.100.91日本服务器连接到一起。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;nohup ./gost -L=socks5://:6666 -F='quic://xxxx:port?send_mbps=50&amp;amp;keepalive=true' &amp;gt; gost_client.log 2&amp;gt;&amp;amp;1 &amp;amp;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;将本地和日本服务器连接到一起。&lt;/p&gt;
 &lt;p&gt;日本服务器命令：&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;/root/gost_hy/gost/gost -L=quic://:1221?send_mbps=100 -F socks5://156.231.26.173:2000&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;/root/gost_hy/gost/gost -L=quic://:port?send_mbps=100 -F socks5://156.xxxx:port&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;通过以上配置，能够实现高速稳定的中转，解决某些节点无法访问的问题，同时利用Hysteria-QUIC的大幅提升传输速度。&lt;/p&gt;
-&lt;p&gt;[happyharryh]/gost]:&lt;a href="https://github.com/happyharryh/gost"&gt;https://github.com/happyharryh/gost&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/41"&gt;搭建Hysteria2版本gost实现高速中转&lt;/a&gt;&lt;/p&gt;
 </description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/搭建Hysteria2版本gost实现高速中转/</guid><pubDate>Sat, 08 Jun 2024 08:00:00 +0806</pubDate></item></channel></rss>
