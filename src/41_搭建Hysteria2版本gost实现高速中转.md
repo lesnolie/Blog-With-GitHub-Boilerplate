@@ -15,7 +15,7 @@ excerpt:
 
 GOST可以中转流量，无论是直接转发还是加密隧道转发，都是一个非常好的工具，能够解决我们日常某些节点无法访问的情况。但是GOST由于加密解密以及协议，速度不甚理想，已知hysteria基于UDP，速度非常的快。那么是否可以两者相结合？
 
-[happyharryh]/gost][]该项目就解决了这个问题。  
+[happyharryh/gost][]该项目就解决了这个问题。  
 
 ---
 
@@ -82,18 +82,18 @@ git -c core.symlinks=true checkout .
 
 本地命令：
 ```
-nohup ./gost -L=socks5://:6666 -F='quic://43.207.100.91:1221?send_mbps=50&keepalive=true' > gost_client.log 2>&1 &
+nohup ./gost -L=socks5://:6666 -F='quic://xxxx:port?send_mbps=50&keepalive=true' > gost_client.log 2>&1 &
 ```
-将本地和43.207.100.91日本服务器连接到一起。
+将本地和日本服务器连接到一起。
 
 日本服务器命令：
 
 ```
-/root/gost_hy/gost/gost -L=quic://:1221?send_mbps=100 -F socks5://156.231.26.173:2000
+/root/gost_hy/gost/gost -L=quic://:port?send_mbps=100 -F socks5://156.xxxx:port
 ```
 通过以上配置，能够实现高速稳定的中转，解决某些节点无法访问的问题，同时利用Hysteria-QUIC的大幅提升传输速度。
 
-[happyharryh]/gost]:https://github.com/happyharryh/gost
+[happyharryh/gost]:https://github.com/happyharryh/gost
 [wireproxy]:https://github.com/pufferffish/wireproxy/blob/master/README.md
 
 [搭建Hysteria2版本gost实现高速中转](https://github.com/lesnolie/Marverick/issues/41)
