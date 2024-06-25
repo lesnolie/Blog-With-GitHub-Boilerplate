@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 利用chatgpt优化亚马逊1.0
-slug: 利用chatgpt优化亚马逊1.0
+slug: optimize-amazon-1-0-with-chatgpt
 date: 2023-02-11 08:00
 status: publish
 author: Leslie
