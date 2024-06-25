@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 搭建Hysteria2版本gost实现高速中转
-slug: 搭建Hysteria2版本gost实现高速中转
+slug: build-hysteria2-gost-high-speed-proxy
 date: 2024-06-08 08:00
 status: publish
 author: Leslie
