@@ -1,5 +1,5 @@
 ## Gitblog
-My personal blog using issues & GitHub Actions and Maverick .
+My personal blog using issues & GitHub Actions and Maverick.
 ![my site](https://blog.ilxyz.cn/logo.jpg)
 [RSS Feed](https://raw.githubusercontent.com/lesnolie/Marverick/master/feed.xml)
 ## 友情链接
@@ -30,10 +30,8 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [关于VPS的一点思考](https://github.com/lesnolie/Marverick/issues/14)--2022-09-16
 - [EMBY](https://github.com/lesnolie/Marverick/issues/8)--2022-05-19
 <details><summary>显示更多</summary>
-
 - [我终于弄好了gitblog](https://github.com/lesnolie/Marverick/issues/1)--2022-02-11
 </details>
-
 ## 生活琐事
 - [记第一次搭建软路由（旁路由）](https://github.com/lesnolie/Marverick/issues/34)--2023-06-20
 - [《三体》以及需要梳理的自己](https://github.com/lesnolie/Marverick/issues/22)--2023-01-27
@@ -41,7 +39,6 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [新的一年](https://github.com/lesnolie/Marverick/issues/20)--2023-01-11
 - [夕阳利刃出鞘](https://github.com/lesnolie/Marverick/issues/19)--2022-12-25
 <details><summary>显示更多</summary>
-
 - [骄阳](https://github.com/lesnolie/Marverick/issues/18)--2022-12-21
 - [似阳](https://github.com/lesnolie/Marverick/issues/17)--2022-12-18
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28
@@ -56,4 +53,3 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [事与愿违](https://github.com/lesnolie/Marverick/issues/3)--2022-03-05
 - [2022的二三事（OKR）](https://github.com/lesnolie/Marverick/issues/2)--2022-02-12
 </details>
-
