@@ -2,6 +2,11 @@
 import argparse
 import os
 import re
+import requests
+
+API_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/1b14747dd35d66e9f7941beaf412c3fe/ai/run/"
+os.getenv('API_TOKEN')
+headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 from marko.ext.gfm import gfm as marko
 from github import Github
@@ -274,13 +279,28 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
         save_issue(issue, me, dir_name)
     
     
+def run(model, inputs):
+    input_data = {"messages": inputs}
+    response = requests.post(f"{API_BASE_URL}{model}", headers=headers, json=input_data)
+    return response.json()
+
+def generate_slug(issue_title):
+    inputs = [
+        {"role": "system", "content": "请给这个博客标题生成一个英文的url slug，要求清楚的传达原标题的意思，以下是标题："},
+        {"role": "user", "content": f"{issue_title}"}
+    ]
+    output = run("@cf/meta/@cf/meta/llama-3-8b-instruct", inputs)
+    return output['choices'][0]['message']['content'].strip()
+
 def save_issue(issue, me, dir_name=BACKUP_DIR):
     time = format_time(issue.created_at.strftime('%Y-%m-%dT%H:%M'))
+    slug = generate_slug(issue.title)
+    print(f"slug: {slug}")  # 输出生成的 slug
     md_name = os.path.join(
-        dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
+        dir_name, f"{issue.number}_{slug}.md"
     )
     with open(md_name, "w") as f:
-        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {issue.title}\ndate: {time} 08:00\nstatus: publish\nauthor: Leslie\ncategories: \n  - stand \ntags:\n  - stand \n  - stand \nexcerpt: \n---\n\n")
+        f.write(f"---\nlayout: post\ntitle: {issue.title}\nslug: {slug}\ndate: {time} 08:00\nstatus: publish\nauthor: Leslie\ncategories: \n  - stand \ntags:\n  - stand \n  - stand \nexcerpt: \n---\n\n")
        
         f.write(issue.body)
         if issue.comments:
@@ -288,7 +308,7 @@ def save_issue(issue, me, dir_name=BACKUP_DIR):
                 if is_me(c, me):
                     f.write("\n\n---\n\n")
                     f.write(c.body)
-        f.write(f"\n\n[{issue.title}]({issue.html_url})\n\n")           
+        f.write(f"\n\n[{issue.title}]({issue.html_url})\n\n")       
             
 
 
