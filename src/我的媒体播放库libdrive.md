@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我的媒体播放库 libdrive
-slug: 我的媒体播放库 libdrive
+slug: my-media-library-libdrive
 date: 2021-06-24 09:00
 status: publish
 author: LESLIE
