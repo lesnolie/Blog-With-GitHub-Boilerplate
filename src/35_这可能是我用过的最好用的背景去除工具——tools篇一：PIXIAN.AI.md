@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI
-slug: 这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI
+slug: best-background-removal-tool-pixian-ai
 date: 2024-01-31 08:00
 status: publish
 author: Leslie
