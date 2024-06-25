@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程
-slug: Hyper-V下PaoPaoDns&&PaoPaoGateway配置教程
+slug: hyper-v-paopao-dns-gateway-setup-guide
 date: 2024-03-16 08:00
 status: publish
 author: Leslie
