@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quantumultx的一些操作
-slug: Quantumultx的一些操作
+slug: some-operations-of-Quantumultx
 date: 2021-05-22 10:00
 status: publish
 author: leslie
