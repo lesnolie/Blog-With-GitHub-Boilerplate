@@ -12,13 +12,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/{'success': False, 'errors': [{'code': 7000, 'message': 'No route for that URI'}], 'messages': [], 'result': 'None'}/</loc>
-    <lastmod>2024-06-25</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
     <loc>/archives/build-hysteria2-gost-high-speed-proxy/</loc>
     <lastmod>2024-06-08</lastmod>
     <changefreq>always</changefreq>

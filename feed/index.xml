@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 25 Jun 2024 08:01:58 +0806</lastBuildDate><pubDate>Tue, 25 Jun 2024 08:01:58 +0806</pubDate><item><title>ai画图不属于我</title><link>/archives/ai-drawing-not-my-thing/</link><description>&lt;p&gt;这两天开通了midjounery和leondor.ai，画出来的图简直一个比一个丑。&lt;br&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 25 Jun 2024 08:03:22 +0806</lastBuildDate><pubDate>Tue, 25 Jun 2024 08:03:22 +0806</pubDate><item><title>尝试用chatgpt-4写代码</title><link>/archives/trying-out-chatgpt-4-coding/</link><description>&lt;p&gt;推特上有一个基于slack的读文章机器人，能够讲网页内容转成文本，让chatgpt读取，我尝试利用chatgpt-4改成telegram bot，失败了。&lt;/p&gt;
+&lt;p&gt;失败的地方在于chatgpt的版本资料停留在2021年，所以导致许多模块的不兼容。目前我没有什么好的办法去解决这件事。&lt;/p&gt;
+&lt;p&gt;对于我来说，目前基于快捷指令的低代码平台仍旧是我写代码的首选。其实这么久以来，写代码并不难，因为他只是在逻辑上不停的实现一些东西，就好像英语日语，都是存在逻辑上的东西的，抓住逻辑，就可以顺利解决你想要的东西。&lt;/p&gt;
+&lt;p&gt;继续加油。&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/32"&gt;尝试用chatgpt-4写代码 &lt;/a&gt;&lt;/p&gt;
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/trying-out-chatgpt-4-coding/</guid><pubDate>Fri, 17 Mar 2023 08:00:00 +0806</pubDate></item><item><title>ai画图不属于我</title><link>/archives/ai-drawing-not-my-thing/</link><description>&lt;p&gt;这两天开通了midjounery和leondor.ai，画出来的图简直一个比一个丑。&lt;br&gt;
 用prompt，用同一个模型，参数，做出来的图就是比别人丑。&lt;br&gt;
 用image2image，出来的图简直不是人。&lt;br&gt;
 不得不说midjounery可玩性还是非常强的，也非常的已用，但是他只能输出他自己已经理解的东西，无法输出他不理解的东西。比如我让她画珍珠手机吊绳，它输出的全是珍珠项链。&lt;br&gt;
@@ -577,8 +582,4 @@ git -c core.symlinks=true checkout .&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;/root/gost_hy/gost/gost -L=quic://:port?send_mbps=100 -F socks5://156.xxxx:port&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;通过以上配置，能够实现高速稳定的中转，解决某些节点无法访问的问题，同时利用Hysteria-QUIC的大幅提升传输速度。&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/41"&gt;搭建Hysteria2版本gost实现高速中转&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/build-hysteria2-gost-high-speed-proxy/</guid><pubDate>Sat, 08 Jun 2024 08:00:00 +0806</pubDate></item><item><title>AI是我的程序员</title><link>/archives/{'success': False, 'errors': [{'code': 7000, 'message': 'No route for that URI'}], 'messages': [], 'result': 'None'}/</link><description>&lt;p&gt;1.AI无法替代程序员
-2.对我来说，AI是我的程序员
-3.我可以利用AI做许许多多的事情&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/lesnolie/Marverick/issues/42"&gt;AI是我的程序员&lt;/a&gt;&lt;/p&gt;
-</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/{'success': False, 'errors': [{'code': 7000, 'message': 'No route for that URI'}], 'messages': [], 'result': 'None'}/</guid><pubDate>Tue, 25 Jun 2024 08:00:00 +0806</pubDate></item></channel></rss>
+</description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/build-hysteria2-gost-high-speed-proxy/</guid><pubDate>Sat, 08 Jun 2024 08:00:00 +0806</pubDate></item></channel></rss>
