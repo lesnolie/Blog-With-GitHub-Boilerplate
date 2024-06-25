@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我终于弄好了gitblog
-slug: 我终于弄好了gitblog
+slug: finally-set-up-gitblog-success
 date: 2022-02-11 08:00
 status: publish
 author: Leslie
