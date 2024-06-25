@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Sat, 22 Jun 2024 15:05:44 +0806</lastBuildDate><pubDate>Sat, 22 Jun 2024 15:05:44 +0806</pubDate><item><title>尝试用chatgpt-4写代码</title><link>/archives/尝试用chatgpt-4写代码/</link><description>&lt;p&gt;推特上有一个基于slack的读文章机器人，能够讲网页内容转成文本，让chatgpt读取，我尝试利用chatgpt-4改成telegram bot，失败了。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>不愧不忘</title><link>/</link><description>我喜欢猫</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.jpg</url><title>不愧不忘</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 25 Jun 2024 03:51:32 +0806</lastBuildDate><pubDate>Tue, 25 Jun 2024 03:51:32 +0806</pubDate><item><title>尝试用chatgpt-4写代码</title><link>/archives/尝试用chatgpt-4写代码/</link><description>&lt;p&gt;推特上有一个基于slack的读文章机器人，能够讲网页内容转成文本，让chatgpt读取，我尝试利用chatgpt-4改成telegram bot，失败了。&lt;/p&gt;
 &lt;p&gt;失败的地方在于chatgpt的版本资料停留在2021年，所以导致许多模块的不兼容。目前我没有什么好的办法去解决这件事。&lt;/p&gt;
 &lt;p&gt;对于我来说，目前基于快捷指令的低代码平台仍旧是我写代码的首选。其实这么久以来，写代码并不难，因为他只是在逻辑上不停的实现一些东西，就好像英语日语，都是存在逻辑上的东西的，抓住逻辑，就可以顺利解决你想要的东西。&lt;/p&gt;
 &lt;p&gt;继续加油。&lt;/p&gt;
@@ -517,10 +517,9 @@ mkdir -p ./data/one-api&lt;/code&gt;&lt;/pre&gt;
 </description><author>lesliezhang08@gmail.com (Leslie)</author><guid isPermaLink="true">/archives/如何使用免费的gpt-4o/</guid><pubDate>Mon, 03 Jun 2024 08:00:00 +0806</pubDate></item><item><title>搭建Hysteria2版本gost实现高速中转</title><link>/archives/搭建Hysteria2版本gost实现高速中转/</link><description>&lt;p&gt;GOST可以中转流量，无论是直接转发还是加密隧道转发，都是一个非常好的工具，能够解决我们日常某些节点无法访问的情况。但是GOST由于加密解密以及协议，速度不甚理想，已知hysteria基于UDP，速度非常的快。那么是否可以两者相结合？&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/happyharryh/gost"&gt;happyharryh/gost&lt;/a&gt;该项目就解决了这个问题。&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;使用方法：&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;新增功能&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;使用方法&lt;/h2&gt;
 &lt;h3&gt;[Connector/Transporter] WireGuard&lt;/h3&gt;
-&lt;p&gt;用法&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;用法&lt;/strong&gt;&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;./gost -L :8080 -F wg://?c=proxy.conf&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
@@ -528,17 +527,19 @@ mkdir -p ./data/one-api&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;proxy.conf配置请参考 &lt;a href="https://github.com/pufferffish/wireproxy/blob/master/README.md"&gt;wireproxy&lt;/a&gt;。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;[Listener/Transporter] Hysteria-QUIC&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;使用Apernet魔改的quic-go加快QUIC传输速度&lt;/strong&gt;
+&lt;p&gt;&lt;strong&gt;使用Apernet魔改的quic-go加快QUIC传输速度&lt;/strong&gt;&lt;br&gt;
 其他参数&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;send_mbps: 数据发送速率，等于0则使用BBR(默认)，大于0则使用Brutal
-recv_window_conn: 流接收窗口大小
-recv_window: 连接接收窗口大小
-max_conn_client (仅服务端): 单客户端最大活跃连接数
-cipher: 考虑到QUIC本身自带TLS加密，这里将原版gost的cipher算法简化，提升性能&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;send_mbps: 数据发送速率，等于0则使用BBR(默认)，大于0则使用Brutal&lt;/li&gt;
+&lt;li&gt;recv_window_conn: 流接收窗口大小&lt;/li&gt;
+&lt;li&gt;recv_window: 连接接收窗口大小&lt;/li&gt;
+&lt;li&gt;max_conn_client (仅服务端): 单客户端最大活跃连接数&lt;/li&gt;
+&lt;li&gt;cipher: 考虑到QUIC本身自带TLS加密，这里将原版gost的cipher算法简化，提升性能&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;[Handler/Connector] Zero&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;极简化连接逻辑，实现0-RTT连接&lt;/strong&gt;
-用法
+&lt;blockquote&gt;&lt;p&gt;极简化连接逻辑，实现0-RTT连接&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;用法&lt;/strong&gt;
 服务端&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;./gost -L zero://:1234&lt;/code&gt;&lt;/pre&gt;
@@ -546,11 +547,12 @@ cipher: 考虑到QUIC本身自带TLS加密，这里将原版gost的cipher算法�
 
 &lt;pre&gt;&lt;code&gt;./gost -L :8080 -F zero://server_ip:1234&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;其他参数&lt;/p&gt;
-&lt;blockquote&gt;&lt;p&gt;mitm (仅客户端): 使用中间人(MITM)协助握手的地址列表，可缩减端到端TLS握手产生的RTT，格式同路由控制
-mitm_caroot (仅客户端): 根证书路径，默认为~/.mitmproxy，需要将该目录下的mitmproxy-ca-cert.cer添加为受信任的根证书颁发机构证书
-mitm_insecure (仅客户端): 是否跳过网站证书验证&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;[其他]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;mitm (仅客户端): 使用中间人(MITM)协助握手的地址列表，可缩减端到端TLS握手产生的RTT，格式同路由控制&lt;/li&gt;
+&lt;li&gt;mitm_caroot (仅客户端): 根证书路径，默认为~/.mitmproxy，需要将该目录下的mitmproxy-ca-cert.cer添加为受信任的根证书颁发机构证书&lt;/li&gt;
+&lt;li&gt;mitm_insecure (仅客户端): 是否跳过网站证书验证&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;[其他]&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;添加 -R 命令行参数，用于指定重试次数&lt;/p&gt;
 &lt;/li&gt;
