@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 关于VPS的一点思考
-slug: 关于VPS的一点思考
+slug: VPS-Thoughts-and-Considerations
 date: 2022-09-16 08:00
 status: publish
 author: Leslie
