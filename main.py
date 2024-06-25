@@ -290,6 +290,7 @@ def generate_slug(issue_title):
         {"role": "user", "content": f"{issue_title}"}
     ]
     output = run("@cf/meta/llama-3-8b-instruct", inputs)
+    response_content = output['result']['response']
     return response_content.strip()
 
 def save_issue(issue, me, dir_name=BACKUP_DIR):
