@@ -19,10 +19,10 @@ GOST可以中转流量，无论是直接转发还是加密隧道转发，都是�
 
 ---
 
-## 使用方法：
-**新增功能**
-### [Connector/Transporter] WireGuard
-用法
+## 使用方法
+### [Connector/Transporter] WireGuard  
+
+**用法**
 ```
 ./gost -L :8080 -F wg://?c=proxy.conf
 ```
@@ -30,18 +30,20 @@ GOST可以中转流量，无论是直接转发还是加密隧道转发，都是�
 - proxy.conf配置请参考 [wireproxy][]。
 
 ### [Listener/Transporter] Hysteria-QUIC
-**使用Apernet魔改的quic-go加快QUIC传输速度**
+**使用Apernet魔改的quic-go加快QUIC传输速度**  
 其他参数
 
-> send_mbps: 数据发送速率，等于0则使用BBR(默认)，大于0则使用Brutal
-> recv_window_conn: 流接收窗口大小
-> recv_window: 连接接收窗口大小
-> max_conn_client (仅服务端): 单客户端最大活跃连接数
-> cipher: 考虑到QUIC本身自带TLS加密，这里将原版gost的cipher算法简化，提升性能
+- send_mbps: 数据发送速率，等于0则使用BBR(默认)，大于0则使用Brutal
+- recv_window_conn: 流接收窗口大小
+- recv_window: 连接接收窗口大小
+- max_conn_client (仅服务端): 单客户端最大活跃连接数
+- cipher: 考虑到QUIC本身自带TLS加密，这里将原版gost的cipher算法简化，提升性能
 
 ### [Handler/Connector] Zero
-**极简化连接逻辑，实现0-RTT连接**
-用法
+
+> 极简化连接逻辑，实现0-RTT连接  
+
+**用法**
 服务端
 ```
 ./gost -L zero://:1234
@@ -52,11 +54,11 @@ GOST可以中转流量，无论是直接转发还是加密隧道转发，都是�
 ```
 其他参数
 
-> mitm (仅客户端): 使用中间人(MITM)协助握手的地址列表，可缩减端到端TLS握手产生的RTT，格式同路由控制
-> mitm_caroot (仅客户端): 根证书路径，默认为~/.mitmproxy，需要将该目录下的mitmproxy-ca-cert.cer添加为受信任的根证书颁发机构证书
-> mitm_insecure (仅客户端): 是否跳过网站证书验证
+ - mitm (仅客户端): 使用中间人(MITM)协助握手的地址列表，可缩减端到端TLS握手产生的RTT，格式同路由控制
+ - mitm_caroot (仅客户端): 根证书路径，默认为~/.mitmproxy，需要将该目录下的mitmproxy-ca-cert.cer添加为受信任的根证书颁发机构证书
+ - mitm_insecure (仅客户端): 是否跳过网站证书验证
 
-[其他]
+**[其他]**
 - 添加 -R 命令行参数，用于指定重试次数
 
 - 添加 LOGFLAGS 环境变量，用于自定义日志输出格式
