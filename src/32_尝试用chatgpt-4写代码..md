@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 尝试用chatgpt-4写代码 
-slug: 尝试用chatgpt-4写代码 
+slug: trying-out-chatgpt-4-coding 
 date: 2023-03-17 08:00
 status: publish
 author: Leslie
