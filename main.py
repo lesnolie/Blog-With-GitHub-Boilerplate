@@ -5,7 +5,7 @@ import re
 import requests
 
 API_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/1b14747dd35d66e9f7941beaf412c3fe/ai/run/"
-os.getenv('API_TOKEN')
+API_TOKEN = os.getenv('API_TOKEN')  # 从环境变量获取 API_TOKEN
 headers = {"Authorization": f"Bearer {API_TOKEN}"}
 
 from marko.ext.gfm import gfm as marko
