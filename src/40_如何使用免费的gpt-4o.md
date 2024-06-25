@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 如何使用免费的gpt-4o
-slug: 如何使用免费的gpt-4o
+slug: how-to-use-free-gpt-4o
 date: 2024-06-03 08:00
 status: publish
 author: Leslie
