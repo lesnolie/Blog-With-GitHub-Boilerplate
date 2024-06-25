@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 基于systemd实现gost开机自启动的方法
-slug: 基于systemd实现gost开机自启动的方法
+slug: systemd-gost-autostart-setup-guide
 date: 2024-03-21 08:00
 status: publish
 author: Leslie
