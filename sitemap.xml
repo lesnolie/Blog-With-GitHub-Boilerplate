@@ -12,13 +12,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/{'result': {'response': 'ai-is-my-programmer'}, 'success': True, 'errors': [], 'messages': []}/</loc>
-    <lastmod>2024-06-25</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
     <loc>/archives/{'success': False, 'errors': [{'code': 7000, 'message': 'No route for that URI'}], 'messages': [], 'result': 'None'}/</loc>
     <lastmod>2024-06-25</lastmod>
     <changefreq>always</changefreq>
