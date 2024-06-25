@@ -3,6 +3,10 @@ import argparse
 import os
 import re
 import requests
+from marko.ext.gfm import gfm as marko
+from github import Github
+from feedgen.feed import FeedGenerator
+from lxml.etree import CDATA
 
 API_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/1b14747dd35d66e9f7941beaf412c3fe/ai/run/"
 API_TOKEN = os.getenv('API_TOKEN')
