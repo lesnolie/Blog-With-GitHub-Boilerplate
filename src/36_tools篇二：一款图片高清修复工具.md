@@ -1,7 +1,7 @@
 ---
 layout: post
 title: tools篇二：一款图片高清修复工具
-slug: tools篇二：一款图片高清修复工具
+slug: high-definition-image-restoration-tool
 date: 2024-01-31 08:00
 status: publish
 author: Leslie
