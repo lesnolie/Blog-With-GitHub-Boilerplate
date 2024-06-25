@@ -47,14 +47,12 @@ def _make_friend_table_string(s):
         if line and not line.isspace():
             key, value = line.split("：", 1)
             if key in info_dict:
-                info_dict[key] = value
-    return FRIENDS_TABLE_TEMPLATE.format(
+                info_    return FRIENDS_TABLE_TEMPLATE.format(
         name=info_dict["名字"], link=info_dict["链接"], desc=info_dict["描述"]
     )
 
 def format_time(time):
     return time.strftime("%Y-%m-%d")
-
 def login(token):
     return Github(token)
 
@@ -62,13 +60,13 @@ def get_repo(user: Github, repo: str):
     return user.get_repo(repo)
 
 def get_issues_with_labels(repo, labels):
-    return repo.get_issues(labels=labels)
+    return list(repo.get_issues(labels=labels))
 
 def add_issue_info(issue, md_file):
     md_file.write(f"- [{issue.title}]({issue.html_url})--{format_time(issue.created_at)}\n")
 
 def add_md_top(repo, md_file, me):
-    top_issues = list(get_issues_with_labels(repo, TOP_ISSUES_LABELS))
+    top_issues = get_issues_with_labels(repo, TOP_ISSUES_LABELS)
     if TOP_ISSUES_LABELS and top_issues:
         md_file.write("## 置顶文章\n")
         for issue in top_issues:
@@ -77,7 +75,7 @@ def add_md_top(repo, md_file, me):
 
 def add_md_friends(repo, md_file, me):
     friends_table = FRIENDS_TABLE_HEAD
-    friends_issues = list(get_issues_with_labels(repo, FRIENDS_LABELS))
+    friends_issues = get_issues_with_labels(repo, FRIENDS_LABELS)
     for issue in friends_issues:
         for comment in issue.get_comments():
             if is_hearted_by_me(comment, me):
@@ -98,16 +96,16 @@ def add_md_label(repo, md_file, me):
     for label in repo.get_labels():
         if label.name not in IGNORE_LABELS:
             issues = get_issues_with_labels(repo, [label])
-            if issues.totalCount:
+            if issues:  # Changed from issues.totalCount
                 md_file.write(f"## {label.name}\n")
                 issues = sorted(issues, key=lambda x: x.created_at, reverse=True)
-            for i, issue in enumerate(issues):
-                if is_me(issue, me):
-                    if i == ANCHOR_NUMBER:
-                        md_file.write("<details><summary>显示更多</summary>\n\n")
-                    add_issue_info(issue, md_file)
-            if issues.totalCount > ANCHOR_NUMBER:
-                md_file.write("</details>\n\n")
+                for i, issue in enumerate(issues):
+                    if is_me(issue, me):
+                        if i == ANCHOR_NUMBER:
+                            md_file.write("<details><summary>显示更多</summary>\n\n")
+                        add_issue_info(issue, md_file)
+                if len(issues) > ANCHOR_NUMBER:  # Changed from issues.totalCount
+                    md_file.write("</details>\n\n")
 
 def get_to_generate_issues(repo, dir_name, issue_number=None):
     generated_numbers = {int(f.split("_")[0]) for f in os.listdir(dir_name) if f.split("_")[0].isdigit()}
