@@ -290,7 +290,7 @@ def generate_slug(issue_title):
         {"role": "user", "content": f"{issue_title}"}
     ]
     output = run("@cf/meta/llama-3-8b-instruct", inputs)
-    return output
+    return response_content.strip()
 
 def save_issue(issue, me, dir_name=BACKUP_DIR):
     time = format_time(issue.created_at.strftime('%Y-%m-%dT%H:%M'))
