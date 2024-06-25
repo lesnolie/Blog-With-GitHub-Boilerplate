@@ -15,6 +15,7 @@ excerpt:
 
 1.AI无法替代程序员
 2.对我来说，AI是我的程序员
+3.我可以利用AI做许许多多的事情
 
 [AI是我的程序员](https://github.com/lesnolie/Marverick/issues/42)
 
