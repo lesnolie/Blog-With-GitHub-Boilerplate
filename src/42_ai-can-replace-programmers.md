@@ -17,6 +17,7 @@ excerpt:
 2.对我来说，AI是我的程序员
 3.我可以利用AI做许许多多的事情
 4.这篇文章的slug是用AI写的
+5.
 
 [AI可以替代程序员吗](https://github.com/lesnolie/Marverick/issues/42)
 
