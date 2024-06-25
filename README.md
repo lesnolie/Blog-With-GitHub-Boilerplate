@@ -11,7 +11,7 @@ My personal blog using issues & GitHub Actions and Maverick .
 - [这可能是我用过的最好用的背景去除工具——tools篇一：PIXIAN.AI](https://github.com/lesnolie/Marverick/issues/35)--2024-01-31
 - [执行力](https://github.com/lesnolie/Marverick/issues/16)--2022-09-28
 ## 最近更新
-- [AI是我的程序员](https://github.com/lesnolie/Marverick/issues/42)--2024-06-25
+- [AI可以替代程序员吗](https://github.com/lesnolie/Marverick/issues/42)--2024-06-25
 - [搭建Hysteria2版本gost实现高速中转](https://github.com/lesnolie/Marverick/issues/41)--2024-06-08
 - [如何使用免费的gpt-4o](https://github.com/lesnolie/Marverick/issues/40)--2024-06-03
 - [只有真正掌握了行业知识和专业技巧的人，才能充分利用AI的巨大能量。](https://github.com/lesnolie/Marverick/issues/39)--2024-03-30
